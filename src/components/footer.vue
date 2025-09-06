@@ -1,0 +1,29 @@
+<script setup>
+// Footer Oscar Family
+</script>
+<template>
+    <footer class="bg-[#000] text-[#E0E0E0] py-10">
+        <div class="max-w-5xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0 flex items-center space-x-2">
+                <i class="fa-solid fa-music text-xl text-[#f2c35a]"></i>
+                <span class="font-semibold text-[#f2c35a]">Oscar Entertainment © 2025</span>
+            </div>
+            <div class="flex flex-wrap gap-4 items-center">
+                <router-link to="/" class="flex items-center gap-2 hover:text-[#f2c35a] transition"><i class="fa-solid fa-house"></i></router-link>
+                <router-link to="/studio" class="flex items-center gap-2 hover:text-[#f2c35a] transition"><i class="fa-solid fa-headphones"></i></router-link>
+                <a href="https://www.facebook.com/oscarstudiohanoi" target="_blank" class="hover:text-[#f2c35a] transition"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/@oscarstudiohanoi" target="_blank" class="hover:text-[#f2c35a] transition"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@oscarstudio.vn" target="_blank" class="hover:text-[#f2c35a] transition"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="mailto:contact@oscarfamily.vn" class="hover:text-[#f2c35a] transition"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://studio.oscarfamily.vn/contact" target="_blank" class="flex items-center text-[#f2c35a] py-2 font-bold shadow"><i class="fa-solid fa-headset"></i></a>
+            </div>
+        </div>
+        <div class="text-center text-xs text-gray-500 mt-6">Web được hậu thuẫn bởi <a href="https://akivn.net" target="_blank" class="text-[#0099cc] hover:underline">AkiNet</a></div>
+    </footer>
+</template>
+
+<style scoped>
+footer i {
+    transition: color 0.2s;
+}
+</style>

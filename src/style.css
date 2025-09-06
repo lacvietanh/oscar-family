@@ -1,3 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root {
+  --highlight-color: #c77ed4;
+  --background-color: #000;
+  --text-color: #fff;
+  --link-color: #c77ed4;
+  --link-active-color: #c3afc8;
+}
+
+section[id] {
+  scroll-margin-top: 80px;
+}
+
+html {
+  background-color: var(--background-color);
+  scroll-behavior: smooth;
+}
+
+p.firebase-emulator-warning {
+  display: none;
+}
