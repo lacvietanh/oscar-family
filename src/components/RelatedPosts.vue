@@ -54,14 +54,14 @@ const allPosts = [
   },
   {
     slug: '/akinet',
-    title: 'AkiNet - Hệ sinh thái công nghệ âm nhạc (AkiWorkflow, VSTShop, AkiApp)',
+    title: 'AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)',
     image: '/img/AkiNet-akivn.net.png',
     excerpt: 'AkiNet (akivn.net) kết nối AkiWorkflow, VSTShop, AkiApp, Tách Nhạc AI, LamNhac.net tạo nền tảng công nghệ âm nhạc Việt Nam.',
     tags: ['Công nghệ', 'Âm nhạc', 'AI']
   },
   {
     slug: '/akiworkflow',
-    title: 'AkiWorkflow - Quản lý workflow sản xuất âm nhạc & stem project',
+    title: 'AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc',
     image: '/img/AkiWF-GrCover2025.png',
     excerpt: 'Nền tảng quản lý dự án âm nhạc: task, version, stem, release checklist dành cho producer, studio, artist indie.',
     tags: ['Workflow', 'Producer tool', 'Studio']

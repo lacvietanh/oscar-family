@@ -31,8 +31,8 @@
         <p class="text-lg md:text-xl text-text-muted max-w-3xl mx-auto mb-8">
           Nơi biến mọi ý tưởng âm nhạc của bạn thành hiện thực với chất lượng phòng thu đẳng cấp quốc tế.
         </p>
-        <a href="#contact" class="studio-cta transition font-bold text-lg py-4 px-10 rounded-full uppercase tracking-widest">
-          Đặt Lịch Ngay
+        <a href="https://studio.oscarfamily.vn/" class="studio-cta transition font-bold text-lg py-4 px-10 rounded-full uppercase tracking-widest">
+          Đến trang web chính
         </a>
       </div>
     </section>
