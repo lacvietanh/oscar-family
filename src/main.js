@@ -7,7 +7,12 @@ import './style.css'
 export const createApp = ViteSSG(
   App,
   { routes },
-  ({ app, head }) => {
+  ({ app, head, router }) => {
     app.use(head)
+    router.afterEach(() => {
+      if (typeof window !== 'undefined') {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+      }
+    })
   },
 )

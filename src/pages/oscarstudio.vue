@@ -1,6 +1,10 @@
 <template>
   <article class="seo-article font-montserrat px-6 py-12 max-w-4xl mx-auto">
     <header class="mb-10">
+      <figure class="mb-8">
+        <img src="/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg" alt="Oscar Studio Hà Nội - Phòng thu âm chuyên nghiệp và sản xuất âm nhạc" class="w-full h-auto rounded-lg shadow-lg object-cover">
+        <figcaption class="text-center text-sm mt-2 text-gray-400">Toàn cảnh không gian làm việc tại Oscar Studio, phòng thu âm chuyên nghiệp tại Hà Nội với trang thiết bị hiện đại.</figcaption>
+      </figure>
       <h1 class="text-4xl font-black mb-4 leading-tight">
         Oscar Studio Hà Nội - Phòng Thu Âm, Sản Xuất Âm Nhạc, Quay MV Chuyên Nghiệp tại Trung Tâm Hà Nội
       </h1>

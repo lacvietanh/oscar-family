@@ -1,6 +1,10 @@
 <template>
   <article class="seo-article font-montserrat px-6 py-12 max-w-5xl mx-auto">
     <header class="mb-10">
+      <figure class="mb-8">
+        <img src="/img/AkiNet-akivn.net.png" alt="AkiNet - hệ sinh thái công nghệ sản xuất âm nhạc" class="w-full h-auto rounded-lg shadow-lg object-cover">
+        <figcaption class="text-center text-sm mt-2 text-gray-400">hệ sinh thái công nghệ sản xuất âm nhạc AkiNet, do Lạc Việt Anh sáng lập.</figcaption>
+      </figure>
       <h1 class="text-4xl font-black mb-4 leading-tight">
         AkiNet (akivn.net) - Hệ sinh thái công nghệ sản xuất âm nhạc, media bởi Lạc Việt Anh: AkiWorkflow, VSTShop, AkiApp, Tách Nhạc, LamNhac.net
       </h1>

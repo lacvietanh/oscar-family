@@ -1,6 +1,10 @@
 <template>
   <article class="seo-article font-montserrat px-6 py-12 max-w-5xl mx-auto">
     <header class="mb-10">
+      <figure class="mb-8">
+        <img src="/img/AkiWF-GrCover2025.png" alt="AkiWorkflow, hệ sinh thái tất cả trong một dành cho producer." class="w-full h-auto rounded-lg shadow-lg object-cover">
+        <figcaption class="text-center text-sm mt-2 text-gray-400">AkiWorkflow, hệ sinh thái tất cả trong một dành cho producer.</figcaption>
+      </figure>
       <h1 class="text-4xl font-black mb-4 leading-tight">
         AkiWorkflow - Nền tảng quản lý quy trình sản xuất âm nhạc, project & asset cho Producer, Studio, Artist
       </h1>
@@ -28,12 +32,34 @@
 
       <h2 class="text-2xl font-bold">3. Đối tượng sử dụng</h2>
       <table class="w-full text-sm md:text-base border border-gray-700">
-        <thead><tr class="bg-gray-800"><th class="p-2">Nhóm</th><th class="p-2">Mục tiêu</th><th class="p-2">Lợi ích</th></tr></thead>
+        <thead>
+          <tr class="bg-gray-800">
+            <th class="p-2">Nhóm</th>
+            <th class="p-2">Mục tiêu</th>
+            <th class="p-2">Lợi ích</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr class="border-t border-gray-700"><td class="p-2">Producer Freelance</td><td class="p-2">Quản lý đa dự án</td><td class="p-2">Giảm lộn xộn file</td></tr>
-          <tr class="border-t border-gray-700"><td class="p-2">Studio</td><td class="p-2">Phân chia nhân sự</td><td class="p-2">Theo dõi KPI</td></tr>
-          <tr class="border-t border-gray-700"><td class="p-2">Artist Indie</td><td class="p-2">Tối ưu quy trình phát hành</td><td class="p-2">Checklist rõ ràng</td></tr>
-          <tr class="border-t border-gray-700"><td class="p-2">Label nhỏ</td><td class="p-2">Điều phối pipeline</td><td class="p-2">Minh bạch tiến độ</td></tr>
+          <tr class="border-t border-gray-700">
+            <td class="p-2">Producer Freelance</td>
+            <td class="p-2">Quản lý đa dự án</td>
+            <td class="p-2">Giảm lộn xộn file</td>
+          </tr>
+          <tr class="border-t border-gray-700">
+            <td class="p-2">Studio</td>
+            <td class="p-2">Phân chia nhân sự</td>
+            <td class="p-2">Theo dõi KPI</td>
+          </tr>
+          <tr class="border-t border-gray-700">
+            <td class="p-2">Artist Indie</td>
+            <td class="p-2">Tối ưu quy trình phát hành</td>
+            <td class="p-2">Checklist rõ ràng</td>
+          </tr>
+          <tr class="border-t border-gray-700">
+            <td class="p-2">Label nhỏ</td>
+            <td class="p-2">Điều phối pipeline</td>
+            <td class="p-2">Minh bạch tiến độ</td>
+          </tr>
         </tbody>
       </table>
 
@@ -52,9 +78,18 @@
       <p>"AkiWorkflow", "music production workflow tool", "quản lý dự án âm nhạc", "producer tool", "stem management", "track sheet online", "quản lý version bài hát", "release checklist DSP".</p>
 
       <h2 class="text-2xl font-bold">6. FAQ</h2>
-      <details class="bg-gray-800 p-4 rounded"><summary class="font-semibold">Có đồng bộ cloud không?</summary><p>Dự kiến hỗ trợ integration S3 / Wasabi.</p></details>
-      <details class="bg-gray-800 p-4 rounded"><summary class="font-semibold">Có mobile app?</summary><p>Roadmap 2026.</p></details>
-      <details class="bg-gray-800 p-4 rounded"><summary class="font-semibold">Có AI gợi ý phối?</summary><p>Đang nghiên cứu pattern gợi ý arrangement.</p></details>
+      <details class="bg-gray-800 p-4 rounded">
+        <summary class="font-semibold">Có đồng bộ cloud không?</summary>
+        <p>Dự kiến hỗ trợ integration S3 / Wasabi.</p>
+      </details>
+      <details class="bg-gray-800 p-4 rounded">
+        <summary class="font-semibold">Có mobile app?</summary>
+        <p>Roadmap 2026.</p>
+      </details>
+      <details class="bg-gray-800 p-4 rounded">
+        <summary class="font-semibold">Có AI gợi ý phối?</summary>
+        <p>Đang nghiên cứu pattern gợi ý arrangement.</p>
+      </details>
 
       <h2 class="text-2xl font-bold">7. Kết luận</h2>
       <p>
@@ -101,13 +136,21 @@ useHead({
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: image }
   ],
-  link: [ { rel: 'canonical', href: url } ],
-  script: [ { type: 'application/ld+json', innerHTML: JSON.stringify(jsonLd) } ]
+  link: [{ rel: 'canonical', href: url }],
+  script: [{ type: 'application/ld+json', innerHTML: JSON.stringify(jsonLd) }]
 })
 </script>
 
 <style scoped>
-.seo-article { color:#fff; }
-.text-muted { color:#c3afc8; }
-body { background:#000; }
+.seo-article {
+  color: #fff;
+}
+
+.text-muted {
+  color: #c3afc8;
+}
+
+body {
+  background: #000;
+}
 </style>
