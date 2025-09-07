@@ -61,11 +61,14 @@
         <strong>AkiWorkflow</strong> hướng tới trở thành chuẩn nền tảng <strong>workflow sản xuất âm nhạc</strong> tại Việt Nam: tập trung – minh bạch – tối ưu – thông minh. Theo dõi để nhận bản beta sớm.
       </p>
     </section>
+
+    <RelatedPosts exclude-slug="/akiworkflow" />
   </article>
 </template>
 
 <script setup>
 import { useHead } from '@vueuse/head'
+import RelatedPosts from '../components/RelatedPosts.vue';
 
 const title = 'AkiWorkflow - Nền tảng quản lý workflow sản xuất âm nhạc, project, stem, release checklist'
 const description = 'AkiWorkflow: quản lý dự án âm nhạc, track sheet, stem version, task, release checklist cho producer, studio, artist. Công cụ workflow sản xuất âm nhạc chuẩn hóa.'

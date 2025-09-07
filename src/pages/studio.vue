@@ -188,12 +188,15 @@
       </div>
     </section>
 
+    <RelatedPosts />
+
   </div>
 </template>
 
 <script setup>
 import { useHead } from '@vueuse/head'
 import { computed } from 'vue'
+import RelatedPosts from '../components/RelatedPosts.vue';
 
 const services = [
   {

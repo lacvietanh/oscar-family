@@ -84,11 +84,14 @@
         <strong>AkiNet (akivn.net)</strong> đặt mục tiêu trở thành hạ tầng số hỗ trợ công nghiệp âm nhạc Việt Nam. Nếu bạn là producer, studio, nghệ sĩ hoặc startup âm nhạc – hãy theo dõi hành trình phát triển của hệ sinh thái: AkiWorkflow, VSTShop, AkiApp, Tách Nhạc AI, LamNhac.net.
       </p>
     </section>
+
+    <RelatedPosts exclude-slug="/akinet" />
   </article>
 </template>
 
 <script setup>
 import { useHead } from '@vueuse/head'
+import RelatedPosts from '../components/RelatedPosts.vue';
 
 const title = 'AkiNet (akivn.net) - Hệ sinh thái công nghệ âm nhạc: AkiWorkflow, VSTShop, AkiApp, Tách Nhạc, LamNhac.net'
 const description = 'AkiNet (akivn.net) hệ sinh thái do Lạc Việt Anh sáng lập: AkiWorkflow, VSTShop.com, AkiApp, Tách Nhạc AI, LamNhac.net. Nền tảng hỗ trợ sản xuất âm nhạc & media Việt Nam.'

@@ -119,6 +119,9 @@
         <p class="mb-6 text-gray-400 text-lg">Nếu bạn đam mê ca hát, có tài năng nghệ thuật, hãy đăng ký để trở thành thành viên của Oscar Family!</p>
         <a href="https://forms.gle/ieT25qMcQgo3zd2q7" target="_blank" class="inline-block px-8 py-3 bg-[#f2c35a] text-black rounded-full font-bold shadow-lg hover:bg-yellow-400 hover:scale-105 transition-all duration-200 text-lg">Đăng ký ngay</a>
       </section>
+
+      <!-- Bài viết liên quan -->
+      <RelatedPosts />
     </main>
   </div>
 </template>
@@ -126,6 +129,7 @@
 <script setup>
 import { useHead } from '@vueuse/head'
 import { computed } from 'vue'
+import RelatedPosts from '../components/RelatedPosts.vue';
 
 // Trang chủ Oscar Family
 const pageTitle = 'Oscar Entertainment - Sản xuất, phát hành & truyền thông âm nhạc'

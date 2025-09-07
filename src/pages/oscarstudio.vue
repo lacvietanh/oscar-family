@@ -116,11 +116,14 @@
         Nếu bạn đang tìm <strong>phòng thu âm Hà Nội</strong>, <strong>studio làm nhạc chuyên nghiệp</strong>, <strong>dịch vụ hòa âm phối khí</strong>, <strong>mix master chất lượng</strong> hoặc <strong>quay MV âm nhạc</strong> – Oscar Studio là lựa chọn chiến lược. Liên hệ ngay để được tư vấn cá nhân hóa.
       </p>
     </section>
+
+    <RelatedPosts exclude-slug="/oscarstudio" />
   </article>
 </template>
 
 <script setup>
 import { useHead } from '@vueuse/head'
+import RelatedPosts from '../components/RelatedPosts.vue';
 
 const title = 'Oscar Studio Hà Nội - Phòng Thu Âm, Làm Nhạc, Quay MV Chuyên Nghiệp (SEO)'
 const description = 'Oscar Studio Hà Nội: Phòng thu âm chuyên nghiệp làm nhạc, hòa âm phối khí, mixing mastering, quay MV. Dịch vụ thu âm giá hợp lý tại Hà Nội.'
