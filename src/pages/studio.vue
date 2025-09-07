@@ -3,7 +3,7 @@
     <!-- Header -->
     <header class="studio-header fixed w-full z-50 shadow-lg">
       <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#" class="text-2xl font-bold text-highlight uppercase tracking-wider">
+        <a href="https://studio.oscarfamily.vn" class="text-2xl font-bold text-highlight uppercase tracking-wider">
           Oscar Studio
         </a>
         <nav class="hidden md:flex space-x-8 items-center">
