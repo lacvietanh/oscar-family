@@ -1,26 +1,32 @@
 <template>
   <div class="min-h-screen bg-[#121212] text-[#E0E0E0] font-montserrat flex flex-col">
     <!-- Header -->
-    <header class="py-14 bg-dark bg-opacity-70 backdrop-blur-xl text-center text-[#f2c35a] shadow-2xl rounded-b-3xl mb-8">
+    <header class="py-10 bg-dark bg-opacity-70 backdrop-blur-xl text-center text-[#f2c35a] shadow-2xl rounded-b-3xl">
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-black uppercase mb-4 tracking-widest drop-shadow-xl">OSCAR ENTERTAINMENT</h1>
       <h2 class="text-xl md:text-3xl font-semibold text-gray-300 mb-2">Đơn vị sản xuất, phát hành, truyền thông âm nhạc & đào tạo tài năng trẻ</h2>
       <div class="flex justify-center gap-6 mt-6">
-        <a href="https://www.youtube.com/@oscarstudiohanoi" target="_blank" class="bg-[#e52d27] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#b31217] transition-all duration-200" title="YouTube">
+        <a :href="contactInfo.youtubeChannel" target="_blank" class="bg-[#e52d27] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#b31217] transition-all duration-200" title="YouTube"
+          @mouseenter="hrefHover = contactInfo.youtubeChannel" @mouseleave="hrefHover = ''">
           <i class="fa-brands fa-youtube text-xl"></i>
         </a>
-        <a href="https://www.tiktok.com/@oscarstudio.vn" target="_blank" class="bg-black text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#222] transition-all duration-200" title="TikTok">
+        <a :href="contactInfo.tiktok" target="_blank" class="bg-black text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#222] transition-all duration-200" title="TikTok"
+          @mouseenter="hrefHover = contactInfo.tiktok" @mouseleave="hrefHover = ''">
           <i class="fa-brands fa-tiktok text-xl"></i>
         </a>
-        <a href="https://m.me/oscarstudiohanoi" target="_blank" class="bg-[#0078ff] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#005ecb] transition-all duration-200" title="Messenger">
+        <a :href="contactInfo.Messenger" target="_blank" class="bg-[#0078ff] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#005ecb] transition-all duration-200" title="Messenger"
+          @mouseenter="hrefHover = contactInfo.Messenger" @mouseleave="hrefHover = ''">
           <i class="fa-brands fa-facebook-messenger text-xl"></i>
         </a>
-        <a href="https://fb.com/oscarstudiohanoi" target="_blank" class="bg-[#4267B2] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#365899] transition-all duration-200" title="Facebook">
+        <a :href="contactInfo.FacebookPage" target="_blank" class="bg-[#4267B2] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#365899] transition-all duration-200" title="Facebook"
+          @mouseenter="hrefHover = contactInfo.FacebookPage" @mouseleave="hrefHover = ''">
           <i class="fa-brands fa-facebook-f text-xl"></i>
         </a>
-        <a href="https://zalo.me/0849297957" target="_blank" class="bg-[#008fe5] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#006bb3] transition-all duration-200" title="Zalo">
+        <a :href="contactInfo.zalo" target="_blank" class="bg-[#008fe5] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 hover:bg-[#006bb3] transition-all duration-200" title="Zalo"
+          @mouseenter="hrefHover = contactInfo.zalo" @mouseleave="hrefHover = ''">
           <img src="/img/icon-zalo.png" alt="Zalo" class="w-7 h-7" />
         </a>
       </div>
+      <p class="h-8 mt-5 px-2 flex items-center justify-center text-gray-400">{{ hrefHover.slice(8) }}</p>
     </header>
 
     <!-- Main Content -->
@@ -29,6 +35,28 @@
       <section id="gioi-thieu" class="mb-24 text-center bg-gradient-to-br from-[#181818] to-[#232323] rounded-3xl py-12 shadow-2xl">
         <h3 class="text-3xl md:text-4xl font-black uppercase mb-6 text-[#f2c35a] tracking-widest">Giới thiệu</h3>
         <p class="text-lg md:text-xl text-gray-400 leading-relaxed">Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.</p>
+
+        <div class="mt-8 flex flex-col items-center">
+          <button class="font-semibold underline hover:text-yellow-400 transition cursor-pointer"
+            @click="showRankHelp = !showRankHelp">
+            Giúp chúng tôi tăng thứ hạng
+          </button>
+          <div v-if="showRankHelp" class="mt-4 bg-gray-900 shadow-lg p-6 text-left max-w-auto w-full">
+            <div class="mb-4">
+              <span class="font-bold text-[#f2c35a]">Bước 1:</span>
+              Truy cập link này:
+              <a href="https://google.com/search?q=oscar+studio+ha+noi" target="_blank" class="text-blue-400 underline ml-2">
+                Google.com/search?q=oscar+studio+ha+noi
+              </a>
+            </div>
+            <div>
+              <span class="font-bold text-[#f2c35a]">Bước 2:</span>
+              <span class="ml-2">Bấm vào link trang web của Oscar Studio trong kết quả tìm kiếm.</span>
+              <img src="/img/search-oscar-studio-on-google.png" alt="oscar-studio-phong-thu-am-hoang-mai-ha-noi-google-search" class="mt-4 rounded-lg shadow-lg w-full" />
+            </div>
+          </div>
+        </div>
+
       </section>
 
       <!-- Quyền lợi hợp tác -->
@@ -128,8 +156,12 @@
 
 <script setup>
 import { useHead } from '@vueuse/head'
-import { computed } from 'vue'
+import { computed, inject, ref } from 'vue'
 import RelatedPosts from '../components/RelatedPosts.vue';
+
+const contactInfo = inject('contactInfo');
+const hrefHover = ref('');
+const showRankHelp = ref(false);
 
 // Trang chủ Oscar Family
 const pageTitle = 'Oscar Entertainment - Sản xuất, phát hành & truyền thông âm nhạc'
