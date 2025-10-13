@@ -4,6 +4,7 @@ import Studio from './pages/studio.vue'
 import OscarStudio from './pages/oscarstudio.vue'
 import Akinet from './pages/akinet.vue'
 import AkiWorkflow from './pages/akiworkflow.vue'
+import LamNhac from './pages/lamnhac.vue'
 
 export const routes = [
   {
@@ -30,6 +31,11 @@ export const routes = [
     path: '/akiworkflow',
     name: 'AkiWorkflow',
     component: AkiWorkflow,
+  },
+  {
+    path: '/lamnhac',
+    name: 'LamNhac',
+    component: LamNhac,
   },
 ]
 

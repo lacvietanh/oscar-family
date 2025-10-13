@@ -65,6 +65,13 @@ const allPosts = [
     image: '/img/AkiWF-GrCover2025.png',
     excerpt: 'Nền tảng quản lý dự án âm nhạc: task, version, stem, release checklist dành cho producer, studio, artist indie.',
     tags: ['Workflow', 'Producer tool', 'Studio']
+  },
+  {
+    slug: '/lamnhac',
+    title: 'LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam',
+    image: '/img/lamnhac-net.png',
+    excerpt: 'LamNhac.net là hub chia sẻ preset, tutorial, feedback và mentorship dành cho cộng đồng producer Việt Nam.',
+    tags: ['Cộng đồng', 'Preset', 'Mentorship']
   }
 ];
 
