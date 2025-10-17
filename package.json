@@ -1,6 +1,7 @@
 {
   "name": "oscar-family",
   "private": true,
+  "homepage": "https://oscarfamily.vn",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
