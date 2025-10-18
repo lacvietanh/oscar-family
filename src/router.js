@@ -5,6 +5,8 @@ import OscarStudio from './pages/oscarstudio.vue'
 import Akinet from './pages/akinet.vue'
 import AkiWorkflow from './pages/akiworkflow.vue'
 import LamNhac from './pages/lamnhac.vue'
+import TachNhac from './pages/tachnhac.vue'
+import Posts from './pages/posts.vue'
 
 export const routes = [
   {
@@ -36,6 +38,16 @@ export const routes = [
     path: '/lamnhac',
     name: 'LamNhac',
     component: LamNhac,
+  },
+  {
+    path: '/tachnhac',
+    name: 'TachNhac',
+    component: TachNhac,
+  },
+  {
+    path: '/posts',
+    name: 'Posts',
+    component: Posts,
   },
 ]
 

@@ -1,5 +1,32 @@
-# Vue 3 + Vite
+production url: https://oscarfamily.vn
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+purpose: Đẩy mạnh SEO bằng cách viết từng page sau đó build.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+features: Mỗi bài viết có một site riêng được viết thủ công và build tĩnh, tối đa SEO và social để prerender, đặc biệt là JD schema để google/AI crawl.
+
+---
+
+# Oscar Family Content Platform
+
+Dự án sử dụng Vue 3 + Vite để xây dựng hệ thống các trang tĩnh tối ưu SEO cho hệ sinh thái Oscar Family.
+
+## Quy trình phát triển
+- Cấu trúc trang chuẩn hóa nằm trong `docs/page-authoring-instructions.md`.
+- Mỗi trang mới được tạo dưới `src/pages/` theo cấu trúc SFC, import `useHead` để thiết lập meta/JSON-LD.
+- Cập nhật `src/components/RelatedPosts.vue` để hiển thị danh sách bài liên quan và loại bỏ slug hiện tại.
+- Sau khi hoàn tất nội dung, chạy build để xác thực (`npm run build`).
+
+## Cài đặt & chạy cục bộ
+```bash
+npm install
+npm run dev
+```
+
+## Build & deploy
+- `npm run build`: xuất bản asset tĩnh sẵn sàng deploy.
+- Asset build được phục vụ thông qua Vite Static Hosting hoặc nền tảng tương tự.
+
+## Liên kết hữu ích
+- Hướng dẫn viết trang mới: `docs/page-authoring-instructions.md`
+- Tailwind config: `tailwind.config.js`
+- Vite config: `vite.config.js`

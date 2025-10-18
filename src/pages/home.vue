@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-[#121212] text-[#E0E0E0] font-montserrat flex flex-col">
     <!-- Header -->
-    <header class="py-10 bg-dark bg-opacity-70 backdrop-blur-xl text-center text-[#f2c35a] shadow-2xl rounded-b-3xl">
+    <header class="py-10 mt-16 bg-dark bg-opacity-70 backdrop-blur-xl text-center text-[#f2c35a] shadow-2xl rounded-b-3xl">
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-black uppercase mb-4 tracking-widest drop-shadow-xl">OSCAR ENTERTAINMENT</h1>
       <h2 class="text-xl md:text-3xl font-semibold text-gray-300 mb-2">Đơn vị sản xuất, phát hành, truyền thông âm nhạc & đào tạo tài năng trẻ</h2>
       <div class="flex justify-center gap-6 mt-6">
@@ -29,6 +29,18 @@
       <p class="h-8 mt-5 px-2 flex items-center justify-center text-gray-400">{{ hrefHover.slice(8) }}</p>
     </header>
 
+    <!-- Sticky nav styled like Studio -->
+    <header class="fixed w-full z-50 shadow-lg bg-black/70 backdrop-blur">
+      <div class="max-w-6xl mx-auto px-6 py-3 flex justify-center items-center">
+        <nav class="flex gap-2 md:gap-4">
+          <a href="#gioi-thieu" class="home-link">Giới thiệu</a>
+          <a href="#quyen-loi" class="home-link">Quyền lợi</a>
+          <a href="#nghe-si" class="home-link">Nghệ sĩ</a>
+          <a href="#san-pham" class="home-link">Sản phẩm</a>
+          <a href="#dang-ky" class="home-link">Đăng ký</a>
+        </nav>
+      </div>
+    </header>
     <!-- Main Content -->
     <main class="flex-1 max-w-6xl mx-auto px-6 py-16">
       <!-- Giới thiệu -->
@@ -148,8 +160,6 @@
         <a href="https://forms.gle/ieT25qMcQgo3zd2q7" target="_blank" class="inline-block px-8 py-3 bg-[#f2c35a] text-black rounded-full font-bold shadow-lg hover:bg-yellow-400 hover:scale-105 transition-all duration-200 text-lg">Đăng ký ngay</a>
       </section>
 
-      <!-- Bài viết liên quan -->
-      <RelatedPosts />
     </main>
   </div>
 </template>
@@ -157,7 +167,6 @@
 <script setup>
 import { useHead } from '@vueuse/head'
 import { computed, inject, ref } from 'vue'
-import RelatedPosts from '../components/RelatedPosts.vue';
 
 const contactInfo = inject('contactInfo');
 const hrefHover = ref('');
@@ -232,5 +241,21 @@ body {
 
 .drop-shadow-xl {
   filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.3));
+}
+
+/* Home sticky nav links styled like Studio */
+.home-link {
+  color: #f2c35a;
+  font-weight: 500;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  transition: color 0.2s, background 0.2s;
+  background: rgba(242, 195, 90, 0.08);
+  margin-right: 0.25rem;
+}
+
+.home-link:hover {
+  color: #fff;
+  background: rgba(242, 195, 90, 0.18);
 }
 </style>
