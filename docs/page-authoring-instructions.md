@@ -91,11 +91,41 @@ useHead({
 - `description` 150–160 ký tự, mô tả giá trị cốt lõi.
 - `keywords`: liệt kê keyword chính + long-tail (phân tách bằng dấu phẩy).
 - `image`: dùng URL tuyệt đối để hiển thị khi share.
-- `jsonLd`: giữ `@type` = `WebSite` cho trang khái quát; tùy chỉnh trường `sameAs`, `about` phù hợp nội dung. Thêm thuộc tính khác (ví dụ `creator`, `headline`) nếu cần để đáp ứng JD/Schema.
+- `jsonLd`: giữ `@type` = `WebSite` cho trang khái quát; tùy chỉnh trường `sameAs`, `about` phù hợp nội dung. Thêm thuộc tính khác (ví dụ `creator`, `headline`) nếu cần để đáp ứng JSON-LD schema.
 
-## 6. Schema & JD tối ưu crawl
-- Khi bài viết mang tính job description hoặc mô tả vị trí, cân nhắc đổi `@type` sang `JobPosting`. Đảm bảo đủ trường: `title`, `description`, `employmentType`, `hiringOrganization`, `jobLocation`, `datePosted`.
-- Đối với bài review/sản phẩm, sử dụng `Product` hoặc `Article` schema tương ứng. Giữ JSON-LD duy nhất dưới `useHead`.
+## 6. Schema & JSON-LD schema tối ưu crawl
+
+Chèn JSON-LD schema phù hợp để giúp Google và các công cụ AI hiểu rõ nội dung trang. Một số loại schema phổ biến:
+
+- `Article`, `BlogPosting`: Dùng cho bài viết, tin tức, blog.
+- `Product`: Trang giới thiệu sản phẩm, dịch vụ.
+- `Event`: Sự kiện, hội thảo, buổi diễn.
+- `FAQPage`: Trang hỏi đáp, nhiều câu hỏi thường gặp.
+- `JobPosting`: Tin tuyển dụng, mô tả vị trí công việc.
+- `Organization`, `LocalBusiness`: Trang giới thiệu doanh nghiệp, tổ chức, địa điểm.
+- `Review`: Đánh giá sản phẩm, dịch vụ, địa điểm.
+- `Person`: Hồ sơ cá nhân, tác giả.
+- `WebSite`, `WebPage`: Trang tổng quan, trang chủ, landing page.
+
+**Hướng dẫn:**
+- Chọn `@type` phù hợp với mục đích trang.
+- Tham khảo tài liệu schema.org để biết các trường bắt buộc và khuyến nghị cho từng loại.
+- Chỉ nên chèn một block JSON-LD chính dưới `useHead` để tránh trùng lặp.
+- Đảm bảo các trường như `headline`, `description`, `image`, `datePublished`, `author`... được điền đầy đủ và đúng ngữ cảnh.
+
+Ví dụ:
+```js
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  image,
+  author: { '@type': 'Person', name: 'Tên tác giả' },
+  datePublished: '2025-10-18',
+  ...
+}
+```
 
 ## 7. Phong cách CSS
 - Khối `<style scoped>` dùng để tinh chỉnh màu chữ, background:

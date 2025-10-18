@@ -2,7 +2,7 @@ production url: https://oscarfamily.vn
 
 purpose: Đẩy mạnh SEO bằng cách viết từng page sau đó build.
 
-features: Mỗi bài viết có một site riêng được viết thủ công và build tĩnh, tối đa SEO và social để prerender, đặc biệt là JD schema để google/AI crawl.
+features: Mỗi bài viết có một site riêng được viết thủ công và build tĩnh, tối đa SEO và social để prerender, đặc biệt là JSON-LD schema để google/AI crawl.
 
 ---
 
