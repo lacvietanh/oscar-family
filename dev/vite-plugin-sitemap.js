@@ -8,7 +8,6 @@
   - Quét thư mục `public/` để tìm các file .html và map thành đường dẫn tĩnh.
   - Kết hợp với `extraPaths` nếu truyền vào opts.
   - Xác định `siteUrl` theo thứ tự: opts.siteUrl -> process.env.SITE_URL -> package.json.homepage -> vite.config base.
-    Nếu không có `siteUrl`, plugin sẽ SKIP (không fallback về localhost) và chỉ log warning.
   - Ghi `sitemap.xml` vào thư mục build output (config.build.outDir | dist).
 
   Options: { siteUrl, changefreq, priority, extraPaths }
@@ -43,8 +42,8 @@ async function walkDir(dir, baseDir) {
 export default function vitePluginSitemap(opts = {}) {
   const defaults = {
     siteUrl: opts.siteUrl || process.env.SITE_URL || null,
-    changefreq: opts.changefreq || 'weekly',
-    priority: (typeof opts.priority === 'number') ? opts.priority : 0.7,
+    changefreq: opts.changefreq || 'daily',
+    priority: (typeof opts.priority === 'number') ? opts.priority : 0.8,
     extraPaths: Array.isArray(opts.extraPaths) ? opts.extraPaths : [],
   }
 
@@ -136,7 +135,7 @@ export default function vitePluginSitemap(opts = {}) {
       const xml = out.join('\n')
       const outDir = (resolvedConfig && resolvedConfig.build && resolvedConfig.build.outDir) ? resolvedConfig.build.outDir : 'dist'
       // Handle both absolute and relative paths correctly
-      const target = path.isAbsolute(outDir) 
+      const target = path.isAbsolute(outDir)
         ? path.join(outDir, 'sitemap.xml')
         : path.join(cwd, outDir, 'sitemap.xml')
       try {
