@@ -160,6 +160,9 @@
         <a href="https://forms.gle/ieT25qMcQgo3zd2q7" target="_blank" class="inline-block px-8 py-3 bg-[#f2c35a] text-black rounded-full font-bold shadow-lg hover:bg-yellow-400 hover:scale-105 transition-all duration-200 text-lg">Đăng ký ngay</a>
       </section>
 
+      <!-- Bài viết liên quan -->
+      <RelatedPosts />
+
     </main>
   </div>
 </template>
@@ -167,6 +170,7 @@
 <script setup>
 import { useHead } from '@vueuse/head'
 import { computed, inject, ref } from 'vue'
+import RelatedPosts from '../components/RelatedPosts.vue';
 
 const contactInfo = inject('contactInfo');
 const hrefHover = ref('');
