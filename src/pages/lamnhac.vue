@@ -1,152 +1,203 @@
 <template>
   <article class="seo-article font-montserrat px-6 py-12 max-w-5xl mx-auto">
-    <header class="mb-10">
+    <header class="mb-12">
       <figure class="mb-8">
-        <img src="/img/lamnhac-net.png" alt="Giao diện LamNhac.net với các phân hệ Học, Cài, Làm, Tìm và hệ sinh thái AkiNet" class="w-full h-auto rounded-lg shadow-lg object-cover">
-        <figcaption class="text-center text-sm mt-2 text-gray-400">LamNhac.net nhấn mạnh câu hỏi "Bạn ở đâu trong nền công nghiệp nhạc số?" cùng các module Học - Cài - Làm - Tìm.</figcaption>
+        <img src="/img/lamnhac-net.png" alt="LamNhac.net cong dong lam nhac Viet Nam - hoc lam nhac, cai dat VST, cong cu music production" class="w-full h-auto rounded-lg shadow-lg object-cover">
+        <figcaption class="text-center text-sm mt-2 text-gray-400">LamNhac.net tối ưu hành trình học làm nhạc, cài đặt VST, làm việc và tìm kiếm job trong hệ sinh thái AkiNet.</figcaption>
       </figure>
       <h1 class="text-4xl font-black mb-4 leading-tight">
-        LamNhac.net - Nền tảng cộng đồng làm nhạc số: Học, Cài, Làm, Tìm trong hệ sinh thái AkiNet
+        LamNhac.net - Cổng cộng đồng làm nhạc Việt Nam, học làm nhạc online, cài đặt VST một chạm, kết nối job âm nhạc
       </h1>
       <p class="text-lg text-muted">
-        <strong>LamNhac.net</strong> cung cấp nền tảng toàn diện cho người làm nhạc Việt Nam thông qua 4 phân hệ chính: <em>Học</em>, <em>Cài</em>, <em>Làm</em>, <em>Tìm</em>. Website tập trung vào hành trình phát triển năng lực âm nhạc và kết nối cộng đồng bằng các nội dung học tập, kho tài nguyên VST-Plugin, cơ hội việc làm và hệ thống profile cộng đồng. Bài viết này bám sát cấu trúc trang web lamnhac.net, tối ưu SEO cho cụm từ LamNhac.net, cộng đồng làm nhạc số, khóa học âm nhạc online, cài đặt VST 1-click, marketplace plugin Việt Nam, việc làm ngành âm nhạc.
+        <strong>LamNhac.net</strong> (Lam Nhac, LamNhac, lamnhac.net) là nền tảng nhạc số dành cho producer, artist, phòng thu, mentor tại Việt Nam. Nền tảng hội tụ 4 phân hệ Học - Cài - Làm - Tìm, kết nối kiến thức học làm nhạc, cài đặt VST plugin chuẩn bản quyền, workflow sản xuất âm nhạc, job âm nhạc và cộng đồng AkiNet. Nội dung dưới đây tối ưu SEO cho hàng loạt truy vấn: "LamNhac net", "lam nhac online", "hoc lam nhac", "hoc lam nhac online", "hoclamnhac", "cai dat vst", "cai vst 1 click", "marketplace plugin Viet", "viec lam am nhac", "music production Vietnam".
       </p>
-    </header>
-
-    <section class="space-y-8">
-      <h2 class="text-2xl font-bold">1. LamNhac.net là gì?</h2>
-      <p>
-        LamNhac.net được thiết kế như cổng vào của hệ sinh thái <strong>AkiNet</strong>, nơi người dùng định vị bản thân trong nền công nghiệp nhạc số. Giao diện chính bao gồm thanh điều hướng trái (Trang chủ, Giới thiệu, Lộ trình, Hệ sinh thái, Các gói, Liên hệ) và top menu (Học, Cài, Làm, Tìm) giúp truy cập nhanh tới từng nhóm chức năng. Thông điệp trung tâm "Bạn ở đâu trong nền công nghiệp nhạc số?" định hướng người dùng chọn lộ trình phù hợp từ học tập, làm việc đến kết nối cộng đồng.
-      </p>
-      <p>
-        Mục tiêu cốt lõi của LamNhac.net là giúp người dùng khám phá tiềm năng âm nhạc và khẳng định vị thế thông qua hệ thống bài học, kho cài đặt VST-Plugin một chạm, công cụ làm việc tích hợp AI và cộng đồng profile chuyên nghiệp.
-      </p>
-
-      <h2 class="text-2xl font-bold">2. Bốn phân hệ chủ lực: Học - Cài - Làm - Tìm</h2>
-      <ul class="list-disc pl-6 space-y-2">
-        <li><strong>Học:</strong> thư viện bài giảng từ cơ bản đến nâng cao, hệ thống quản lý lớp và giảng viên hiện đại.</li>
-        <li><strong>Cài:</strong> kho tài nguyên và VST-Plugin cài/gỡ chỉ với 1 click, tối ưu quy trình setup để tập trung sáng tạo.</li>
-        <li><strong>Làm:</strong> cổng việc làm âm nhạc, sự kiện, công cụ web/app tích hợp AI hỗ trợ làm nhạc, chơi nhạc, biểu diễn.</li>
-        <li><strong>Tìm:</strong> hệ thống cộng đồng, profile từng vị trí ngành nhạc số, điểm tín nhiệm và kết nối hợp tác.</li>
-      </ul>
-
-      <h2 class="text-2xl font-bold">3. Số liệu niềm tin & lợi ích nổi bật</h2>
-      <div class="grid gap-4 md:grid-cols-3">
-        <div class="rounded-lg border border-gray-700 p-4 text-center">
-          <p class="text-3xl font-black text-[#5dcdfd]">4096+</p>
-          <p class="text-sm text-gray-300">Users đã tương tác trong hệ thống AkiNet.</p>
+      <div class="grid gap-3 mt-6 md:grid-cols-3">
+        <div class="rounded-lg border border-gray-700 p-4">
+          <p class="text-sm uppercase tracking-wide text-gray-400">Truy cập nhanh</p>
+          <p class="mt-2 text-xl font-semibold">learn / install / work / search / me</p>
         </div>
-        <div class="rounded-lg border border-gray-700 p-4 text-center">
-          <p class="text-3xl font-black text-[#5dfdb1]">51+</p>
-          <p class="text-sm text-gray-300">Thành viên AkiWorkflow.</p>
+        <div class="rounded-lg border border-gray-700 p-4">
+          <p class="text-sm uppercase tracking-wide text-gray-400">Biến thể từ khóa</p>
+          <p class="mt-2 leading-relaxed text-sm">lam nhac, lamnhac, lamnhacnet, lamnhac net, lam nhac viet nam, hoc lam nhac, hoclamnhac, cai dat vst, cai VST plugin</p>
         </div>
-        <div class="rounded-lg border border-gray-700 p-4 text-center">
-          <p class="text-3xl font-black text-[#f2c35a]">333+</p>
-          <p class="text-sm text-gray-300">Khách hàng được hỗ trợ từ xa qua hệ thống mentor & hỗ trợ kỹ thuật.</p>
+        <div class="rounded-lg border border-gray-700 p-4">
+          <p class="text-sm uppercase tracking-wide text-gray-400">Phạm vi SEO</p>
+          <p class="mt-2 text-sm leading-relaxed">music production, digital audio workstation, producer Viet, job âm nhạc, marketplace plugin, mentoring</p>
         </div>
       </div>
-      <ul class="list-disc pl-6 space-y-2">
-        <li><strong>Công nghệ phần mềm hiện đại:</strong> trải nghiệm liền mạch từ học tập, làm việc đến kết nối cộng đồng.</li>
-        <li><strong>Học tập có hệ thống:</strong> lộ trình nâng cao kiến thức, phát triển kỹ năng với chuyên gia.</li>
-        <li><strong>Cộng đồng sôi động:</strong> kết nối producer, nghệ sĩ, chuyên gia để hợp tác và phát triển.</li>
-        <li><strong>Cơ hội kinh doanh:</strong> marketplace giúp bán tác phẩm, nhận job và khai thác thu nhập sáng tạo.</li>
-      </ul>
+    </header>
 
-      <h2 class="text-2xl font-bold">4. Chiến lược từ khóa SEO LamNhac.net</h2>
-      <p>
-        Keyword chính: LamNhac.net, cộng đồng làm nhạc số, học làm nhạc online, cài đặt VST 1 click, việc làm âm nhạc Việt Nam, hệ sinh thái AkiNet. Từ khóa dài: khóa học producer Việt Nam, marketplace plugin Việt Nam, tìm job âm nhạc trực tuyến, nền tảng cộng đồng nhạc số, lộ trình làm nhạc chuyên nghiệp, mentor âm nhạc Việt.
-      </p>
+    <section class="space-y-10">
+      <section>
+        <h2 class="text-2xl font-bold">1. LamNhac.net là gì? Cách nền tảng định vị người làm nhạc</h2>
+        <p class="mt-4">
+          LamNhac.net hoạt động như trang đích tổng hợp của hệ sinh thái <strong>AkiNet</strong>. Người dùng truy cập sẽ thấy câu hỏi "Bạn ở đâu trong nền công nghiệp nhạc số?" cùng thanh điều hướng trái (Trang chủ, Giới thiệu, Lộ trình, Hệ sinh thái, Các gói, Liên hệ) và top menu Học – Cài – Làm – Tìm. Thiết kế này giúp bất kỳ ai đang cần <em>hoc lam nhac</em>, <em>hoc lam nhac online</em>, <em>hoclamnhac</em> hay <em>tim job am nhac</em> đều định vị bản thân nhanh chóng và được dẫn tới đúng tài nguyên.
+        </p>
+        <p class="mt-4">
+          Mục tiêu của LamNhac.net là trao cho producer và artist Việt công cụ phát triển toàn diện: bài học âm nhạc, preset chain chuẩn, công cụ làm nhạc tích hợp AI, kênh việc làm, hồ sơ cộng đồng. Nền tảng đồng thời nhấn mạnh trải nghiệm không gián đoạn từ lúc học (<code>learn</code>) đến cài VST (<code>install</code>), làm việc (<code>work</code>), tìm kiếm đối tác (<code>search</code>) và quản lý hồ sơ cá nhân (<code>me</code>).
+        </p>
+      </section>
 
-      <h2 class="text-2xl font-bold">5. Kiến trúc hệ sinh thái AkiNet liên kết LamNhac.net</h2>
-      <p>
-        LamNhac.net đóng vai trò cổng cộng đồng, liên kết chặt chẽ với các sản phẩm khác trong AkiNet nhằm cung cấp trải nghiệm end-to-end từ học tập đến sản xuất và phân phối âm nhạc.
-      </p>
-      <ul class="list-disc pl-6 space-y-2">
-        <li><strong>Cộng đồng AkiNet:</strong> mạng xã hội chuyên nghiệp để kết nối, chia sẻ kinh nghiệm và xây dựng thương hiệu cá nhân.</li>
-        <li><strong>Marketplace AkiWorkflow:</strong> mua bán preset, template, plugin và tài sản số liên quan tới workflow sản xuất.</li>
-        <li><strong>Ứng dụng AkiApp:</strong> bộ công cụ AI hỗ trợ luyện tập, workflow chuyên nghiệp trên Logic Pro và các DAW.</li>
-      </ul>
+      <section>
+        <h2 class="text-2xl font-bold">2. Hệ thống 4 phân hệ: Học - Cài - Làm - Tìm</h2>
+        <div class="mt-4 grid gap-4 md:grid-cols-2">
+          <div class="rounded-lg border border-gray-700 p-4">
+            <h3 class="text-xl font-semibold">Học (Learn)</h3>
+            <p class="mt-2 text-sm leading-relaxed">
+              Thư viện khoá học âm nhạc online, livestream, tài liệu PDF, project Logic/FL/Studio One. Các truy vấn <strong>hoc lam nhac</strong>, <strong>hoc lam nhac online</strong>, <strong>khoa hoc music production</strong>, <strong>hoclamnhac</strong> đều được tối ưu qua guideline, bài học, roadmap producer.
+            </p>
+          </div>
+          <div class="rounded-lg border border-gray-700 p-4">
+            <h3 class="text-xl font-semibold">Cài (Install)</h3>
+            <p class="mt-2 text-sm leading-relaxed">
+              Kho cài đặt VST plugin 1-click, hướng dẫn cấu hình DAW, preset vocal chain. Nội dung phủ các từ khóa "cai dat vst", "cai vst", "cai vst 1 click", "cai VST plugin ban quyen", "vst plugin viet nam".
+            </p>
+          </div>
+          <div class="rounded-lg border border-gray-700 p-4">
+            <h3 class="text-xl font-semibold">Làm (Work)</h3>
+            <p class="mt-2 text-sm leading-relaxed">
+              Công cụ web/app hỗ trợ làm nhạc, AI assistant, preset mixing chain. Các truy vấn "lam nhac online", "lam nhac tai nha", "lam nhac chuyen nghiep" được tối ưu qua template workflow.
+            </p>
+          </div>
+          <div class="rounded-lg border border-gray-700 p-4">
+            <h3 class="text-xl font-semibold">Tìm (Search)</h3>
+            <p class="mt-2 text-sm leading-relaxed">
+              Job board âm nhạc, hệ thống tagging theo vị trí (producer, beat maker, mix engineer, vocal coach). Cung cấp bộ lọc nhanh cho "viec lam am nhac", "tim producer", "tim mix mastering", "tim dai ly VST".
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <h2 class="text-2xl font-bold">6. Điều hướng đa ngữ cảnh & trải nghiệm cá nhân hóa</h2>
-      <p>
-        Hệ thống router của LamNhac.net tổ chức quanh 6 ngữ cảnh chính: <code>general</code>, <code>learn</code>, <code>install</code>, <code>work</code>, <code>search</code>, <code>me</code>. Mỗi route gắn <code>meta.context</code> tương ứng, giúp headbar dẫn tới đúng không gian chức năng, trong khi sidebar tùy biến nội dung và bộ lọc theo ngữ cảnh.
-      </p>
-      <ul class="list-disc pl-6 space-y-2">
-        <li><strong>General:</strong> hiển thị các trang giới thiệu, lộ trình, hệ sinh thái; sidebar cung cấp điều hướng cố định.</li>
-        <li><strong>Learn & Work & Me:</strong> sidebar giữ nguyên các liên kết chuyên biệt, đảm bảo người dùng luôn thấy tiến trình học, công cụ làm việc và quản lý hồ sơ.</li>
-        <li><strong>Install:</strong> trang catalog plugin với bộ lọc multi-select đồng bộ query <code>filter</code> (chế độ "All" xoá query để hiển thị toàn bộ).</li>
-        <li><strong>Search:</strong> cho phép gom kết quả theo phạm vi nguồn bằng bộ lọc <code>scope</code>, giúp tìm nội dung nổi bật ở Học, Cài, Làm.</li>
-      </ul>
-      <p>
-        Kiến trúc này bảo đảm mở rộng route mới vẫn kế thừa trải nghiệm giao diện nhất quán chỉ bằng cách gán <code>meta.context</code> phù hợp. Đặc sắc sắp tới: người dùng và thương hiệu sẽ đăng ký URL ngắn cho profile/page tương tự mạng xã hội, đồng thời các công cụ trong "Work" hoặc khóa học nổi bật trong "Learn" cũng có thể sở hữu short link để chia sẻ nhanh.
-      </p>
+      <section>
+        <h2 class="text-2xl font-bold">3. Số liệu niềm tin & lợi ích cho cộng đồng làm nhạc</h2>
+        <div class="mt-4 grid gap-4 md:grid-cols-3">
+          <div class="rounded-lg border border-gray-700 p-4 text-center">
+            <p class="text-3xl font-black text-[#5dcdfd]">4096+</p>
+            <p class="text-sm text-gray-300">Người dùng đã kích hoạt tài khoản AkiNet - LamNhac.net.</p>
+          </div>
+          <div class="rounded-lg border border-gray-700 p-4 text-center">
+            <p class="text-3xl font-black text-[#5dfdb1]">51+</p>
+            <p class="text-sm text-gray-300">Mentor & producer tham gia hệ thống mentor 1-1.</p>
+          </div>
+          <div class="rounded-lg border border-gray-700 p-4 text-center">
+            <p class="text-3xl font-black text-[#f2c35a]">333+</p>
+            <p class="text-sm text-gray-300">Dự án được hỗ trợ cài đặt VST từ xa qua AkiWorkflow.</p>
+          </div>
+        </div>
+        <ul class="mt-6 list-disc space-y-2 pl-6">
+          <li><strong>Workflow hiện đại:</strong> từ học làm nhạc, thử plugin, triển khai project tới nhận job.</li>
+          <li><strong>Chuỗi nội dung đa dạng:</strong> livestream, bài viết chuyên sâu, video hướng dẫn trên YouTube & TikTok.</li>
+          <li><strong>Hệ sinh thái mở:</strong> liên kết với AkiWorkflow, AkiApp, Oscar Studio tạo thành pipeline end-to-end.</li>
+          <li><strong>Cộng đồng minh bạch:</strong> profile người dùng, hệ thống badge, feedback theo track.</li>
+        </ul>
+      </section>
 
-      <h2 class="text-2xl font-bold">7. Lợi ích theo từng nhóm người dùng</h2>
-      <table class="w-full text-sm md:text-base border border-gray-700">
-        <thead>
-          <tr class="bg-gray-800">
-            <th class="p-2">Nhóm</th>
-            <th class="p-2">Vấn đề</th>
-            <th class="p-2">Giải pháp LamNhac.net</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="border-t border-gray-700">
-            <td class="p-2">Producer mới</td>
-            <td class="p-2">Thiếu workflow chuẩn, preset chất lượng</td>
-            <td class="p-2">Template, preset sẵn + tutorial step-by-step</td>
-          </tr>
-          <tr class="border-t border-gray-700">
-            <td class="p-2">Artist Indie</td>
-            <td class="p-2">Cần feedback nhanh cho bản demo</td>
-            <td class="p-2">Feedback Lab + mentor track-by-track</td>
-          </tr>
-          <tr class="border-t border-gray-700">
-            <td class="p-2">Studio nhỏ</td>
-            <td class="p-2">Khó tuyển người, thiếu quy trình</td>
-            <td class="p-2">Access talent pool, quy trình chuẩn hóa</td>
-          </tr>
-          <tr class="border-t border-gray-700">
-            <td class="p-2">Mentor / Producer kỳ cựu</td>
-            <td class="p-2">Muốn xây dựng thương hiệu cá nhân</td>
-            <td class="p-2">Livestream, khóa học, preset store cá nhân</td>
-          </tr>
-        </tbody>
-      </table>
+      <section>
+        <h2 class="text-2xl font-bold">4. Chiến lược từ khóa LamNhac.net & cụm mở rộng</h2>
+        <p class="mt-4">
+          Tập trung cụm từ khóa chính: <strong>LamNhac.net</strong>, <strong>lam nhac</strong>, <strong>lamnhac</strong>, <strong>lam nhac viet nam</strong>, <strong>hoc lam nhac online</strong>, <strong>hoclamnhac</strong>, <strong>cai dat VST 1 click</strong>, <strong>vst plugin viet nam</strong>, <strong>viec lam am nhac</strong>, <strong>producer Viet Nam</strong>, <strong>music production Vietnam</strong>. Các từ khóa dài (long-tail) mở rộng: "khoa hoc producer Viet Nam online", "preset vocal chain Viet", "cai vst logic pro", "cai vst fl studio", "job mix mastering", "marketplace plugin Viet Nam", "co dong lam nhac viet".
+        </p>
+        <div class="mt-4 rounded-lg border border-gray-700 p-4 text-sm leading-relaxed">
+          <strong>Keyword variations:</strong> lamnhac net, lamnhacnet, lam nhac net, lamnhac viet, lam nhac sai gon, lamnhac ha noi, hoc lam nhac tai nha, hoc lamnhac tai nha, cai dat vst online, cai dat vst tu xa, cai vst 1click, cai vst 1 click, cai vst plugin nhanh.
+        </div>
+      </section>
 
-      <h2 class="text-2xl font-bold">8. Lộ trình phát triển LamNhac.net</h2>
-      <ul class="list-disc pl-6 space-y-2">
-        <li><strong>2024:</strong> hoàn thiện phiên bản thử nghiệm, mở đăng ký cộng đồng và lộ trình học tập.</li>
-        <li><strong>2025:</strong> tích hợp sâu với AkiWorkflow, triển khai mentor 1-1 và job board cho nhà sản xuất âm nhạc.</li>
-        <li><strong>2026:</strong> phát hành ứng dụng di động, mở rộng đối tác thương hiệu và triển khai AI gợi ý preset chain.</li>
-      </ul>
+      <section>
+        <h2 class="text-2xl font-bold">5. Kiến trúc hệ sinh thái AkiNet & LamNhac.net</h2>
+        <p class="mt-4">
+          LamNhac.net được kết nối chặt với các sản phẩm trong AkiNet nhằm cung cấp trải nghiệm full-stack cho người làm nhạc Việt. Người dùng có thể học tập tại LamNhac.net, chuyển qua AkiWorkflow để cài đặt plugin và quản lý preset, rồi triển khai sản phẩm tại Oscar Studio hoặc phân phối qua AkiApp.
+        </p>
+        <ul class="mt-4 list-disc space-y-2 pl-6">
+          <li><strong>Cộng đồng AkiNet:</strong> mạng xã hội chuyên nghiệp hiển thị portfolio, dự án, playlist, cộng đồng tác giả.</li>
+          <li><strong>AkiWorkflow:</strong> marketplace preset, template, service cung cấp workflow "install → produce → deliver".</li>
+          <li><strong>AkiApp:</strong> công cụ AI gợi ý hợp âm, giai điệu, vocal tuning dành cho producer Việt.</li>
+          <li><strong>Oscar Studio:</strong> đối tác phòng thu cung cấp dịch vụ thu âm, mix, master, mentor trực tiếp.</li>
+        </ul>
+      </section>
 
-      <h2 class="text-2xl font-bold">9. Các gói thành viên & FAQ</h2>
-      <p>
-        LamNhac.net cung cấp các gói membership linh hoạt gồm: gói Free (trải nghiệm cơ bản), gói Pro (mở khóa tài nguyên chuyên sâu) và gói Mentor/Studio (đăng job, mở lớp, bán tài sản số). Người dùng dễ dàng nâng cấp tài khoản để phù hợp nhu cầu học tập hoặc kinh doanh.
-      </p>
-      <details class="bg-gray-800 p-4 rounded">
-        <summary class="font-semibold">Đăng ký LamNhac.net có miễn phí?</summary>
-        <p>Có, gói Free cung cấp bài học nền tảng và tài nguyên mẫu. Nâng cấp gói Pro để mở khóa lớp chuyên sâu, preset độc quyền và công cụ mentor.</p>
-      </details>
-      <details class="bg-gray-800 p-4 rounded">
-        <summary class="font-semibold">LamNhac.net có hỗ trợ bán preset cá nhân?</summary>
-        <p>Có, creator có thể mở shop và nhận doanh thu khi bán preset, template, course hoặc cung cấp dịch vụ cố vấn.</p>
-      </details>
-      <details class="bg-gray-800 p-4 rounded">
-        <summary class="font-semibold">Feedback có bảo mật track?</summary>
-        <p>Có, track được gắn tag private và chỉ mentor được chỉ định mới truy cập. Hệ thống log đảm bảo minh bạch và bảo mật.</p>
-      </details>
+      <section>
+        <h2 class="text-2xl font-bold">6. Điều hướng đa ngữ cảnh & trải nghiệm cá nhân hóa</h2>
+        <p class="mt-4">
+          Hệ thống định tuyến trên LamNhac.net sử dụng meta context để đồng bộ giao diện: <code>general</code> cho thông tin chung, <code>learn</code> cho bài học, <code>install</code> cho kho plugin, <code>work</code> cho công cụ workflow, <code>search</code> để tìm kiếm và <code>me</code> cho trang cá nhân. Mọi trải nghiệm được thiết kế responsive cho máy tính, tablet và mobile.
+        </p>
+        <div class="mt-4 rounded-lg border border-gray-700 p-4 text-sm leading-relaxed">
+          <strong>Ví dụ điều hướng:</strong> route <code>/learn/vocal-mixing</code> hiển thị lớp "Học mix vocal" (keyword: hoc mix vocal, hoc mixing vocal, hocmixvocal); route <code>/install/vst</code> cung cấp bộ "Cài đặt VST 1 click" (keyword: cai vst, caivst, cai dat vst, cai dat vst tu xa); route <code>/work/gig</code> hiển thị job "Producer freelancer" (keyword: job lam nhac, job music production, job mix master).
+        </div>
+      </section>
 
-      <details class="bg-gray-800 p-4 rounded">
-        <summary class="font-semibold">LamNhac.net có hỗ trợ cài đặt VST từ xa?</summary>
-        <p>Phân hệ Cài cung cấp kho VST-Plugin, hướng dẫn và dịch vụ hỗ trợ từ xa giúp bạn cài/gỡ chỉ với 1 click.</p>
-      </details>
+      <section>
+        <h2 class="text-2xl font-bold">7. Lợi ích theo từng nhóm người dùng</h2>
+        <table class="mt-4 w-full border border-gray-700 text-sm md:text-base">
+          <thead>
+            <tr class="bg-gray-800">
+              <th class="p-2">Nhóm</th>
+              <th class="p-2">Vấn đề gặp phải</th>
+              <th class="p-2">Giải pháp LamNhac.net cung cấp</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-t border-gray-700">
+              <td class="p-2">Producer mới (hoc lam nhac)</td>
+              <td class="p-2">Thiếu lộ trình, preset chuẩn, workflow mixing</td>
+              <td class="p-2">Lộ trình học theo cấp độ, preset vocal, kho plugin đề xuất</td>
+            </tr>
+            <tr class="border-t border-gray-700">
+              <td class="p-2">Artist indie</td>
+              <td class="p-2">Cần đội ngũ làm nhạc trọn gói, phát hành digital</td>
+              <td class="p-2">Kết nối producer, mix engineer, mentor phát hành</td>
+            </tr>
+            <tr class="border-t border-gray-700">
+              <td class="p-2">Studio nhỏ</td>
+              <td class="p-2">Khó tìm nhân sự và preset phù hợp</td>
+              <td class="p-2">Marketplace talent & plugin, bộ preset tùy chỉnh workflow</td>
+            </tr>
+            <tr class="border-t border-gray-700">
+              <td class="p-2">Mentor/Producer kỳ cựu</td>
+              <td class="p-2">Muốn mở lớp, bán preset, tìm học viên</td>
+              <td class="p-2">Công cụ mở lớp live, dashboard bán preset, hệ thống review</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-      <h2 class="text-2xl font-bold">10. Kết luận</h2>
-      <p>
-        <strong>LamNhac.net</strong> đang xây dựng nền tảng nhạc số toàn diện cho người Việt: học tập bài bản, cài đặt plugin nhanh chóng, tìm job âm nhạc và kết nối cộng đồng chuyên nghiệp. Hãy khám phá lamnhac.net để khởi động hoặc nâng tầm hành trình âm nhạc của bạn cùng hệ sinh thái AkiNet.
-      </p>
+      <section>
+        <h2 class="text-2xl font-bold">8. Lộ trình phát triển LamNhac.net 2024-2026</h2>
+        <ul class="mt-4 list-disc space-y-2 pl-6">
+          <li><strong>2024:</strong> hoàn thiện thử nghiệm, bổ sung chương trình <em>hoc lam nhac co ban</em>, nâng cấp hệ thống cài VST từ xa.</li>
+          <li><strong>2025:</strong> tích hợp sâu AkiWorkflow Hub, ra mắt marketplace preset Viet, triển khai mentor 1-1 cho producer và vocal.</li>
+          <li><strong>2026:</strong> phát hành ứng dụng di động, AI gợi ý preset chain, hỗ trợ đa ngôn ngữ (vi/en) cho thị trường SEA.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-bold">9. FAQ - Câu hỏi thường gặp về LamNhac.net</h2>
+        <p class="mt-4">
+          Dưới đây là những câu hỏi phổ biến khi người dùng tìm kiếm "LamNhac", "LamNhac.net", "lam nhac online", "hoc lamnhac".
+        </p>
+        <details class="mt-4 rounded bg-gray-800 p-4">
+          <summary class="font-semibold">LamNhac.net có miễn phí không?</summary>
+          <p class="mt-2 text-sm leading-relaxed">Có gói Free cung cấp bài học nền tảng, preset mẫu, demo session. Người dùng nâng cấp gói Pro/Studio để mở khóa khóa học chuyên sâu, dịch vụ cài đặt VST từ xa, mentor 1-1.</p>
+        </details>
+        <details class="mt-4 rounded bg-gray-800 p-4">
+          <summary class="font-semibold">LamNhac.net có hỗ trợ bán preset và plugin cá nhân?</summary>
+          <p class="mt-2 text-sm leading-relaxed">Có. Creator và studio có thể mở cửa hàng trên AkiWorkflow, kết nối LamNhac.net để bán preset, template, dịch vụ mix master, coaching.</p>
+        </details>
+        <details class="mt-4 rounded bg-gray-800 p-4">
+          <summary class="font-semibold">Có hỗ trợ cài đặt VST từ xa không?</summary>
+          <p class="mt-2 text-sm leading-relaxed">Có dịch vụ "cai dat VST tu xa" 1-click thông qua AkiWorkflow. Kỹ thuật viên giúp cấu hình DAW, plugin, library nhanh chóng, chuẩn hóa đường dẫn và giấy phép.</p>
+        </details>
+        <details class="mt-4 rounded bg-gray-800 p-4">
+          <summary class="font-semibold">LamNhac.net hỗ trợ người bắt đầu như thế nào?</summary>
+          <p class="mt-2 text-sm leading-relaxed">Cung cấp roadmap 0-3 tháng, checklist thiết bị, preset vocal miễn phí, lớp live Q&amp;A hàng tuần và cộng đồng Discord/Telegram.</p>
+        </details>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-bold">10. Kết luận - Khởi động hành trình làm nhạc số</h2>
+        <p class="mt-4">
+          <strong>LamNhac.net</strong> là điểm đến toàn diện cho ai đang tìm kiếm <em>lam nhac</em>, <em>lamnhac</em>, <em>hoc lam nhac</em>, <em>hoc lam nhac online</em>, <em>cai dat VST</em>, <em>job music production</em>. Tham gia ngay để tiếp cận hệ sinh thái AkiNet, nhận mentor phù hợp, chuẩn hóa workflow và phát hành âm nhạc chuyên nghiệp.
+        </p>
+      </section>
     </section>
 
     <RelatedPosts exclude-slug="/lamnhac" />
@@ -154,43 +205,144 @@
 </template>
 
 <script setup>
-import { useHead } from '@vueuse/head'
-import RelatedPosts from '../components/RelatedPosts.vue';
+import { useHead } from "@vueuse/head";
+import RelatedPosts from "../components/RelatedPosts.vue";
 
-const title = 'LamNhac.net - Nền tảng cộng đồng làm nhạc số: Học, Cài, Làm, Tìm trong hệ sinh thái AkiNet'
-const description = 'LamNhac.net cung cấp 4 phân hệ Học, Cài, Làm, Tìm giúp người làm nhạc Việt Nam học tập, cài đặt VST 1 click, tìm việc và kết nối cộng đồng trong hệ sinh thái AkiNet.'
-const url = 'https://oscarfamily.vn/lamnhac'
-const image = 'https://oscarfamily.vn/img/lamnhac-net.png'
+const title = "LamNhac.net - Nền tảng làm nhạc, học làm nhạc, cài đặt VST và tìm job âm nhạc";
+const description = "LamNhac.net (Lam Nhac, LamNhac) là cổng cộng đồng làm nhạc Việt Nam với 4 phân hệ Học - Cài - Làm - Tìm, hỗ trợ học làm nhạc online, cài đặt VST 1 click, marketplace plugin và job âm nhạc.";
+const url = "https://oscarfamily.vn/lamnhac";
+const image = "https://oscarfamily.vn/img/lamnhac-net.png";
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: 'LamNhac.net',
-  url,
-  description,
-  inLanguage: 'vi',
-  sameAs: ['https://lamnhac.net', 'https://facebook.com/lamnhacnet'],
-  about: ['Học làm nhạc', 'Cài đặt VST 1 click', 'Việc làm âm nhạc', 'Cộng đồng AkiNet', 'Điều hướng đa ngữ cảnh', 'URL ngắn cho profile']
-}
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://oscarfamily.vn/#organization",
+      "name": "Oscar Family",
+      "url": "https://oscarfamily.vn",
+      "sameAs": [
+        "https://facebook.com/oscarstudiohanoi",
+        "https://www.youtube.com/@oscarstudiohanoi",
+        "https://www.tiktok.com/@oscarstudio.vn"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${url}#webpage`,
+      "url": url,
+      "name": title,
+      "description": description,
+      "inLanguage": "vi",
+      "isPartOf": { "@id": "https://oscarfamily.vn/#website" },
+      "primaryImageOfPage": image,
+      "breadcrumb": { "@id": `${url}#breadcrumb` }
+    },
+    {
+      "@type": "Article",
+      "@id": `${url}#article`,
+      "headline": title,
+      "description": description,
+      "mainEntityOfPage": { "@id": `${url}#webpage` },
+      "image": [image],
+      "inLanguage": "vi",
+      "author": { "@type": "Organization", "name": "Oscar Family" },
+      "publisher": { "@id": "https://oscarfamily.vn/#organization" },
+      "keywords": [
+        "LamNhac.net",
+        "Lam Nhac",
+        "LamNhac",
+        "hoc lam nhac",
+        "hoc lam nhac online",
+        "hoclamnhac",
+        "cai dat VST",
+        "cai vst 1 click",
+        "marketplace plugin Viet Nam",
+        "viec lam am nhac"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${url}#breadcrumb`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://oscarfamily.vn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "LamNhac.net",
+          "item": url
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${url}#faq`,
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "LamNhac.net có miễn phí không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LamNhac.net cung cấp gói Free với bài học nền tảng, preset mẫu và demo session. Gói trả phí mở khóa mentor, preset cao cấp và dịch vụ cài đặt VST từ xa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LamNhac.net có hỗ trợ bán preset cá nhân?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Creator có thể kết nối cửa hàng AkiWorkflow để bán preset, template, dịch vụ mix master trực tiếp cho cộng đồng LamNhac.net."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LamNhac.net có hỗ trợ cài đặt VST từ xa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có dịch vụ cài đặt VST 1 click từ xa, hỗ trợ cấu hình DAW, plugin, library bản quyền và tối ưu máy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LamNhac.net phù hợp với người mới bắt đầu không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LamNhac.net có roadmap 0-3 tháng, checklist thiết bị, preset vocal miễn phí và lớp live Q&A giúp người mới khởi động nhanh."
+          }
+        }
+      ]
+    }
+  ]
+};
 
 useHead({
   title,
   meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'LamNhac.net, cộng đồng làm nhạc số, học làm nhạc online, cài đặt VST 1 click, việc làm âm nhạc Việt Nam, hệ sinh thái AkiNet, marketplace plugin Việt, mentor âm nhạc Việt, router meta context general learn install work search me, short url profile âm nhạc' },
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
+    { name: "description", content: description },
+    { name: "author", content: "Oscar Family" },
+    { property: "og:title", content: title },
+    { property: "og:description", content: description },
+    { property: "og:image", content: image },
+    { property: "og:url", content: url },
+    { property: "og:type", content: "article" },
+    { property: "og:locale", content: "vi_VN" },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: description },
+    { name: "twitter:image", content: image },
+    { property: "article:tag", content: "LamNhac.net" },
+    { property: "article:tag", content: "hoc lam nhac" },
+    { property: "article:tag", content: "cai dat VST" },
+    { property: "article:tag", content: "music production Vietnam" }
   ],
-  link: [{ rel: 'canonical', href: url }],
-  script: [{ type: 'application/ld+json', innerHTML: JSON.stringify(jsonLd) }]
-})
+  link: [{ rel: "canonical", href: url }],
+  script: [{ type: "application/ld+json", innerHTML: JSON.stringify(structuredData) }]
+});
 </script>
 
 <style scoped>
@@ -202,7 +354,7 @@ useHead({
   color: #c3afc8;
 }
 
-body {
+:deep(body) {
   background: #000;
 }
 </style>

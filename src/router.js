@@ -1,70 +1,49 @@
-import { createRouter, createWebHistory, createMemoryHistory } from 'vue-router'
-import Index from './pages/home.vue'
-import Studio from './pages/studio.vue'
-import OscarStudio from './pages/oscarstudio.vue'
-import Akinet from './pages/akinet.vue'
-import AkiWorkflow from './pages/akiworkflow.vue'
-import LamNhac from './pages/lamnhac.vue'
-import TachNhac from './pages/tachnhac.vue'
-import Posts from './pages/posts.vue'
+import NotFound from "./pages/NotFound.vue";
 
 export const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Index,
+    path: "/",
+    name: "Home",
+    component: () => import("./pages/home.vue"),
   },
   {
-    path: '/studio',
-    name: 'Studio',
-    component: Studio,
+    path: "/studio",
+    name: "Studio",
+    component: () => import("./pages/studio.vue"),
   },
   {
-    path: '/oscarstudio',
-    name: 'OscarStudioArticle',
-    component: OscarStudio,
+    path: "/oscarstudio",
+    name: "OscarStudioArticle",
+    component: () => import("./pages/oscarstudio.vue"),
   },
   {
-    path: '/akinet',
-    name: 'Akinet',
-    component: Akinet,
+    path: "/akinet",
+    name: "Akinet",
+    component: () => import("./pages/akinet.vue"),
   },
   {
-    path: '/akiworkflow',
-    name: 'AkiWorkflow',
-    component: AkiWorkflow,
+    path: "/akiworkflow",
+    name: "AkiWorkflow",
+    component: () => import("./pages/akiworkflow.vue"),
   },
   {
-    path: '/lamnhac',
-    name: 'LamNhac',
-    component: LamNhac,
+    path: "/lamnhac",
+    name: "LamNhac",
+    component: () => import("./pages/lamnhac.vue"),
   },
   {
-    path: '/tachnhac',
-    name: 'TachNhac',
-    component: TachNhac,
+    path: "/tachnhac",
+    name: "TachNhac",
+    component: () => import("./pages/tachnhac.vue"),
   },
   {
-    path: '/posts',
-    name: 'Posts',
-    component: Posts,
+    path: "/posts",
+    name: "Posts",
+    component: () => import("./pages/posts.vue"),
   },
-]
-
-
-const isServer = typeof window === 'undefined';
-const router = createRouter({
-  history: isServer ? createMemoryHistory() : createWebHistory(),
-  routes,
-  scrollBehavior(to, from, savedPosition) {
-    if (to.hash) {
-      return {
-        el: to.hash,
-        behavior: 'smooth',
-      }
-    }
-    return savedPosition || { top: 0 }
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
+    component: NotFound,
   },
-});
-
-export default router
+];

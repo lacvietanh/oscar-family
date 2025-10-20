@@ -1,17 +1,19 @@
-import { ViteSSG } from 'vite-ssg'
-import App from './App.vue'
-import { routes } from './router.js'
-import './style.css'
+import { ViteSSG } from "vite-ssg";
+import Main from "./Main.vue";
+import { routes } from "./router.js";
+import "./style.css";
 
-export const createApp = ViteSSG(
-  App,
-  { routes },
-  ({ app, head, router }) => {
-    app.use(head)
+const firebaseConfig = {
+  // apiKey: "...",
+  // authDomain: "...",
+  // projectId: "...",
+  // ...
+};
+
+export const createApp = ViteSSG(Main, { routes }, ({ router, isClient }) => {
+  if (isClient) {
     router.afterEach(() => {
-      if (typeof window !== 'undefined') {
-        window.scrollTo({ top: 0, behavior: 'smooth' })
-      }
-    })
-  },
-)
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+});
