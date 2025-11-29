@@ -88,6 +88,13 @@ const allPosts = [
     image: '/img/akivn-tachnhacv1.png',
     excerpt: 'Giới thiệu tool.akivn.net/tachnhac: tách nhạc AI, vocal remove, tải nhạc YouTube, download SoundCloud cho producer và content creator.',
     tags: ['AI', 'Tách nhạc', 'YouTube']
+  },
+  {
+    slug: '/qqmusic-lyrics-search',
+    title: 'QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc',
+    image: '/img/qqmusicsearch-logo.png',
+    excerpt: 'Công cụ tìm kiếm lyrics từ QQMusic với timecode chuẩn, hỗ trợ nhạc Trung và quốc tế - giải pháp tối ưu cho creator video âm nhạc.',
+    tags: ['Lyrics', 'Video editing', 'Content creator']
   }
 ];
 
