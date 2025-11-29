@@ -3,6 +3,25 @@
 const currentYear = new Date().getFullYear()
 
 const isDev = import.meta.env.DEV === true
+
+// Helper function to format build date
+const formatBuildDate = (dateString) => {
+  try {
+    // Parse UTC ISO string (e.g., "2025-11-30T14:30:00")
+    const utcDate = new Date(dateString + 'Z') // Add Z to ensure UTC interpretation
+    return utcDate.toLocaleString('sv-SE', {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit'
+    }).replace(' ', ' ')
+  } catch (error) {
+    // Fallback if parsing fails
+    return dateString
+  }
+}
+
 const buildDate = isDev
   ? new Date().toLocaleString('sv-SE', {
       year: 'numeric',
@@ -11,7 +30,7 @@ const buildDate = isDev
       hour: '2-digit',
       minute: '2-digit'
     }).replace(' ', ' ')
-  : import.meta.env.VITE_BUILD_DATE || ''
+  : (import.meta.env.VITE_BUILD_DATE ? formatBuildDate(import.meta.env.VITE_BUILD_DATE) : '')
 </script>
 <template>
     <footer class="bg-[#000] text-[#E0E0E0] py-10">
