@@ -1,15 +1,17 @@
 #!/usr/bin/env node
 /*
  * checkseo-offline.js
- * 
+ *
  * Offline SEO checker for oscar-family project.
  * Analyzes built HTML files from dist/ to validate SEO elements and JSON-LD structured data.
- * 
+ *
  * Usage: npm run checkseo
  * - Builds the project (vite-ssg)
  * - Reads sitemap.xml from dist/
  * - Extracts and validates SEO metadata and JSON-LD for each route
- * - Generates comprehensive report to dist/seo-report.json
+ * - Generates comprehensive report to dev/seo-report.json
+ *
+ * Docs: ../docs/flow-checkseo-offline.md
  */
 
 import fs from 'fs/promises';
@@ -20,7 +22,7 @@ import jsonld from 'jsonld';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = path.resolve(__dirname, '../dist');
 const SITEMAP_PATH = path.join(DIST_DIR, 'sitemap.xml');
-const OUTPUT_FILE = path.join(DIST_DIR, 'seo-report.json');
+const OUTPUT_FILE = path.resolve(__dirname, '../dev/seo-report.json');
 const SCHEMA_CONTEXT_PATH = path.resolve(__dirname, '../dev/schemaorg-context.jsonld');
 
 // Colors for console output
@@ -521,7 +523,8 @@ async function main() {
   console.log(`  ${colors.red}Errors:${colors.reset}              ${summary.errorCount}`);
   console.log(`  ${colors.yellow}Warnings:${colors.reset}            ${summary.warningCount}`);
   
-  console.log(`\n${colors.green}✓ Report saved to: ${OUTPUT_FILE}${colors.reset}\n`);
+  console.log(`\n${colors.green}✓ Report saved to: ${OUTPUT_FILE}${colors.reset}`);
+  console.log(`${colors.cyan}➜ View report: http://localhost:5173/checkseo${colors.reset}\n`);
   
   // Exit with error code if there are critical issues
   if (summary.errorCount > 0) {

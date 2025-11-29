@@ -1,0 +1,3965 @@
+{
+  "generatedAt": "2025-11-29T16:40:30.261Z",
+  "summary": {
+    "totalPages": 10,
+    "analyzedPages": 10,
+    "averageScore": 100,
+    "pagesWithJsonLd": 10,
+    "pagesWithValidJsonLd": 10,
+    "totalIssues": 0,
+    "errorCount": 0,
+    "warningCount": 0,
+    "perfectPages": 10
+  },
+  "results": [
+    {
+      "url": "https://oscarfamily.vn/",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/",
+        "title": "Oscar Entertainment - Sản xuất, phát hành &amp; truyền thông âm nhạc",
+        "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+        "h1": "OSCAR ENTERTAINMENT",
+        "ogImage": "https://oscarfamily.vn/img/oscar-studio-render.jpg",
+        "canonicalUrl": "https://oscarfamily.vn",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/icon-zalo.png",
+            "alt": "Zalo"
+          },
+          {
+            "src": "/assets/qiti-ZjKM8mqx.jpg",
+            "alt": "Qiti"
+          },
+          {
+            "src": "/assets/quin-CguuSx9M.jpg",
+            "alt": "Quin"
+          },
+          {
+            "src": "/assets/tuyner-DLqhKOBa.jpg",
+            "alt": "Tuyner"
+          },
+          {
+            "src": "/assets/tt-COZSjbkX.jpg",
+            "alt": "Thuy Tien"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "MusicGroup",
+            "name": "Oscar Entertainment",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ]
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/MusicGroup"
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Entertainment"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
+      "url": "https://oscarfamily.vn/akiapp",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/akiapp",
+        "title": "AkiApp (app.akivn.net) - Nền tảng Mini-OS cho người sáng tạo",
+        "description": "AkiApp (app.akivn.net) là một nền tảng Mini-OS trên trình duyệt do Lạc Việt Anh phát triển, cung cấp các ứng dụng và tiện ích cho producer, content creator và người dùng sáng tạo.",
+        "h1": "AkiApp (app.akivn.net) - Nền tảng Mini-OS cho người sáng tạo: Ứng dụng, Tiện ích và Tích hợp AI",
+        "ogImage": "https://oscarfamily.vn/img/AkiApp-cover.png",
+        "canonicalUrl": "https://oscarfamily.vn/akiapp",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Mini-OS Platform for Creators"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "WebPage",
+                "@id": "https://oscarfamily.vn/akiapp#webpage",
+                "url": "https://oscarfamily.vn/akiapp",
+                "name": "AkiApp (app.akivn.net) - Nền tảng Mini-OS cho người sáng tạo",
+                "description": "AkiApp (app.akivn.net) là một nền tảng Mini-OS trên trình duyệt do Lạc Việt Anh phát triển, cung cấp các ứng dụng và tiện ích cho producer, content creator và người dùng sáng tạo.",
+                "image": "https://oscarfamily.vn/img/AkiApp-cover.png",
+                "isPartOf": {
+                  "@type": "WebSite",
+                  "url": "https://oscarfamily.vn"
+                },
+                "hasPart": [
+                  {
+                    "@type": "WebPageElement",
+                    "name": "AkiApp là gì?",
+                    "text": "AkiApp là một nền tảng \"WebOS Reimagined\" — một hệ điều hành mini hoạt động ngay trên trình duyệt, mô phỏng trải nghiệm OS với dock thông minh, topbar động và chuyển cảnh mượt."
+                  },
+                  {
+                    "@type": "WebPageElement",
+                    "name": "Các ứng dụng nổi bật",
+                    "text": "Aki QQ Search, AkiNet QR Bank, Aki Chord Viewer, Stereo Check, Aki Waves 15 Installer."
+                  },
+                  {
+                    "@type": "WebPageElement",
+                    "name": "Kiến trúc & Công nghệ",
+                    "text": "Edge-Native, Mini-App Engine, Real-time Sync, Vue 3, Vite, Tailwind, Firebase, Cloudflare Pages."
+                  }
+                ],
+                "mainEntity": {
+                  "@id": "https://oscarfamily.vn/akiapp#software"
+                }
+              },
+              {
+                "@type": "SoftwareApplication",
+                "@id": "https://oscarfamily.vn/akiapp#software",
+                "name": "AkiApp",
+                "description": "AkiApp (app.akivn.net) là một nền tảng Mini-OS trên trình duyệt do Lạc Việt Anh phát triển, cung cấp các ứng dụng và tiện ích cho producer, content creator và người dùng sáng tạo.",
+                "applicationCategory": "DeveloperApplication",
+                "operatingSystem": "Web",
+                "url": "https://app.akivn.net",
+                "screenshot": "https://oscarfamily.vn/img/AkiApp-cover.png",
+                "author": {
+                  "@type": "Person",
+                  "name": "Lạc Việt Anh"
+                },
+                "featureList": [
+                  "Aki QQ Search",
+                  "AkiNet QR Bank",
+                  "Aki Chord Viewer",
+                  "Stereo Check",
+                  "Mini-OS Platform",
+                  "Edge-Native Architecture"
+                ],
+                "offers": {
+                  "@type": "Offer",
+                  "price": "0",
+                  "priceCurrency": "VND"
+                }
+              },
+              {
+                "@type": "FAQPage",
+                "@id": "https://oscarfamily.vn/akiapp#faq",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "AkiApp có miễn phí không?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Hầu hết các ứng dụng trên AkiApp đều miễn phí. Một số tính năng nâng cao có thể yêu cầu tài khoản AkiWorkflow Pro."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "AkiApp có an toàn không?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Có. Nền tảng sử dụng Firebase Auth để xác thực và được triển khai trên hạ tầng bảo mật của Cloudflare."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Làm thế nào để đóng góp ứng dụng?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Hiện tại, các ứng dụng được phát triển nội bộ. Kế hoạch mở App Store sẽ cho phép cộng đồng đóng góp trong tương lai."
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@graph": [
+              {
+                "@id": "https://oscarfamily.vn/akiapp#webpage",
+                "@type": [
+                  "http://schema.org/WebPage"
+                ],
+                "http://schema.org/description": [
+                  {
+                    "@value": "AkiApp (app.akivn.net) là một nền tảng Mini-OS trên trình duyệt do Lạc Việt Anh phát triển, cung cấp các ứng dụng và tiện ích cho producer, content creator và người dùng sáng tạo."
+                  }
+                ],
+                "http://schema.org/hasPart": [
+                  {
+                    "@type": [
+                      "http://schema.org/WebPageElement"
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "AkiApp là gì?"
+                      }
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "AkiApp là một nền tảng \"WebOS Reimagined\" — một hệ điều hành mini hoạt động ngay trên trình duyệt, mô phỏng trải nghiệm OS với dock thông minh, topbar động và chuyển cảnh mượt."
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/WebPageElement"
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Các ứng dụng nổi bật"
+                      }
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Aki QQ Search, AkiNet QR Bank, Aki Chord Viewer, Stereo Check, Aki Waves 15 Installer."
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/WebPageElement"
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Kiến trúc & Công nghệ"
+                      }
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Edge-Native, Mini-App Engine, Real-time Sync, Vue 3, Vite, Tailwind, Firebase, Cloudflare Pages."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/image": [
+                  {
+                    "@id": "https://oscarfamily.vn/img/AkiApp-cover.png"
+                  }
+                ],
+                "http://schema.org/isPartOf": [
+                  {
+                    "@type": [
+                      "http://schema.org/WebSite"
+                    ],
+                    "http://schema.org/url": [
+                      {
+                        "@id": "https://oscarfamily.vn"
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/mainEntity": [
+                  {
+                    "@id": "https://oscarfamily.vn/akiapp#software"
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiApp (app.akivn.net) - Nền tảng Mini-OS cho người sáng tạo"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://oscarfamily.vn/akiapp"
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/akiapp#software",
+                "@type": [
+                  "http://schema.org/SoftwareApplication"
+                ],
+                "http://schema.org/applicationCategory": [
+                  {
+                    "@value": "DeveloperApplication"
+                  }
+                ],
+                "http://schema.org/author": [
+                  {
+                    "@type": [
+                      "http://schema.org/Person"
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Lạc Việt Anh"
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/description": [
+                  {
+                    "@value": "AkiApp (app.akivn.net) là một nền tảng Mini-OS trên trình duyệt do Lạc Việt Anh phát triển, cung cấp các ứng dụng và tiện ích cho producer, content creator và người dùng sáng tạo."
+                  }
+                ],
+                "http://schema.org/featureList": [
+                  {
+                    "@value": "Aki QQ Search"
+                  },
+                  {
+                    "@value": "AkiNet QR Bank"
+                  },
+                  {
+                    "@value": "Aki Chord Viewer"
+                  },
+                  {
+                    "@value": "Stereo Check"
+                  },
+                  {
+                    "@value": "Mini-OS Platform"
+                  },
+                  {
+                    "@value": "Edge-Native Architecture"
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiApp"
+                  }
+                ],
+                "http://schema.org/offers": [
+                  {
+                    "@type": [
+                      "http://schema.org/Offer"
+                    ],
+                    "http://schema.org/price": [
+                      {
+                        "@value": "0"
+                      }
+                    ],
+                    "http://schema.org/priceCurrency": [
+                      {
+                        "@value": "VND"
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/operatingSystem": [
+                  {
+                    "@value": "Web"
+                  }
+                ],
+                "http://schema.org/screenshot": [
+                  {
+                    "@id": "https://oscarfamily.vn/img/AkiApp-cover.png"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://app.akivn.net"
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/akiapp#faq",
+                "@type": [
+                  "http://schema.org/FAQPage"
+                ],
+                "http://schema.org/mainEntity": [
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "Hầu hết các ứng dụng trên AkiApp đều miễn phí. Một số tính năng nâng cao có thể yêu cầu tài khoản AkiWorkflow Pro."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "AkiApp có miễn phí không?"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "Có. Nền tảng sử dụng Firebase Auth để xác thực và được triển khai trên hạ tầng bảo mật của Cloudflare."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "AkiApp có an toàn không?"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "Hiện tại, các ứng dụng được phát triển nội bộ. Kế hoạch mở App Store sẽ cho phép cộng đồng đóng góp trong tương lai."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Làm thế nào để đóng góp ứng dụng?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
+      "url": "https://oscarfamily.vn/akinet",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/akinet",
+        "title": "AkiNet (akivn.net) - Hệ sinh thái công nghệ âm nhạc: AkiWorkflow, VSTShop, AkiApp, Tách Nhạc, LamNhac.net",
+        "description": "AkiNet (akivn.net) hệ sinh thái do Lạc Việt Anh sáng lập: AkiWorkflow, VSTShop.com, AkiApp, Tách Nhạc AI, LamNhac.net. Nền tảng hỗ trợ sản xuất âm nhạc &amp; media Việt Nam.",
+        "h1": "AkiNet (akivn.net) - Hệ sinh thái công nghệ sản xuất âm nhạc, media bởi Lạc Việt Anh: AkiWorkflow, VSTShop, AkiApp, Tách Nhạc, LamNhac.net",
+        "ogImage": "https://oscarfamily.vn/img/AkiNet-akivn.net.png",
+        "canonicalUrl": "https://oscarfamily.vn/akinet",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - hệ sinh thái công nghệ sản xuất âm nhạc"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "AkiNet",
+            "url": "https://oscarfamily.vn/akinet",
+            "description": "AkiNet (akivn.net) hệ sinh thái do Lạc Việt Anh sáng lập: AkiWorkflow, VSTShop.com, AkiApp, Tách Nhạc AI, LamNhac.net. Nền tảng hỗ trợ sản xuất âm nhạc & media Việt Nam.",
+            "creator": {
+              "@type": "Person",
+              "name": "Lạc Việt Anh"
+            },
+            "about": [
+              "AkiWorkflow",
+              "VSTShop",
+              "AkiApp",
+              "Tách Nhạc",
+              "LamNhac.net"
+            ]
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/WebSite"
+            ],
+            "http://schema.org/about": [
+              {
+                "@value": "AkiWorkflow"
+              },
+              {
+                "@value": "VSTShop"
+              },
+              {
+                "@value": "AkiApp"
+              },
+              {
+                "@value": "Tách Nhạc"
+              },
+              {
+                "@value": "LamNhac.net"
+              }
+            ],
+            "http://schema.org/creator": [
+              {
+                "@type": [
+                  "http://schema.org/Person"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Lạc Việt Anh"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "AkiNet (akivn.net) hệ sinh thái do Lạc Việt Anh sáng lập: AkiWorkflow, VSTShop.com, AkiApp, Tách Nhạc AI, LamNhac.net. Nền tảng hỗ trợ sản xuất âm nhạc & media Việt Nam."
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "AkiNet"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn/akinet"
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
+      "url": "https://oscarfamily.vn/akiworkflow",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/akiworkflow",
+        "title": "AkiWorkflow - Nền tảng quản lý workflow sản xuất âm nhạc, project, stem, release checklist",
+        "description": "AkiWorkflow: quản lý dự án âm nhạc, track sheet, stem version, task, release checklist cho producer, studio, artist. Công cụ workflow sản xuất âm nhạc chuẩn hóa.",
+        "h1": "AkiWorkflow - Nền tảng quản lý quy trình sản xuất âm nhạc, project &amp; asset cho Producer, Studio, Artist",
+        "ogImage": "https://oscarfamily.vn/img/AkiWF-GrCover2025.png",
+        "canonicalUrl": "https://oscarfamily.vn/akiworkflow",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow, hệ sinh thái tất cả trong một dành cho producer."
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "AkiWorkflow",
+            "applicationCategory": "MusicProduction",
+            "operatingSystem": "Web",
+            "description": "AkiWorkflow: quản lý dự án âm nhạc, track sheet, stem version, task, release checklist cho producer, studio, artist. Công cụ workflow sản xuất âm nhạc chuẩn hóa.",
+            "url": "https://oscarfamily.vn/akiworkflow",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "VND"
+            }
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/SoftwareApplication"
+            ],
+            "http://schema.org/applicationCategory": [
+              {
+                "@value": "MusicProduction"
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "AkiWorkflow: quản lý dự án âm nhạc, track sheet, stem version, task, release checklist cho producer, studio, artist. Công cụ workflow sản xuất âm nhạc chuẩn hóa."
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "AkiWorkflow"
+              }
+            ],
+            "http://schema.org/offers": [
+              {
+                "@type": [
+                  "http://schema.org/Offer"
+                ],
+                "http://schema.org/price": [
+                  {
+                    "@value": "0"
+                  }
+                ],
+                "http://schema.org/priceCurrency": [
+                  {
+                    "@value": "VND"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/operatingSystem": [
+              {
+                "@value": "Web"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn/akiworkflow"
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
+      "url": "https://oscarfamily.vn/lamnhac",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/lamnhac",
+        "title": "LamNhac.net - Nền tảng làm nhạc, học làm nhạc, cài đặt VST và tìm job âm nhạc",
+        "description": "LamNhac.net (Lam Nhac, LamNhac) là cổng cộng đồng làm nhạc Việt Nam với 4 phân hệ Học - Cài - Làm - Tìm, hỗ trợ học làm nhạc online, cài đặt VST 1 click, marketplace plugin và job âm nhạc.",
+        "h1": "LamNhac.net - Cổng cộng đồng làm nhạc Việt Nam, học làm nhạc online, cài đặt VST một chạm, kết nối job âm nhạc",
+        "ogImage": "https://oscarfamily.vn/img/lamnhac-net.png",
+        "canonicalUrl": "https://oscarfamily.vn/lamnhac",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net cong dong lam nhac Viet Nam - hoc lam nhac, cai dat VST, cong cu music production"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": "https://oscarfamily.vn/#organization",
+                "name": "Oscar Family",
+                "url": "https://oscarfamily.vn",
+                "sameAs": [
+                  "https://facebook.com/oscarstudiohanoi",
+                  "https://www.youtube.com/@oscarstudiohanoi",
+                  "https://www.tiktok.com/@oscarstudio.vn"
+                ]
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://oscarfamily.vn/lamnhac#webpage",
+                "url": "https://oscarfamily.vn/lamnhac",
+                "name": "LamNhac.net - Nền tảng làm nhạc, học làm nhạc, cài đặt VST và tìm job âm nhạc",
+                "description": "LamNhac.net (Lam Nhac, LamNhac) là cổng cộng đồng làm nhạc Việt Nam với 4 phân hệ Học - Cài - Làm - Tìm, hỗ trợ học làm nhạc online, cài đặt VST 1 click, marketplace plugin và job âm nhạc.",
+                "inLanguage": "vi",
+                "isPartOf": {
+                  "@id": "https://oscarfamily.vn/#website"
+                },
+                "primaryImageOfPage": "https://oscarfamily.vn/img/lamnhac-net.png",
+                "breadcrumb": {
+                  "@id": "https://oscarfamily.vn/lamnhac#breadcrumb"
+                }
+              },
+              {
+                "@type": "Article",
+                "@id": "https://oscarfamily.vn/lamnhac#article",
+                "headline": "LamNhac.net - Nền tảng làm nhạc, học làm nhạc, cài đặt VST và tìm job âm nhạc",
+                "description": "LamNhac.net (Lam Nhac, LamNhac) là cổng cộng đồng làm nhạc Việt Nam với 4 phân hệ Học - Cài - Làm - Tìm, hỗ trợ học làm nhạc online, cài đặt VST 1 click, marketplace plugin và job âm nhạc.",
+                "mainEntityOfPage": {
+                  "@id": "https://oscarfamily.vn/lamnhac#webpage"
+                },
+                "image": [
+                  "https://oscarfamily.vn/img/lamnhac-net.png"
+                ],
+                "inLanguage": "vi",
+                "author": {
+                  "@type": "Organization",
+                  "name": "Oscar Family"
+                },
+                "publisher": {
+                  "@id": "https://oscarfamily.vn/#organization"
+                },
+                "keywords": [
+                  "LamNhac.net",
+                  "Lam Nhac",
+                  "LamNhac",
+                  "hoc lam nhac",
+                  "hoc lam nhac online",
+                  "hoclamnhac",
+                  "cai dat VST",
+                  "cai vst 1 click",
+                  "marketplace plugin Viet Nam",
+                  "viec lam am nhac"
+                ]
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id": "https://oscarfamily.vn/lamnhac#breadcrumb",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Trang chủ",
+                    "item": "https://oscarfamily.vn/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "LamNhac.net",
+                    "item": "https://oscarfamily.vn/lamnhac"
+                  }
+                ]
+              },
+              {
+                "@type": "FAQPage",
+                "@id": "https://oscarfamily.vn/lamnhac#faq",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "LamNhac.net có miễn phí không?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "LamNhac.net cung cấp gói Free với bài học nền tảng, preset mẫu và demo session. Gói trả phí mở khóa mentor, preset cao cấp và dịch vụ cài đặt VST từ xa."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "LamNhac.net có hỗ trợ bán preset cá nhân?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Creator có thể kết nối cửa hàng AkiWorkflow để bán preset, template, dịch vụ mix master trực tiếp cho cộng đồng LamNhac.net."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "LamNhac.net có hỗ trợ cài đặt VST từ xa?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Có dịch vụ cài đặt VST 1 click từ xa, hỗ trợ cấu hình DAW, plugin, library bản quyền và tối ưu máy."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "LamNhac.net phù hợp với người mới bắt đầu không?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "LamNhac.net có roadmap 0-3 tháng, checklist thiết bị, preset vocal miễn phí và lớp live Q&A giúp người mới khởi động nhanh."
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@graph": [
+              {
+                "@id": "https://oscarfamily.vn/#organization",
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Oscar Family"
+                  }
+                ],
+                "http://schema.org/sameAs": [
+                  {
+                    "@id": "https://facebook.com/oscarstudiohanoi"
+                  },
+                  {
+                    "@id": "https://www.youtube.com/@oscarstudiohanoi"
+                  },
+                  {
+                    "@id": "https://www.tiktok.com/@oscarstudio.vn"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://oscarfamily.vn"
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/lamnhac#webpage",
+                "@type": [
+                  "http://schema.org/WebPage"
+                ],
+                "http://schema.org/breadcrumb": [
+                  {
+                    "@id": "https://oscarfamily.vn/lamnhac#breadcrumb"
+                  }
+                ],
+                "http://schema.org/description": [
+                  {
+                    "@value": "LamNhac.net (Lam Nhac, LamNhac) là cổng cộng đồng làm nhạc Việt Nam với 4 phân hệ Học - Cài - Làm - Tìm, hỗ trợ học làm nhạc online, cài đặt VST 1 click, marketplace plugin và job âm nhạc."
+                  }
+                ],
+                "http://schema.org/inLanguage": [
+                  {
+                    "@value": "vi"
+                  }
+                ],
+                "http://schema.org/isPartOf": [
+                  {
+                    "@id": "https://oscarfamily.vn/#website"
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "LamNhac.net - Nền tảng làm nhạc, học làm nhạc, cài đặt VST và tìm job âm nhạc"
+                  }
+                ],
+                "http://schema.org/primaryImageOfPage": [
+                  {
+                    "@value": "https://oscarfamily.vn/img/lamnhac-net.png"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://oscarfamily.vn/lamnhac"
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/lamnhac#article",
+                "@type": [
+                  "http://schema.org/Article"
+                ],
+                "http://schema.org/author": [
+                  {
+                    "@type": [
+                      "http://schema.org/Organization"
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Oscar Family"
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/description": [
+                  {
+                    "@value": "LamNhac.net (Lam Nhac, LamNhac) là cổng cộng đồng làm nhạc Việt Nam với 4 phân hệ Học - Cài - Làm - Tìm, hỗ trợ học làm nhạc online, cài đặt VST 1 click, marketplace plugin và job âm nhạc."
+                  }
+                ],
+                "http://schema.org/headline": [
+                  {
+                    "@value": "LamNhac.net - Nền tảng làm nhạc, học làm nhạc, cài đặt VST và tìm job âm nhạc"
+                  }
+                ],
+                "http://schema.org/image": [
+                  {
+                    "@id": "https://oscarfamily.vn/img/lamnhac-net.png"
+                  }
+                ],
+                "http://schema.org/inLanguage": [
+                  {
+                    "@value": "vi"
+                  }
+                ],
+                "http://schema.org/keywords": [
+                  {
+                    "@value": "LamNhac.net"
+                  },
+                  {
+                    "@value": "Lam Nhac"
+                  },
+                  {
+                    "@value": "LamNhac"
+                  },
+                  {
+                    "@value": "hoc lam nhac"
+                  },
+                  {
+                    "@value": "hoc lam nhac online"
+                  },
+                  {
+                    "@value": "hoclamnhac"
+                  },
+                  {
+                    "@value": "cai dat VST"
+                  },
+                  {
+                    "@value": "cai vst 1 click"
+                  },
+                  {
+                    "@value": "marketplace plugin Viet Nam"
+                  },
+                  {
+                    "@value": "viec lam am nhac"
+                  }
+                ],
+                "http://schema.org/mainEntityOfPage": [
+                  {
+                    "@id": "https://oscarfamily.vn/lamnhac#webpage"
+                  }
+                ],
+                "http://schema.org/publisher": [
+                  {
+                    "@id": "https://oscarfamily.vn/#organization"
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/lamnhac#breadcrumb",
+                "@type": [
+                  "http://schema.org/BreadcrumbList"
+                ],
+                "http://schema.org/itemListElement": [
+                  {
+                    "@type": [
+                      "http://schema.org/ListItem"
+                    ],
+                    "http://schema.org/item": [
+                      {
+                        "@value": "https://oscarfamily.vn/"
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Trang chủ"
+                      }
+                    ],
+                    "http://schema.org/position": [
+                      {
+                        "@value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/ListItem"
+                    ],
+                    "http://schema.org/item": [
+                      {
+                        "@value": "https://oscarfamily.vn/lamnhac"
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "LamNhac.net"
+                      }
+                    ],
+                    "http://schema.org/position": [
+                      {
+                        "@value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/lamnhac#faq",
+                "@type": [
+                  "http://schema.org/FAQPage"
+                ],
+                "http://schema.org/mainEntity": [
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "LamNhac.net cung cấp gói Free với bài học nền tảng, preset mẫu và demo session. Gói trả phí mở khóa mentor, preset cao cấp và dịch vụ cài đặt VST từ xa."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "LamNhac.net có miễn phí không?"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "Creator có thể kết nối cửa hàng AkiWorkflow để bán preset, template, dịch vụ mix master trực tiếp cho cộng đồng LamNhac.net."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "LamNhac.net có hỗ trợ bán preset cá nhân?"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "Có dịch vụ cài đặt VST 1 click từ xa, hỗ trợ cấu hình DAW, plugin, library bản quyền và tối ưu máy."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "LamNhac.net có hỗ trợ cài đặt VST từ xa?"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "LamNhac.net có roadmap 0-3 tháng, checklist thiết bị, preset vocal miễn phí và lớp live Q&A giúp người mới khởi động nhanh."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "LamNhac.net phù hợp với người mới bắt đầu không?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
+      "url": "https://oscarfamily.vn/oscarstudio",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/oscarstudio",
+        "title": "Oscar Studio Hà Nội - Phòng thu âm, làm nhạc trọn gói, mix master, quay MV chuyên nghiệp",
+        "description": "Oscar Studio Hà Nội cung cấp dịch vụ phòng thu âm, làm nhạc trọn gói, hòa âm phối khí, mixing mastering, quay MV và livestream studio cho nghệ sĩ, doanh nghiệp tại Hà Nội.",
+        "h1": "Oscar Studio Hà Nội - Phòng thu âm, làm nhạc trọn gói, mix master, quay MV tại trung tâm Hà Nội",
+        "ogImage": "https://oscarfamily.vn/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+        "canonicalUrl": "https://oscarfamily.vn/oscarstudio",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hanoi phong thu am chuyen nghiep lam nhac mix master quay MV"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": "https://oscarfamily.vn/#organization",
+                "name": "Oscar Family",
+                "url": "https://oscarfamily.vn",
+                "sameAs": [
+                  "https://fb.com/oscarstudiohanoi",
+                  "https://www.youtube.com/@oscarstudiohanoi",
+                  "https://www.tiktok.com/@oscarstudio.vn"
+                ]
+              },
+              {
+                "@type": "MusicRecordingStudio",
+                "@id": "https://oscarfamily.vn/oscarstudio#studio",
+                "name": "Oscar Studio Hà Nội",
+                "url": "https://oscarfamily.vn/oscarstudio",
+                "description": "Oscar Studio Hà Nội cung cấp dịch vụ phòng thu âm, làm nhạc trọn gói, hòa âm phối khí, mixing mastering, quay MV và livestream studio cho nghệ sĩ, doanh nghiệp tại Hà Nội.",
+                "image": "https://oscarfamily.vn/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+                "priceRange": "₫₫",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+                  "addressLocality": "Hà Nội",
+                  "addressCountry": "VN"
+                },
+                "telephone": "+84849297957",
+                "areaServed": "Hà Nội, Việt Nam",
+                "sameAs": [
+                  "https://fb.com/oscarstudiohanoi",
+                  "https://www.youtube.com/@oscarstudiohanoi",
+                  "https://www.tiktok.com/@oscarstudio.vn"
+                ],
+                "makesOffer": [
+                  {
+                    "@type": "Offer",
+                    "price": "350000",
+                    "priceCurrency": "VND",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Thu âm phòng thu",
+                      "description": "Thu vocal, voice over, podcast tại Oscar Studio Hà Nội."
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "price": "800000",
+                    "priceCurrency": "VND",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Mixing & Mastering",
+                      "description": "Mix master hybrid analog/digital đạt chuẩn phát hành."
+                    }
+                  }
+                ]
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://oscarfamily.vn/oscarstudio#webpage",
+                "url": "https://oscarfamily.vn/oscarstudio",
+                "name": "Oscar Studio Hà Nội - Phòng thu âm, làm nhạc trọn gói, mix master, quay MV chuyên nghiệp",
+                "description": "Oscar Studio Hà Nội cung cấp dịch vụ phòng thu âm, làm nhạc trọn gói, hòa âm phối khí, mixing mastering, quay MV và livestream studio cho nghệ sĩ, doanh nghiệp tại Hà Nội.",
+                "inLanguage": "vi",
+                "isPartOf": {
+                  "@id": "https://oscarfamily.vn/#website"
+                },
+                "primaryImageOfPage": "https://oscarfamily.vn/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+                "breadcrumb": {
+                  "@id": "https://oscarfamily.vn/oscarstudio#breadcrumb"
+                }
+              },
+              {
+                "@type": "Article",
+                "@id": "https://oscarfamily.vn/oscarstudio#article",
+                "headline": "Oscar Studio Hà Nội - Phòng thu âm, làm nhạc trọn gói, mix master, quay MV chuyên nghiệp",
+                "description": "Oscar Studio Hà Nội cung cấp dịch vụ phòng thu âm, làm nhạc trọn gói, hòa âm phối khí, mixing mastering, quay MV và livestream studio cho nghệ sĩ, doanh nghiệp tại Hà Nội.",
+                "mainEntityOfPage": {
+                  "@id": "https://oscarfamily.vn/oscarstudio#webpage"
+                },
+                "image": [
+                  "https://oscarfamily.vn/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg"
+                ],
+                "inLanguage": "vi",
+                "author": {
+                  "@type": "Organization",
+                  "name": "Oscar Family"
+                },
+                "publisher": {
+                  "@id": "https://oscarfamily.vn/#organization"
+                },
+                "keywords": [
+                  "phòng thu âm Hà Nội",
+                  "phong thu am ha noi",
+                  "Oscar Studio",
+                  "studio làm nhạc",
+                  "mix master Hà Nội",
+                  "quay MV Hà Nội"
+                ]
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id": "https://oscarfamily.vn/oscarstudio#breadcrumb",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Trang chủ",
+                    "item": "https://oscarfamily.vn/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Oscar Studio Hà Nội",
+                    "item": "https://oscarfamily.vn/oscarstudio"
+                  }
+                ]
+              },
+              {
+                "@type": "FAQPage",
+                "@id": "https://oscarfamily.vn/oscarstudio#faq",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "Mất bao lâu để hoàn thiện một bài hát tại Oscar Studio?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Thời gian trung bình 3-7 ngày tùy độ phức tạp phối khí, có gói express 24-48h cho dự án gấp."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Oscar Studio có hỗ trợ sáng tác lời và viết nhạc không?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Oscar Studio có đội ngũ songwriter, topliner hỗ trợ sáng tác độc quyền và chuyển thể lyric."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Có thể mix master từ xa với Oscar Studio không?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Khách hàng gửi stem qua cloud, kỹ sư của Oscar Studio mix master và bàn giao file final kèm session recall."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Oscar Studio có hỗ trợ phát hành Spotify/Apple Music?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Studio hỗ trợ đăng ký ISRC, metadata và phân phối lên Spotify, Apple Music, YouTube."
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@graph": [
+              {
+                "@id": "https://oscarfamily.vn/#organization",
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Oscar Family"
+                  }
+                ],
+                "http://schema.org/sameAs": [
+                  {
+                    "@id": "https://fb.com/oscarstudiohanoi"
+                  },
+                  {
+                    "@id": "https://www.youtube.com/@oscarstudiohanoi"
+                  },
+                  {
+                    "@id": "https://www.tiktok.com/@oscarstudio.vn"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://oscarfamily.vn"
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/oscarstudio#studio",
+                "@type": [
+                  "http://schema.org/MusicRecordingStudio"
+                ],
+                "http://schema.org/address": [
+                  {
+                    "@type": [
+                      "http://schema.org/PostalAddress"
+                    ],
+                    "http://schema.org/addressCountry": [
+                      {
+                        "@value": "VN"
+                      }
+                    ],
+                    "http://schema.org/addressLocality": [
+                      {
+                        "@value": "Hà Nội"
+                      }
+                    ],
+                    "http://schema.org/streetAddress": [
+                      {
+                        "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/areaServed": [
+                  {
+                    "@value": "Hà Nội, Việt Nam"
+                  }
+                ],
+                "http://schema.org/description": [
+                  {
+                    "@value": "Oscar Studio Hà Nội cung cấp dịch vụ phòng thu âm, làm nhạc trọn gói, hòa âm phối khí, mixing mastering, quay MV và livestream studio cho nghệ sĩ, doanh nghiệp tại Hà Nội."
+                  }
+                ],
+                "http://schema.org/image": [
+                  {
+                    "@id": "https://oscarfamily.vn/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg"
+                  }
+                ],
+                "http://schema.org/makesOffer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Offer"
+                    ],
+                    "http://schema.org/itemOffered": [
+                      {
+                        "@type": [
+                          "http://schema.org/Service"
+                        ],
+                        "http://schema.org/description": [
+                          {
+                            "@value": "Thu vocal, voice over, podcast tại Oscar Studio Hà Nội."
+                          }
+                        ],
+                        "http://schema.org/name": [
+                          {
+                            "@value": "Thu âm phòng thu"
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/price": [
+                      {
+                        "@value": "350000"
+                      }
+                    ],
+                    "http://schema.org/priceCurrency": [
+                      {
+                        "@value": "VND"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/Offer"
+                    ],
+                    "http://schema.org/itemOffered": [
+                      {
+                        "@type": [
+                          "http://schema.org/Service"
+                        ],
+                        "http://schema.org/description": [
+                          {
+                            "@value": "Mix master hybrid analog/digital đạt chuẩn phát hành."
+                          }
+                        ],
+                        "http://schema.org/name": [
+                          {
+                            "@value": "Mixing & Mastering"
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/price": [
+                      {
+                        "@value": "800000"
+                      }
+                    ],
+                    "http://schema.org/priceCurrency": [
+                      {
+                        "@value": "VND"
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Oscar Studio Hà Nội"
+                  }
+                ],
+                "http://schema.org/priceRange": [
+                  {
+                    "@value": "₫₫"
+                  }
+                ],
+                "http://schema.org/sameAs": [
+                  {
+                    "@id": "https://fb.com/oscarstudiohanoi"
+                  },
+                  {
+                    "@id": "https://www.youtube.com/@oscarstudiohanoi"
+                  },
+                  {
+                    "@id": "https://www.tiktok.com/@oscarstudio.vn"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "+84849297957"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://oscarfamily.vn/oscarstudio"
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/oscarstudio#webpage",
+                "@type": [
+                  "http://schema.org/WebPage"
+                ],
+                "http://schema.org/breadcrumb": [
+                  {
+                    "@id": "https://oscarfamily.vn/oscarstudio#breadcrumb"
+                  }
+                ],
+                "http://schema.org/description": [
+                  {
+                    "@value": "Oscar Studio Hà Nội cung cấp dịch vụ phòng thu âm, làm nhạc trọn gói, hòa âm phối khí, mixing mastering, quay MV và livestream studio cho nghệ sĩ, doanh nghiệp tại Hà Nội."
+                  }
+                ],
+                "http://schema.org/inLanguage": [
+                  {
+                    "@value": "vi"
+                  }
+                ],
+                "http://schema.org/isPartOf": [
+                  {
+                    "@id": "https://oscarfamily.vn/#website"
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Oscar Studio Hà Nội - Phòng thu âm, làm nhạc trọn gói, mix master, quay MV chuyên nghiệp"
+                  }
+                ],
+                "http://schema.org/primaryImageOfPage": [
+                  {
+                    "@value": "https://oscarfamily.vn/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://oscarfamily.vn/oscarstudio"
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/oscarstudio#article",
+                "@type": [
+                  "http://schema.org/Article"
+                ],
+                "http://schema.org/author": [
+                  {
+                    "@type": [
+                      "http://schema.org/Organization"
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Oscar Family"
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/description": [
+                  {
+                    "@value": "Oscar Studio Hà Nội cung cấp dịch vụ phòng thu âm, làm nhạc trọn gói, hòa âm phối khí, mixing mastering, quay MV và livestream studio cho nghệ sĩ, doanh nghiệp tại Hà Nội."
+                  }
+                ],
+                "http://schema.org/headline": [
+                  {
+                    "@value": "Oscar Studio Hà Nội - Phòng thu âm, làm nhạc trọn gói, mix master, quay MV chuyên nghiệp"
+                  }
+                ],
+                "http://schema.org/image": [
+                  {
+                    "@id": "https://oscarfamily.vn/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg"
+                  }
+                ],
+                "http://schema.org/inLanguage": [
+                  {
+                    "@value": "vi"
+                  }
+                ],
+                "http://schema.org/keywords": [
+                  {
+                    "@value": "phòng thu âm Hà Nội"
+                  },
+                  {
+                    "@value": "phong thu am ha noi"
+                  },
+                  {
+                    "@value": "Oscar Studio"
+                  },
+                  {
+                    "@value": "studio làm nhạc"
+                  },
+                  {
+                    "@value": "mix master Hà Nội"
+                  },
+                  {
+                    "@value": "quay MV Hà Nội"
+                  }
+                ],
+                "http://schema.org/mainEntityOfPage": [
+                  {
+                    "@id": "https://oscarfamily.vn/oscarstudio#webpage"
+                  }
+                ],
+                "http://schema.org/publisher": [
+                  {
+                    "@id": "https://oscarfamily.vn/#organization"
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/oscarstudio#breadcrumb",
+                "@type": [
+                  "http://schema.org/BreadcrumbList"
+                ],
+                "http://schema.org/itemListElement": [
+                  {
+                    "@type": [
+                      "http://schema.org/ListItem"
+                    ],
+                    "http://schema.org/item": [
+                      {
+                        "@value": "https://oscarfamily.vn/"
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Trang chủ"
+                      }
+                    ],
+                    "http://schema.org/position": [
+                      {
+                        "@value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/ListItem"
+                    ],
+                    "http://schema.org/item": [
+                      {
+                        "@value": "https://oscarfamily.vn/oscarstudio"
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Oscar Studio Hà Nội"
+                      }
+                    ],
+                    "http://schema.org/position": [
+                      {
+                        "@value": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "@id": "https://oscarfamily.vn/oscarstudio#faq",
+                "@type": [
+                  "http://schema.org/FAQPage"
+                ],
+                "http://schema.org/mainEntity": [
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "Thời gian trung bình 3-7 ngày tùy độ phức tạp phối khí, có gói express 24-48h cho dự án gấp."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Mất bao lâu để hoàn thiện một bài hát tại Oscar Studio?"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "Oscar Studio có đội ngũ songwriter, topliner hỗ trợ sáng tác độc quyền và chuyển thể lyric."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Oscar Studio có hỗ trợ sáng tác lời và viết nhạc không?"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "Khách hàng gửi stem qua cloud, kỹ sư của Oscar Studio mix master và bàn giao file final kèm session recall."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Có thể mix master từ xa với Oscar Studio không?"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": [
+                      "http://schema.org/Question"
+                    ],
+                    "http://schema.org/acceptedAnswer": [
+                      {
+                        "@type": [
+                          "http://schema.org/Answer"
+                        ],
+                        "http://schema.org/text": [
+                          {
+                            "@value": "Studio hỗ trợ đăng ký ISRC, metadata và phân phối lên Spotify, Apple Music, YouTube."
+                          }
+                        ]
+                      }
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "Oscar Studio có hỗ trợ phát hành Spotify/Apple Music?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
+      "url": "https://oscarfamily.vn/posts",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/posts",
+        "title": "Bài viết - Oscar Family",
+        "description": "Tổng hợp bài viết liên quan về Oscar Studio, AkiNet, AkiWorkflow, LamNhac và các công cụ âm nhạc.",
+        "h1": "Bài viết",
+        "ogImage": "https://oscarfamily.vn/img/default-og.jpg",
+        "canonicalUrl": "https://oscarfamily.vn/posts",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Bài viết - Oscar Family",
+            "description": "Tổng hợp bài viết liên quan về Oscar Studio, AkiNet, AkiWorkflow, LamNhac và các công cụ âm nhạc.",
+            "url": "https://oscarfamily.vn/posts"
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/CollectionPage"
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Tổng hợp bài viết liên quan về Oscar Studio, AkiNet, AkiWorkflow, LamNhac và các công cụ âm nhạc."
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Bài viết - Oscar Family"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn/posts"
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
+      "url": "https://oscarfamily.vn/qqmusic-lyrics-search",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/qqmusic-lyrics-search",
+        "title": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc",
+        "description": "Khám phá công cụ giúp bạn có được lyrics chuẩn xác với timecode hoàn hảo, hỗ trợ cả nhạc Trung lẫn nhạc quốc tế - giải pháp tối ưu cho creator nội dung âm nhạc.",
+        "h1": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc",
+        "ogImage": "https://oscarfamily.vn/img/qqmusicsearch-logo.png",
+        "canonicalUrl": "https://oscarfamily.vn/qqmusic-lyrics-search",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search - Công cụ tìm kiếm lời bài hát từ nền tảng QQMusic Trung Quốc"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "name": "QQMusic Lyrics Search - Công cụ tìm kiếm lyrics",
+            "headline": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc",
+            "description": "Khám phá công cụ giúp bạn có được lyrics chuẩn xác với timecode hoàn hảo, hỗ trợ cả nhạc Trung lẫn nhạc quốc tế - giải pháp tối ưu cho creator nội dung âm nhạc.",
+            "image": "https://oscarfamily.vn/img/qqmusicsearch-logo.png",
+            "author": {
+              "@type": "Person",
+              "name": "LacVietAnh"
+            },
+            "datePublished": "2025-01-29",
+            "url": "https://oscarfamily.vn/qqmusic-lyrics-search",
+            "inLanguage": "vi",
+            "about": [
+              {
+                "@type": "Thing",
+                "name": "Lyrics Search"
+              },
+              {
+                "@type": "Thing",
+                "name": "Video Editing"
+              },
+              {
+                "@type": "Thing",
+                "name": "Music Content Creation"
+              },
+              {
+                "@type": "Thing",
+                "name": "QQMusic"
+              }
+            ]
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/Article"
+            ],
+            "http://schema.org/about": [
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Lyrics Search"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Video Editing"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Music Content Creation"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "QQMusic"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/author": [
+              {
+                "@type": [
+                  "http://schema.org/Person"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "LacVietAnh"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/datePublished": [
+              {
+                "@type": "http://schema.org/Date",
+                "@value": "2025-01-29"
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Khám phá công cụ giúp bạn có được lyrics chuẩn xác với timecode hoàn hảo, hỗ trợ cả nhạc Trung lẫn nhạc quốc tế - giải pháp tối ưu cho creator nội dung âm nhạc."
+              }
+            ],
+            "http://schema.org/headline": [
+              {
+                "@value": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/qqmusicsearch-logo.png"
+              }
+            ],
+            "http://schema.org/inLanguage": [
+              {
+                "@value": "vi"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "QQMusic Lyrics Search - Công cụ tìm kiếm lyrics"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn/qqmusic-lyrics-search"
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
+      "url": "https://oscarfamily.vn/studio",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/studio",
+        "title": "Oscar Studio - Phòng Thu Âm Chuyên Nghiệp tại Hà Nội",
+        "description": "Oscar Studio - Phòng thu âm chuyên nghiệp tại Hà Nội. Cung cấp dịch vụ thu âm, sản xuất âm nhạc, hoà âm phối khí, quay MV. Không gian sáng tạo, thiết bị hiện đại.",
+        "h1": "Phòng Thu Âm Chuyên NghiệpTại Trung Tâm Hà Nội",
+        "ogImage": "https://oscarfamily.vn/img/oscar-studio-desk.jpg",
+        "canonicalUrl": "https://oscarfamily.vn/studio",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/oscar-studio-desk.jpg",
+            "alt": "Phòng thu âm Oscar Studio Hà Nội sản xuất âm nhạc"
+          },
+          {
+            "src": "https://placehold.co/80x80/f2c35a/000000?text=MIC",
+            "alt": "Icon thu âm chuyên nghiệp"
+          },
+          {
+            "src": "https://placehold.co/80x80/f2c35a/000000?text=EQ",
+            "alt": "Icon sản xuất âm nhạc"
+          },
+          {
+            "src": "https://placehold.co/80x80/f2c35a/000000?text=MV",
+            "alt": "Icon quay MV"
+          },
+          {
+            "src": "https://placehold.co/80x80/f2c35a/000000?text=MIX",
+            "alt": "Icon Mixing &amp; Mastering"
+          },
+          {
+            "src": "https://placehold.co/80x80/f2c35a/000000?text=NOTE",
+            "alt": "Icon Hòa âm phối khí"
+          },
+          {
+            "src": "https://placehold.co/80x80/f2c35a/000000?text=PEN",
+            "alt": "Icon Sáng tác"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "MusicRecordingStudio",
+            "name": "Oscar Studio",
+            "url": "https://oscarfamily.vn/studio",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/oscar-studio-desk.jpg",
+            "description": "Oscar Studio - Phòng thu âm chuyên nghiệp tại Hà Nội. Cung cấp dịch vụ thu âm, sản xuất âm nhạc, hoà âm phối khí, quay MV. Không gian sáng tạo, thiết bị hiện đại.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hoàng Mai",
+              "addressRegion": "Hà Nội",
+              "postalCode": "11700",
+              "country": "VN"
+            },
+            "telephone": "+84849297957",
+            "priceRange": "VND",
+            "openingHours": "Mo-Su 08:00-22:00",
+            "sameAs": [
+              "https://fb.com/oscarstudiohanoi",
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn"
+            ]
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/MusicRecordingStudio"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hoàng Mai"
+                  }
+                ],
+                "http://schema.org/addressRegion": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/country": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/postalCode": [
+                  {
+                    "@value": "11700"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Studio - Phòng thu âm chuyên nghiệp tại Hà Nội. Cung cấp dịch vụ thu âm, sản xuất âm nhạc, hoà âm phối khí, quay MV. Không gian sáng tạo, thiết bị hiện đại."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/oscar-studio-desk.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Studio"
+              }
+            ],
+            "http://schema.org/openingHours": [
+              {
+                "@value": "Mo-Su 08:00-22:00"
+              }
+            ],
+            "http://schema.org/priceRange": [
+              {
+                "@value": "VND"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              }
+            ],
+            "http://schema.org/telephone": [
+              {
+                "@value": "+84849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn/studio"
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
+      "url": "https://oscarfamily.vn/tachnhac",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/tachnhac",
+        "title": "Tách Nhạc AI tool.akivn.net: tachnhac, vocal remover, tải nhạc",
+        "description": "Giới thiệu tool.akivn.net/tachnhac: tách nhạc AI, vocal remove, tải nhạc YouTube, download SoundCloud, tích hợp Spleeter tối ưu cho producer Việt Nam.",
+        "h1": "Tách Nhạc AI tool.akivn.net: tachnhac, vocal remover, tải nhạc",
+        "ogImage": "https://oscarfamily.vn/img/intro-tachnhacv1-3d.png",
+        "canonicalUrl": "https://oscarfamily.vn/tachnhac",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Giao diện tool tách nhạc AI tool.akivn.net tachnhac vocal remover"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "Tách Nhạc AI - tool.akivn.net",
+            "url": "https://oscarfamily.vn/tachnhac",
+            "description": "Giới thiệu tool.akivn.net/tachnhac: tách nhạc AI, vocal remove, tải nhạc YouTube, download SoundCloud, tích hợp Spleeter tối ưu cho producer Việt Nam.",
+            "inLanguage": "vi",
+            "applicationCategory": "MultimediaApplication",
+            "operatingSystem": "Web",
+            "creator": {
+              "@type": "Organization",
+              "name": "AkiNet"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "VND",
+              "availability": "https://schema.org/InStock"
+            },
+            "sameAs": [
+              "https://tool.akivn.net/tachnhac",
+              "https://akivn.net"
+            ],
+            "about": [
+              "tachnhac",
+              "tách nhạc online",
+              "vocal remover",
+              "tải nhạc YouTube",
+              "download SoundCloud"
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Dịch vụ tách chuyên sâu - AkiNet",
+            "serviceType": "Audio stem separation, vocal removal, harmony isolation",
+            "description": "Dịch vụ tách chuyên sâu: tách bè, tách đoạn theo timestamp, xử lý bleed và artifact, xuất WAV/FLAC lossless, gửi demo trước khi thanh toán.",
+            "provider": {
+              "@type": "Organization",
+              "name": "AkiNet",
+              "url": "https://akivn.net"
+            },
+            "areaServed": "VN",
+            "audience": {
+              "@type": "Audience",
+              "audienceType": "Producer, Studio, Artist, Remixer"
+            },
+            "offers": {
+              "@type": "Offer",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "description": "Phí tham khảo 50k–150k VNĐ/bài tùy yêu cầu"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            "termsOfService": "Không cần thanh toán trước. Admin gửi demo nửa bài kèm QR, khách hàng thanh toán khi hài lòng."
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "AI tách nhạc sử dụng mô hình nào?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Mô hình dựa trên Spleeter kết hợp fine-tune dataset Việt hóa, cho phép giữ nguyên giọng ca sĩ và giảm bleed giữa các stem."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Giới hạn upload và thời lượng là bao nhiêu?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Giới hạn upload là 200MB và thời lượng tối đa 15 phút. Liên hệ admin để được hỗ trợ xử lý file lớn hơn."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Video tải từ YouTube có định dạng thế nào?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Video tải từ YouTube được lấy ở định dạng HD (720p) để tối ưu tốc độ tải và dung lượng lưu trữ; mục đích chính là phục vụ video karaoke cho phòng thu."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Có dịch vụ tách chuyên sâu để tách bè hoặc tách đoạn không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Có. Dịch vụ tách chuyên sâu tách bè, tách đoạn, xử lý artifact với phí tham khảo 50k–150k VNĐ/bài. Admin sẽ gửi demo (thường nửa bài) kèm QR thanh toán; chỉ thanh toán khi hài lòng."
+                }
+              }
+            ]
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/WebApplication"
+            ],
+            "http://schema.org/about": [
+              {
+                "@value": "tachnhac"
+              },
+              {
+                "@value": "tách nhạc online"
+              },
+              {
+                "@value": "vocal remover"
+              },
+              {
+                "@value": "tải nhạc YouTube"
+              },
+              {
+                "@value": "download SoundCloud"
+              }
+            ],
+            "http://schema.org/applicationCategory": [
+              {
+                "@value": "MultimediaApplication"
+              }
+            ],
+            "http://schema.org/creator": [
+              {
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiNet"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Giới thiệu tool.akivn.net/tachnhac: tách nhạc AI, vocal remove, tải nhạc YouTube, download SoundCloud, tích hợp Spleeter tối ưu cho producer Việt Nam."
+              }
+            ],
+            "http://schema.org/inLanguage": [
+              {
+                "@value": "vi"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Tách Nhạc AI - tool.akivn.net"
+              }
+            ],
+            "http://schema.org/offers": [
+              {
+                "@type": [
+                  "http://schema.org/Offer"
+                ],
+                "http://schema.org/availability": [
+                  {
+                    "@value": "https://schema.org/InStock"
+                  }
+                ],
+                "http://schema.org/price": [
+                  {
+                    "@value": "0"
+                  }
+                ],
+                "http://schema.org/priceCurrency": [
+                  {
+                    "@value": "VND"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/operatingSystem": [
+              {
+                "@value": "Web"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://tool.akivn.net/tachnhac"
+              },
+              {
+                "@id": "https://akivn.net"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn/tachnhac"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/Service"
+            ],
+            "http://schema.org/areaServed": [
+              {
+                "@value": "VN"
+              }
+            ],
+            "http://schema.org/audience": [
+              {
+                "@type": [
+                  "http://schema.org/Audience"
+                ],
+                "http://schema.org/audienceType": [
+                  {
+                    "@value": "Producer, Studio, Artist, Remixer"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Dịch vụ tách chuyên sâu: tách bè, tách đoạn theo timestamp, xử lý bleed và artifact, xuất WAV/FLAC lossless, gửi demo trước khi thanh toán."
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Dịch vụ tách chuyên sâu - AkiNet"
+              }
+            ],
+            "http://schema.org/offers": [
+              {
+                "@type": [
+                  "http://schema.org/Offer"
+                ],
+                "http://schema.org/availability": [
+                  {
+                    "@value": "https://schema.org/InStock"
+                  }
+                ],
+                "http://schema.org/priceSpecification": [
+                  {
+                    "@type": [
+                      "http://schema.org/PriceSpecification"
+                    ],
+                    "http://schema.org/description": [
+                      {
+                        "@value": "Phí tham khảo 50k–150k VNĐ/bài tùy yêu cầu"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/provider": [
+              {
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiNet"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://akivn.net"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/serviceType": [
+              {
+                "@value": "Audio stem separation, vocal removal, harmony isolation"
+              }
+            ],
+            "http://schema.org/termsOfService": [
+              {
+                "@value": "Không cần thanh toán trước. Admin gửi demo nửa bài kèm QR, khách hàng thanh toán khi hài lòng."
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/FAQPage"
+            ],
+            "http://schema.org/mainEntity": [
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Mô hình dựa trên Spleeter kết hợp fine-tune dataset Việt hóa, cho phép giữ nguyên giọng ca sĩ và giảm bleed giữa các stem."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AI tách nhạc sử dụng mô hình nào?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Giới hạn upload là 200MB và thời lượng tối đa 15 phút. Liên hệ admin để được hỗ trợ xử lý file lớn hơn."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Giới hạn upload và thời lượng là bao nhiêu?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Video tải từ YouTube được lấy ở định dạng HD (720p) để tối ưu tốc độ tải và dung lượng lưu trữ; mục đích chính là phục vụ video karaoke cho phòng thu."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Video tải từ YouTube có định dạng thế nào?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Có. Dịch vụ tách chuyên sâu tách bè, tách đoạn, xử lý artifact với phí tham khảo 50k–150k VNĐ/bài. Admin sẽ gửi demo (thường nửa bài) kèm QR thanh toán; chỉ thanh toán khi hài lòng."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Có dịch vụ tách chuyên sâu để tách bè hoặc tách đoạn không?"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    }
+  ]
+}
