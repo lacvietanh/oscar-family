@@ -92,6 +92,18 @@
             </div>
           </div>
 
+          <div class="bg-gray-800/70 p-6 rounded-xl border border-purple-500/30 mb-6">
+            <h4 class="font-bold text-purple-400 mb-3 uppercase text-sm tracking-wide flex items-center gap-2">
+              <span class="text-xl">🔄</span> Lý Do Có Hệ Thống Này
+            </h4>
+            <p class="text-gray-300 text-sm leading-relaxed mb-3">
+              Trong quá trình chế tạo các website, nhu cầu đồng bộ ngày càng lớn vì <strong>có cái thì tinh túy chỗ này có cái thì tinh túy chỗ kia</strong>, rồi các version update mới cũ các kiểu... Để giải quyết vấn đề này, Việt Anh làm việc kết hợp với các AI để <em>cào toàn bộ những cái hay, cái tinh túy của từng dự án</em> ra, mang về gom vào một template chuẩn, từ đó <strong>xả ra mọi dự án</strong> → đảm bảo đồng bộ stack với nhau, tất cả dự án đều có tất cả những cái hay của nhau.
+            </p>
+            <p class="text-gray-400 text-xs italic">
+              Nhân tiện, cái <strong class="text-yellow-400">SEO-system</strong> nhỏ nhỏ này cũng là một trong những "cái hay" đó...
+            </p>
+          </div>
+
           <p class="text-gray-300 italic border-t border-gray-700 pt-4 mt-4">
             "Tôi không chỉ vận hành website. Tôi xây dựng các công cụ, app, script để lấp đầy những khoảng trống mà thị trường bỏ quên, giúp mọi người làm việc nhanh hơn, hiệu quả hơn trên máy tính." — <span class="text-white not-italic font-semibold">Lạc Việt Anh</span>
           </p>
@@ -383,19 +395,60 @@
     </div>
 
     <!-- FINAL CTA -->
-    <div class="mt-20 text-center relative">
-      <div class="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent rounded-3xl -z-10"></div>
-      <h3 class="text-2xl font-bold mb-6">Sẵn Sàng Nâng Tầm SEO Workflow?</h3>
-      <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-        Fork source code, customize theo nhu cầu. Zero learning curve, chỉ cần biết Node.js cơ bản.
-      </p>
-      <div class="flex flex-col md:flex-row justify-center gap-4">
-        <a href="https://github.com/lacvietanh/oscar-family" target="_blank" class="cta-button bg-white text-black hover:bg-gray-200">
-          <i class="fab fa-github mr-2"></i> Fork trên GitHub
-        </a>
-        <a href="https://akivn.net" target="_blank" class="cta-button border border-white/20 hover:bg-white/10">
-          <i class="fas fa-globe mr-2"></i> Khám Phá AkiNet
-        </a>
+    <div class="mt-20 space-y-12">
+      <!-- Open Source & System Prompt Section -->
+      <div class="bg-gradient-to-br from-green-900/20 to-emerald-900/20 p-8 rounded-2xl border border-green-500/30">
+        <div class="text-center mb-8">
+          <h3 class="text-2xl font-bold mb-4 flex items-center justify-center gap-3">
+            <span class="text-3xl">📖</span> WEB NÀY OPEN SOURCE
+          </h3>
+          <p class="text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            Ai dev mang về sài cũng được luôn. Có sẵn một số docs và file <strong class="text-green-400">"system_prompt"</strong> để ném cho AI khi cần viết bài mới. Các tiêu chuẩn và ràng buộc cần thiết đã được thiết lập sẵn và tối ưu qua nhiều đợt nghiên cứu.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-gray-900/50 p-6 rounded-xl border-l-4 border-green-500">
+            <h4 class="font-bold text-white mb-3 flex items-center gap-2">
+              <span class="text-xl">🤖</span> Cách Sử Dụng System Prompt
+            </h4>
+            <ol class="space-y-2 text-sm text-gray-300 list-decimal pl-5">
+              <li>Tải file <code class="bg-gray-800 px-2 py-1 rounded text-green-400">docs/page-creation-rules.md</code> từ repo</li>
+              <li>Add/mention file đó vào kèm vài lời ngắn gọn</li>
+              <li>Ví dụ: <em>"Viết cho tôi trang về... (dựa theo chuẩn trong file này)"</em></li>
+              <li>AI sẽ output trang với SEO, UX, và tiêu chuẩn đã tối ưu sẵn!</li>
+            </ol>
+          </div>
+
+          <div class="bg-gray-900/50 p-6 rounded-xl border-l-4 border-blue-500">
+            <h4 class="font-bold text-white mb-3 flex items-center gap-2">
+              <span class="text-xl">✍️</span> Muốn Viết Bài?
+            </h4>
+            <p class="text-gray-300 text-sm leading-relaxed mb-3">
+              Liên hệ mình hoặc <strong class="text-blue-400">Lạc Quốc Huy</strong> để viết bằng trang này. Trang này chỉ để viết bài tĩnh nên <strong class="text-yellow-400">SEO cực tốt</strong>, nhất là cấu trúc JSON-LD giúp AI/bot quét tổng hợp thông tin.
+            </p>
+            <p class="text-gray-400 text-xs italic">
+              ⏱️ Hiệu quả thường thấy sau khoảng <strong>vài ngày đến 1 tuần</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fork & Explore Section -->
+      <div class="text-center relative">
+        <div class="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent rounded-3xl -z-10"></div>
+        <h3 class="text-2xl font-bold mb-6">Sẵn Sàng Nâng Tầm SEO Workflow?</h3>
+        <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
+          Fork source code, customize theo nhu cầu. Zero learning curve, chỉ cần biết Node.js cơ bản.
+        </p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+          <a href="https://github.com/lacvietanh/oscar-family" target="_blank" class="cta-button bg-white text-black hover:bg-gray-200">
+            <i class="fab fa-github mr-2"></i> Fork trên GitHub
+          </a>
+          <a href="https://akivn.net" target="_blank" class="cta-button border border-white/20 hover:bg-white/10">
+            <i class="fas fa-globe mr-2"></i> Khám Phá AkiNet
+          </a>
+        </div>
       </div>
     </div>
 
