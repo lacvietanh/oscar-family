@@ -23,7 +23,20 @@ useHead({
   meta: [
     { name: 'description', content: pageDescription },
     { property: 'og:title', content: pageTitle },
-    { property: 'og:description', content: pageDescription }
+    { property: 'og:description', content: pageDescription },
+    // og:image from App.vue default, canonical from App.vue
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: pageTitle,
+        description: pageDescription,
+        url: 'https://oscarfamily.vn/posts'
+      })
+    }
   ]
 })
 </script>

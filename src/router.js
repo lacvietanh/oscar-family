@@ -42,10 +42,23 @@ export const routes = [
     component: () => import("./pages/akiapp.vue"),
   },
   {
+    path: "/qqmusic-lyrics-search",
+    name: "QQMusicLyricsSearch",
+    component: () => import("./pages/qqmusic-lyrics-search.vue"),
+  },
+  {
     path: "/posts",
     name: "Posts",
     component: () => import("./pages/posts.vue"),
   },
+  // Dev-only routes
+  ...(import.meta.env.DEV ? [
+    {
+      path: "/checkseo",
+      name: "CheckSEO",
+      component: () => import("./pages/checkseo.vue"),
+    }
+  ] : []),
   {
     path: "/:pathMatch(.*)*",
     name: "NotFound",
