@@ -8,6 +8,10 @@
       <h1 class="text-4xl font-black mb-4 leading-tight">
         AkiWorkflow - Nền tảng quản lý quy trình sản xuất âm nhạc, project & asset cho Producer, Studio, Artist
       </h1>
+      <div class="text-sm text-gray-400 mb-4 flex items-center gap-2">
+        <i class="fas fa-calendar"></i>
+        Đăng ngày: 07/09/2025
+      </div>
       <p class="text-lg text-muted">
         AkiWorkflow là công cụ (platform) giúp chuẩn hóa <strong>workflow sản xuất âm nhạc</strong> từ giai đoạn ý tưởng, arrangement, thu âm, mixing, mastering đến phát hành. Bài viết này tham khảo công năng tại <strong>akiworkflow.com</strong> & <strong>akiworkflow.pages.dev</strong>, tối ưu SEO cho cụm từ: AkiWorkflow, quản lý dự án âm nhạc, music production workflow tool, track sheet, stem management, producer tool Việt Nam.
       </p>

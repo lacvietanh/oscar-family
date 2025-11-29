@@ -8,6 +8,10 @@
       <h1 class="text-4xl font-black mb-4 leading-tight">
         AkiApp (app.akivn.net) - Nền tảng Mini-OS cho người sáng tạo: Ứng dụng, Tiện ích và Tích hợp AI
       </h1>
+      <div class="text-sm text-gray-400 mb-4 flex items-center gap-2">
+        <i class="fas fa-calendar"></i>
+        Đăng ngày: 29/11/2025
+      </div>
       <p class="text-lg text-muted">
         AkiApp (app.akivn.net) là một nền tảng Mini-OS chạy trực tiếp trên trình duyệt, được thiết kế như một hệ điều hành thu nhỏ để tăng tốc workflow cho người sáng tạo. Do <strong>Lạc Việt Anh</strong> phát triển, AkiApp cung cấp một bộ sưu tập các ứng dụng (mini-apps) mạnh mẽ, từ công cụ âm nhạc chuyên nghiệp đến tiện ích hàng ngày, tất cả được tối ưu hóa cho hiệu suất và trải nghiệm người dùng liền mạch.
       </p>
