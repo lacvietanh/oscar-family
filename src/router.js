@@ -37,6 +37,11 @@ export const routes = [
     component: () => import("./pages/tachnhac.vue"),
   },
   {
+    path: "/akiapp",
+    name: "AkiApp",
+    component: () => import("./pages/akiapp.vue"),
+  },
+  {
     path: "/posts",
     name: "Posts",
     component: () => import("./pages/posts.vue"),

@@ -69,6 +69,13 @@ const allPosts = [
     tags: ['Workflow', 'Producer tool', 'Studio']
   },
   {
+    slug: '/akiapp',
+    title: 'AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)',
+    image: '/img/AkiApp-cover.png',
+    excerpt: 'AkiApp là một nền tảng Mini-OS trên trình duyệt, cung cấp các ứng dụng và tiện ích cho producer, content creator và người dùng sáng tạo.',
+    tags: ['Mini-OS', 'Web App', 'Công cụ']
+  },
+  {
     slug: '/lamnhac',
     title: 'LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam',
     image: '/img/lamnhac-net.png',
