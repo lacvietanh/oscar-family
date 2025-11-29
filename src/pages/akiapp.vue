@@ -87,78 +87,42 @@ const image = 'https://oscarfamily.vn/img/AkiApp-cover.png'
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'SoftwareApplication',
-  name: 'AkiApp',
-  applicationCategory: 'DeveloperApplication',
-  operatingSystem: 'Web',
-  url,
-  description,
-  creator: {
-    '@type': 'Person',
-    name: 'Lạc Việt Anh'
-  },
-  featureList: [
-    'Aki QQ Search',
-    'AkiNet QR Bank',
-    'Aki Chord Viewer',
-    'Stereo Check',
-    'Mini-OS Platform',
-    'Edge-Native Architecture'
-  ],
-  screenshot: image,
-  offers: {
-    '@type': 'Offer',
-    price: '0',
-    priceCurrency: 'VND'
-  },
-  hasPart: [
+  '@graph': [
     {
-      '@type': 'ArticleSection',
-      name: 'AkiApp là gì?',
-      text: 'AkiApp là một nền tảng "WebOS Reimagined" - một hệ điều hành mini hoạt động ngay trên trình duyệt của bạn. Thay vì là một trang web truyền thống, AkiApp mô phỏng trải nghiệm của một hệ điều hành thực thụ với thanh dock thông minh, thanh tiêu đề động, và các hiệu ứng chuyển cảnh mượt mà. Nền tảng này được xây dựng trên kiến trúc Edge-Native, đảm bảo tốc độ tải tức thì và khả năng hoạt động độc lập ngay cả khi backend ngoại tuyến.'
+      '@type': 'WebPage',
+      '@id': url + '#webpage',
+      url,
+      name: title,
+      description,
+      image,
+      isPartOf: { '@type': 'WebSite', url: 'https://oscarfamily.vn' },
+      hasPart: [
+        { '@type': 'WebPageElement', name: 'AkiApp là gì?', text: 'AkiApp là một nền tảng "WebOS Reimagined" — một hệ điều hành mini hoạt động ngay trên trình duyệt, mô phỏng trải nghiệm OS với dock thông minh, topbar động và chuyển cảnh mượt.' },
+        { '@type': 'WebPageElement', name: 'Các ứng dụng nổi bật', text: 'Aki QQ Search, AkiNet QR Bank, Aki Chord Viewer, Stereo Check, Aki Waves 15 Installer.' },
+        { '@type': 'WebPageElement', name: 'Kiến trúc & Công nghệ', text: 'Edge-Native, Mini-App Engine, Real-time Sync, Vue 3, Vite, Tailwind, Firebase, Cloudflare Pages.' }
+      ],
+      mainEntity: { '@id': url + '#software' }
     },
     {
-      '@type': 'ArticleSection',
-      name: 'Các ứng dụng nổi bật',
-      text: 'Bao gồm Aki QQ Search, AkiNet QR Bank, Aki Chord Viewer, Stereo Check, Aki Waves 15 Installer.'
-    },
-    {
-      '@type': 'ArticleSection',
-      name: 'Kiến trúc và Công nghệ',
-      text: 'Edge-Native Architecture, Mini-App Engine, Real-time Sync, sử dụng Vue 3, Vite, Tailwind CSS, Firebase, Cloudflare Pages.'
-    },
-    {
-      '@type': 'ArticleSection',
-      name: 'Lộ trình phát triển',
-      text: 'True Multitasking, AI Integration, App Store.'
+      '@type': 'SoftwareApplication',
+      '@id': url + '#software',
+      name: 'AkiApp',
+      description,
+      applicationCategory: 'DeveloperApplication',
+      operatingSystem: 'Web',
+      url: 'https://app.akivn.net',
+      screenshot: image,
+      author: { '@type': 'Person', name: 'Lạc Việt Anh' },
+      featureList: [ 'Aki QQ Search', 'AkiNet QR Bank', 'Aki Chord Viewer', 'Stereo Check', 'Mini-OS Platform', 'Edge-Native Architecture' ],
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'VND' }
     },
     {
       '@type': 'FAQPage',
+      '@id': url + '#faq',
       mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'AkiApp có miễn phí không?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Hầu hết các ứng dụng trên AkiApp đều miễn phí. Một số tính năng nâng cao có thể yêu cầu tài khoản AkiWorkflow Pro.'
-          }
-        },
-        {
-          '@type': 'Question',
-          name: 'AkiApp có an toàn không?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Có. Nền tảng sử dụng Firebase Auth để xác thực và được triển khai trên hạ tầng bảo mật của Cloudflare.'
-          }
-        },
-        {
-          '@type': 'Question',
-          name: 'Làm thế nào để đóng góp ứng dụng?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Hiện tại, các ứng dụng được phát triển nội bộ. Kế hoạch mở App Store sẽ cho phép cộng đồng đóng góp trong tương lai.'
-          }
-        }
+        { '@type': 'Question', name: 'AkiApp có miễn phí không?', acceptedAnswer: { '@type': 'Answer', text: 'Hầu hết các ứng dụng trên AkiApp đều miễn phí. Một số tính năng nâng cao có thể yêu cầu tài khoản AkiWorkflow Pro.' } },
+        { '@type': 'Question', name: 'AkiApp có an toàn không?', acceptedAnswer: { '@type': 'Answer', text: 'Có. Nền tảng sử dụng Firebase Auth để xác thực và được triển khai trên hạ tầng bảo mật của Cloudflare.' } },
+        { '@type': 'Question', name: 'Làm thế nào để đóng góp ứng dụng?', acceptedAnswer: { '@type': 'Answer', text: 'Hiện tại, các ứng dụng được phát triển nội bộ. Kế hoạch mở App Store sẽ cho phép cộng đồng đóng góp trong tương lai.' } }
       ]
     }
   ]
