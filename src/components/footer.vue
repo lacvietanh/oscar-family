@@ -7,15 +7,23 @@ const isDev = import.meta.env.DEV === true
 // Helper function to format build date
 const formatBuildDate = (dateString) => {
   try {
-    // Parse UTC ISO string (e.g., "2025-11-30T14:30:00")
-    const utcDate = new Date(dateString + 'Z') // Add Z to ensure UTC interpretation
-    return utcDate.toLocaleString('sv-SE', {
+    // Parse UTC timestamp (e.g., "2025-11-29T17:56:43")
+    const utcDate = new Date(dateString + 'Z') // Ensure UTC interpretation
+
+    // Get user's timezone
+    const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
+
+    // Format in user's timezone
+    const formatter = new Intl.DateTimeFormat('sv-SE', {
       year: 'numeric',
       month: '2-digit',
       day: '2-digit',
       hour: '2-digit',
-      minute: '2-digit'
-    }).replace(' ', ' ')
+      minute: '2-digit',
+      timeZone: userTimeZone
+    })
+
+    return formatter.format(utcDate).replace(' ', ' ')
   } catch (error) {
     // Fallback if parsing fails
     return dateString
