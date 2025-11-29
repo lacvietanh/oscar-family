@@ -1,5 +1,17 @@
 <script setup>
 // Footer Oscar Family
+const currentYear = new Date().getFullYear()
+
+const isDev = import.meta.env.DEV === true
+const buildDate = isDev
+  ? new Date().toLocaleString('sv-SE', {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit'
+    }).replace(' ', ' ')
+  : import.meta.env.VITE_BUILD_DATE || ''
 </script>
 <template>
     <footer class="bg-[#000] text-[#E0E0E0] py-10">
@@ -18,7 +30,14 @@
                 <a href="https://studio.oscarfamily.vn/contact" target="_blank" class="flex items-center text-[#f2c35a] py-2 font-bold shadow"><i class="fa-solid fa-headset"></i></a>
             </div>
         </div>
-        <div class="text-center text-xs text-gray-500 mt-6">All Oscar Website system powered by <a href="https://akivn.net" target="_blank" class="text-[#0099cc] hover:underline">AkiNet</a></div>
+        <div class="text-center text-xs text-gray-500 mt-6">
+            All Oscar Website system powered by <a href="https://akivn.net" target="_blank" class="text-[#0099cc] hover:underline">AkiNet</a>
+            <div class="mt-2">
+                <span class="text-xs text-gray-600">
+                    {{ isDev ? 'Dev' : 'Build' }} {{ buildDate }}
+                </span>
+            </div>
+        </div>
     </footer>
 </template>
 

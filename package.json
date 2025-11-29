@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "fe": "vite",
-    "build": "vite-ssg build",
+    "build": "VITE_BUILD_DATE=$(date '+%Y.%m.%d %H:%M') vite-ssg build",
     "preview": "vite preview",
     "checkseo": "npm run build && node scripts/checkseo-offline.js"
   },
