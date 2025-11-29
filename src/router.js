@@ -51,6 +51,11 @@ export const routes = [
     name: "Posts",
     component: () => import("./pages/posts.vue"),
   },
+  {
+    path: "/seo-system",
+    name: "SEO System",
+    component: () => import("./pages/seo-system.vue"),
+  },
   // Dev-only routes
   ...(import.meta.env.DEV ? [
     {
