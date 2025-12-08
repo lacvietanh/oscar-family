@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2025-11-29T19:11:39.314Z",
+  "generatedAt": "2025-12-08T08:38:52.724Z",
   "summary": {
-    "totalPages": 11,
-    "analyzedPages": 11,
+    "totalPages": 12,
+    "analyzedPages": 12,
     "averageScore": 100,
-    "pagesWithJsonLd": 11,
-    "pagesWithValidJsonLd": 11,
+    "pagesWithJsonLd": 12,
+    "pagesWithValidJsonLd": 12,
     "totalIssues": 0,
     "errorCount": 0,
     "warningCount": 0,
-    "perfectPages": 11
+    "perfectPages": 12
   },
   "results": [
     {
@@ -48,7 +48,7 @@
             "alt": "Thuy Tien"
           },
           {
-            "src": "/img/default-og.jpg",
+            "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
           {
@@ -275,7 +275,7 @@
             "alt": "AkiApp - Mini-OS Platform for Creators"
           },
           {
-            "src": "/img/default-og.jpg",
+            "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
           {
@@ -777,6 +777,825 @@
       "score": 100
     },
     {
+      "url": "https://oscarfamily.vn/akiinfodetect-js",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/akiinfodetect-js",
+        "title": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị - TRONG 5S | AkiNet",
+        "description": "Ra mắt aki-info-detect - thư viện JavaScript nhẹ, mạnh mẽ phát hiện browser, OS, hardware, network. Client Hints API, Apple Silicon M1-MX, tree-shakeable. By Lạc Việt Anh - Founder AkiNet.",
+        "h1": "Ra mắt aki-info-detect:  JavaScript Library Phát Hiện Thiết Bị Thông Minh TRONG 5S",
+        "ogImage": "https://oscarfamily.vn/img/AkiNet-akivn.net.png",
+        "canonicalUrl": "https://oscarfamily.vn/akiinfodetect-js",
+        "images": [
+          {
+            "src": "/favicon.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect - JavaScript library phát hiện thông tin thiết bị, trình duyệt, phần cứng"
+          },
+          {
+            "src": "/img/seo-check.png",
+            "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị - TRONG 5S | AkiNet",
+            "description": "Ra mắt aki-info-detect - thư viện JavaScript nhẹ, mạnh mẽ phát hiện browser, OS, hardware, network. Client Hints API, Apple Silicon M1-MX, tree-shakeable. By Lạc Việt Anh - Founder AkiNet.",
+            "image": "https://oscarfamily.vn/img/AkiNet-akivn.net.png",
+            "author": {
+              "@type": "Person",
+              "name": "Lạc Việt Anh",
+              "url": "https://akivn.net",
+              "jobTitle": "Founder & Chief Product Architect",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "AkiNet"
+              }
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "AkiNet",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://oscarfamily.vn/img/AkiNet-akivn.net.png"
+              }
+            },
+            "datePublished": "2025-12-08",
+            "dateModified": "2025-12-08",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://oscarfamily.vn/akiinfodetect-js"
+            },
+            "about": [
+              {
+                "@type": "Thing",
+                "name": "JavaScript Library"
+              },
+              {
+                "@type": "Thing",
+                "name": "Device Detection"
+              },
+              {
+                "@type": "Thing",
+                "name": "Browser Detection"
+              },
+              {
+                "@type": "Thing",
+                "name": "Client Hints API"
+              }
+            ],
+            "keywords": "aki-info-detect, JavaScript library, device detection, browser detection, hardware detection, Client Hints API, Apple Silicon, AkiNet, Lạc Việt Anh"
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "aki-info-detect",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Web Browser",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "Lightweight JavaScript library for detecting device, browser, hardware, and network information with Client Hints API support",
+            "author": {
+              "@type": "Person",
+              "name": "Lạc Việt Anh"
+            },
+            "softwareVersion": "2.0.1",
+            "downloadUrl": "https://www.npmjs.com/package/aki-info-detect",
+            "screenshot": "https://oscarfamily.vn/img/AkiNet-akivn.net.png",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "ratingCount": "1"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Lạc Việt Anh",
+            "url": "https://akivn.net",
+            "jobTitle": "Founder & Chief Product Architect",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "AkiNet",
+              "url": "https://akivn.net"
+            },
+            "sameAs": [
+              "https://github.com/lacvietanh",
+              "https://www.npmjs.com/~lacvietanh"
+            ],
+            "knowsAbout": [
+              "JavaScript",
+              "Web Development",
+              "Music Production",
+              "Audio Engineering",
+              "System Architecture"
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "AkiNet",
+            "url": "https://akivn.net",
+            "logo": "https://oscarfamily.vn/img/AkiNet-akivn.net.png",
+            "founder": {
+              "@type": "Person",
+              "name": "Lạc Việt Anh"
+            },
+            "description": "Hệ sinh thái công nghệ hỗ trợ sản xuất âm nhạc & media tại Việt Nam",
+            "sameAs": [
+              "https://oscarfamily.vn",
+              "https://github.com/lacvietanh"
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Library có miễn phí không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Hoàn toàn miễn phí và open-source với giấy phép MIT. Bạn có thể sử dụng cho mọi dự án cá nhân và thương mại."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Có hỗ trợ Node.js không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Không. aki-info-detect được thiết kế riêng cho môi trường browser, vì các API như navigator, screen, battery chỉ tồn tại trên browser."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Làm sao để phát hiện Apple Silicon chính xác?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Library sử dụng kết hợp User-Agent, Client Hints API và WebGL fingerprinting để phát hiện. Kết quả được verify với GPU renderer string để đảm bảo độ chính xác cao nhất. Hỗ trợ future-proof cho cả M1, M2, M3, M4... MX."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Network info có chính xác không? Privacy thế nào?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Network info được lấy từ ipapi.co API (free tier). Dữ liệu được cache 1 giờ để giảm request. Library không thu thập, không lưu trữ bất kỳ thông tin cá nhân nào. Hoàn toàn GDPR-compliant."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Có thể sử dụng với TypeScript không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Có. Library đi kèm với TypeScript declarations (.d.ts) đầy đủ. IntelliSense hoạt động hoàn hảo trong VSCode và các editor khác."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Có ảnh hưởng đến performance không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Không. Library rất nhẹ (~3KB minzipped), chạy async, không block main thread. Network request được cache và lazy-load. Tree-shakeable để bạn chỉ import những gì cần."
+                }
+              }
+            ]
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/TechArticle"
+            ],
+            "http://schema.org/about": [
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "JavaScript Library"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Device Detection"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Browser Detection"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Client Hints API"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/author": [
+              {
+                "@type": [
+                  "http://schema.org/Person"
+                ],
+                "http://schema.org/jobTitle": [
+                  {
+                    "@value": "Founder & Chief Product Architect"
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Lạc Việt Anh"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://akivn.net"
+                  }
+                ],
+                "http://schema.org/worksFor": [
+                  {
+                    "@type": [
+                      "http://schema.org/Organization"
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "AkiNet"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/dateModified": [
+              {
+                "@type": "http://schema.org/Date",
+                "@value": "2025-12-08"
+              }
+            ],
+            "http://schema.org/datePublished": [
+              {
+                "@type": "http://schema.org/Date",
+                "@value": "2025-12-08"
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Ra mắt aki-info-detect - thư viện JavaScript nhẹ, mạnh mẽ phát hiện browser, OS, hardware, network. Client Hints API, Apple Silicon M1-MX, tree-shakeable. By Lạc Việt Anh - Founder AkiNet."
+              }
+            ],
+            "http://schema.org/headline": [
+              {
+                "@value": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị - TRONG 5S | AkiNet"
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/AkiNet-akivn.net.png"
+              }
+            ],
+            "http://schema.org/keywords": [
+              {
+                "@value": "aki-info-detect, JavaScript library, device detection, browser detection, hardware detection, Client Hints API, Apple Silicon, AkiNet, Lạc Việt Anh"
+              }
+            ],
+            "http://schema.org/mainEntityOfPage": [
+              {
+                "@id": "https://oscarfamily.vn/akiinfodetect-js",
+                "@type": [
+                  "http://schema.org/WebPage"
+                ]
+              }
+            ],
+            "http://schema.org/publisher": [
+              {
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/logo": [
+                  {
+                    "@type": [
+                      "http://schema.org/ImageObject"
+                    ],
+                    "http://schema.org/url": [
+                      {
+                        "@id": "https://oscarfamily.vn/img/AkiNet-akivn.net.png"
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiNet"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/SoftwareApplication"
+            ],
+            "http://schema.org/aggregateRating": [
+              {
+                "@type": [
+                  "http://schema.org/AggregateRating"
+                ],
+                "http://schema.org/ratingCount": [
+                  {
+                    "@value": "1"
+                  }
+                ],
+                "http://schema.org/ratingValue": [
+                  {
+                    "@value": "5"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/applicationCategory": [
+              {
+                "@value": "DeveloperApplication"
+              }
+            ],
+            "http://schema.org/author": [
+              {
+                "@type": [
+                  "http://schema.org/Person"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Lạc Việt Anh"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Lightweight JavaScript library for detecting device, browser, hardware, and network information with Client Hints API support"
+              }
+            ],
+            "http://schema.org/downloadUrl": [
+              {
+                "@id": "https://www.npmjs.com/package/aki-info-detect"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "aki-info-detect"
+              }
+            ],
+            "http://schema.org/offers": [
+              {
+                "@type": [
+                  "http://schema.org/Offer"
+                ],
+                "http://schema.org/price": [
+                  {
+                    "@value": "0"
+                  }
+                ],
+                "http://schema.org/priceCurrency": [
+                  {
+                    "@value": "USD"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/operatingSystem": [
+              {
+                "@value": "Web Browser"
+              }
+            ],
+            "http://schema.org/screenshot": [
+              {
+                "@id": "https://oscarfamily.vn/img/AkiNet-akivn.net.png"
+              }
+            ],
+            "http://schema.org/softwareVersion": [
+              {
+                "@value": "2.0.1"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/Person"
+            ],
+            "http://schema.org/jobTitle": [
+              {
+                "@value": "Founder & Chief Product Architect"
+              }
+            ],
+            "http://schema.org/knowsAbout": [
+              {
+                "@value": "JavaScript"
+              },
+              {
+                "@value": "Web Development"
+              },
+              {
+                "@value": "Music Production"
+              },
+              {
+                "@value": "Audio Engineering"
+              },
+              {
+                "@value": "System Architecture"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Lạc Việt Anh"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://github.com/lacvietanh"
+              },
+              {
+                "@id": "https://www.npmjs.com/~lacvietanh"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://akivn.net"
+              }
+            ],
+            "http://schema.org/worksFor": [
+              {
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiNet"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://akivn.net"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Hệ sinh thái công nghệ hỗ trợ sản xuất âm nhạc & media tại Việt Nam"
+              }
+            ],
+            "http://schema.org/founder": [
+              {
+                "@type": [
+                  "http://schema.org/Person"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Lạc Việt Anh"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/img/AkiNet-akivn.net.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "AkiNet"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://oscarfamily.vn"
+              },
+              {
+                "@id": "https://github.com/lacvietanh"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://akivn.net"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/FAQPage"
+            ],
+            "http://schema.org/mainEntity": [
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Hoàn toàn miễn phí và open-source với giấy phép MIT. Bạn có thể sử dụng cho mọi dự án cá nhân và thương mại."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Library có miễn phí không?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Không. aki-info-detect được thiết kế riêng cho môi trường browser, vì các API như navigator, screen, battery chỉ tồn tại trên browser."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Có hỗ trợ Node.js không?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Library sử dụng kết hợp User-Agent, Client Hints API và WebGL fingerprinting để phát hiện. Kết quả được verify với GPU renderer string để đảm bảo độ chính xác cao nhất. Hỗ trợ future-proof cho cả M1, M2, M3, M4... MX."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Làm sao để phát hiện Apple Silicon chính xác?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Network info được lấy từ ipapi.co API (free tier). Dữ liệu được cache 1 giờ để giảm request. Library không thu thập, không lưu trữ bất kỳ thông tin cá nhân nào. Hoàn toàn GDPR-compliant."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Network info có chính xác không? Privacy thế nào?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Có. Library đi kèm với TypeScript declarations (.d.ts) đầy đủ. IntelliSense hoạt động hoàn hảo trong VSCode và các editor khác."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Có thể sử dụng với TypeScript không?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Không. Library rất nhẹ (~3KB minzipped), chạy async, không block main thread. Network request được cache và lazy-load. Tree-shakeable để bạn chỉ import những gì cần."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Có ảnh hưởng đến performance không?"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
       "url": "https://oscarfamily.vn/akinet",
       "analyzed": true,
       "metadata": {
@@ -796,7 +1615,7 @@
             "alt": "AkiNet - hệ sinh thái công nghệ sản xuất âm nhạc"
           },
           {
-            "src": "/img/default-og.jpg",
+            "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
           {
@@ -1037,7 +1856,7 @@
             "alt": "AkiWorkflow, hệ sinh thái tất cả trong một dành cho producer."
           },
           {
-            "src": "/img/default-og.jpg",
+            "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
           {
@@ -1272,7 +2091,7 @@
             "alt": "LamNhac.net cong dong lam nhac Viet Nam - hoc lam nhac, cai dat VST, cong cu music production"
           },
           {
-            "src": "/img/default-og.jpg",
+            "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
           {
@@ -1861,7 +2680,7 @@
             "alt": "Oscar Studio Hanoi phong thu am chuyen nghiep lam nhac mix master quay MV"
           },
           {
-            "src": "/img/default-og.jpg",
+            "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
           {
@@ -2614,7 +3433,7 @@
             "alt": "Oscar Logo"
           },
           {
-            "src": "/img/default-og.jpg",
+            "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
           {
@@ -2815,7 +3634,7 @@
             "alt": "QQMusic Lyrics Search - Công cụ tìm kiếm lyrics với timecode chuẩn xác cho video âm nhạc Trung Quốc và quốc tế"
           },
           {
-            "src": "/img/default-og.jpg",
+            "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
           {
@@ -3283,9 +4102,9 @@
       "analyzed": true,
       "metadata": {
         "url": "https://oscarfamily.vn/seo-system",
-        "title": "Hệ thống SEO Automation Độc Quyền AkiNet - Tối Ưu Trong 5S",
-        "description": "Khám phá hệ thống SEO Automation do Lạc Việt Anh (Founder AkiNet) phát triển. Tự động kiểm tra lỗi, tối ưu JSON-LD và Meta Tags, giúp Creator tập trung vào nội dung.",
-        "h1": "Hệ thống SEO AUTOMATION Độc Quyền  Tối Ưu Website TRONG 5S",
+        "title": "Hệ thống CheckSEO Offline - Kiểm Tra SEO Không Cần Deploy TRONG 5S",
+        "description": "Khác biệt hoàn toàn: Kiểm tra SEO trên localhost, validate JSON-LD offline, route /checkseo dev-only, chặn deploy nếu lỗi. Miễn phí 100% và open source.",
+        "h1": "Hệ thống CHECKSEO OFFLINE  Kiểm Tra SEO Không Cần Deploy TRONG 5S",
         "ogImage": "https://oscarfamily.vn/img/default-og.jpg",
         "canonicalUrl": "https://oscarfamily.vn/seo-system",
         "images": [
@@ -3294,8 +4113,8 @@
             "alt": "Oscar Logo"
           },
           {
-            "src": "/img/default-og.jpg",
-            "alt": "Hệ thống SEO Automation AkiNet - Giải pháp tối ưu cho Creator"
+            "src": "/img/seo-check.png",
+            "alt": "Hệ thống SEO Automation Oscar Family - kiểm tra offline không cần deploy"
           },
           {
             "src": "/img/qqmusicsearch-logo.png",
@@ -3358,8 +4177,8 @@
           {
             "@context": "https://schema.org",
             "@type": "TechArticle",
-            "headline": "Hệ thống SEO Automation Độc Quyền AkiNet - Tối Ưu Trong 5S",
-            "description": "Khám phá hệ thống SEO Automation do Lạc Việt Anh (Founder AkiNet) phát triển. Tự động kiểm tra lỗi, tối ưu JSON-LD và Meta Tags, giúp Creator tập trung vào nội dung.",
+            "headline": "Hệ thống CheckSEO Offline - Kiểm Tra SEO Không Cần Deploy TRONG 5S",
+            "description": "Khác biệt hoàn toàn: Kiểm tra SEO trên localhost, validate JSON-LD offline, route /checkseo dev-only, chặn deploy nếu lỗi. Miễn phí 100% và open source.",
             "image": "https://oscarfamily.vn/img/default-og.jpg",
             "author": {
               "@type": "Person",
@@ -3387,11 +4206,11 @@
               },
               {
                 "@type": "Thing",
-                "name": "Web Development"
+                "name": "Offline SEO Checker"
               },
               {
-                "@type": "Person",
-                "name": "Lạc Việt Anh"
+                "@type": "Thing",
+                "name": "JSON-LD Validation"
               }
             ]
           },
@@ -3400,7 +4219,6 @@
             "@type": "Person",
             "name": "Lạc Việt Anh",
             "url": "https://akivn.net",
-            "image": "https://oscarfamily.vn/img/author-lacvietanh.jpg",
             "jobTitle": "Chief Product Architect",
             "worksFor": {
               "@type": "Organization",
@@ -3408,15 +4226,13 @@
             },
             "sameAs": [
               "https://github.com/lacvietanh",
-              "https://facebook.com/lacvietanh",
               "https://lamnhac.net"
             ],
             "knowsAbout": [
-              "Software Architecture",
-              "Music Production",
               "SEO Automation",
               "Vue.js",
-              "Node.js"
+              "Node.js",
+              "Music Production"
             ]
           },
           {
@@ -3425,26 +4241,26 @@
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Hệ thống SEO này có miễn phí không?",
+                "name": "Làm sao để integrate vào CI/CD pipeline?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Hoàn toàn miễn phí và Open Source! Bạn có thể xem mã nguồn trên GitHub của Oscar Family và áp dụng cho dự án của mình."
+                  "text": "Thêm step npm run checkseo vào pipeline. Nếu score < 100, script sẽ exit với code 1 → Pipeline fail → Chặn deploy."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Tôi có cần biết code để sử dụng không?",
+                "name": "Route /checkseo có bảo mật không?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Hệ thống được thiết kế để chạy tự động. Tuy nhiên, kiến thức cơ bản về Vue.js và Node.js sẽ giúp bạn tùy biến sâu hơn theo nhu cầu riêng."
+                  "text": "Hoàn toàn bảo mật. Route chỉ register khi import.meta.env.DEV. Production build sẽ tree-shake hết code này."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Hệ thống có hỗ trợ WordPress không?",
+                "name": "Offline JSON-LD validation hoạt động thế nào?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Hiện tại hệ thống tối ưu cho các website xây dựng bằng Vue.js/Vite. Tuy nhiên, tư duy và logic kiểm tra SEO có thể áp dụng cho mọi nền tảng."
+                  "text": "Thư viện jsonld có customDocumentLoader. Khi expand JSON-LD, nó fetch schema.org context. Mình intercept request này và trả về cached context từ dev/schemaorg-context.jsonld."
                 }
               }
             ]
@@ -3452,9 +4268,9 @@
           {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
-            "name": "AkiNet SEO Automation System",
-            "operatingSystem": "Cross-platform",
+            "name": "CheckSEO Offline",
             "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Cross-platform",
             "offers": {
               "@type": "Offer",
               "price": "0",
@@ -3464,7 +4280,7 @@
               "@type": "Person",
               "name": "Lạc Việt Anh"
             },
-            "description": "Hệ thống tự động hóa kiểm tra và tối ưu SEO cho website Vue.js/Vite."
+            "description": "Hệ thống kiểm tra SEO offline tự động cho Vue.js/Vite. Validate JSON-LD, meta tags, images alt text. Open source miễn phí."
           },
           {
             "@context": "https://schema.org",
@@ -3476,7 +4292,7 @@
               "@type": "Person",
               "name": "Lạc Việt Anh"
             },
-            "description": "Hệ sinh thái công nghệ hỗ trợ người làm nhạc và sáng tạo nội dung tại Việt Nam."
+            "description": "Hệ sinh thái công nghệ hỗ trợ creator tại Việt Nam: lamnhac.net, vstshop.com, AkiWorkflow."
           }
         ],
         "expandedData": [
@@ -3589,17 +4405,17 @@
                 ],
                 "http://schema.org/name": [
                   {
-                    "@value": "Web Development"
+                    "@value": "Offline SEO Checker"
                   }
                 ]
               },
               {
                 "@type": [
-                  "http://schema.org/Person"
+                  "http://schema.org/Thing"
                 ],
                 "http://schema.org/name": [
                   {
-                    "@value": "Lạc Việt Anh"
+                    "@value": "JSON-LD Validation"
                   }
                 ]
               }
@@ -3635,12 +4451,12 @@
             ],
             "http://schema.org/description": [
               {
-                "@value": "Khám phá hệ thống SEO Automation do Lạc Việt Anh (Founder AkiNet) phát triển. Tự động kiểm tra lỗi, tối ưu JSON-LD và Meta Tags, giúp Creator tập trung vào nội dung."
+                "@value": "Khác biệt hoàn toàn: Kiểm tra SEO trên localhost, validate JSON-LD offline, route /checkseo dev-only, chặn deploy nếu lỗi. Miễn phí 100% và open source."
               }
             ],
             "http://schema.org/headline": [
               {
-                "@value": "Hệ thống SEO Automation Độc Quyền AkiNet - Tối Ưu Trong 5S"
+                "@value": "Hệ thống CheckSEO Offline - Kiểm Tra SEO Không Cần Deploy TRONG 5S"
               }
             ],
             "http://schema.org/image": [
@@ -3685,23 +4501,12 @@
             "@type": [
               "http://schema.org/Person"
             ],
-            "http://schema.org/image": [
-              {
-                "@id": "https://oscarfamily.vn/img/author-lacvietanh.jpg"
-              }
-            ],
             "http://schema.org/jobTitle": [
               {
                 "@value": "Chief Product Architect"
               }
             ],
             "http://schema.org/knowsAbout": [
-              {
-                "@value": "Software Architecture"
-              },
-              {
-                "@value": "Music Production"
-              },
               {
                 "@value": "SEO Automation"
               },
@@ -3710,6 +4515,9 @@
               },
               {
                 "@value": "Node.js"
+              },
+              {
+                "@value": "Music Production"
               }
             ],
             "http://schema.org/name": [
@@ -3720,9 +4528,6 @@
             "http://schema.org/sameAs": [
               {
                 "@id": "https://github.com/lacvietanh"
-              },
-              {
-                "@id": "https://facebook.com/lacvietanh"
               },
               {
                 "@id": "https://lamnhac.net"
@@ -3762,14 +4567,14 @@
                     ],
                     "http://schema.org/text": [
                       {
-                        "@value": "Hoàn toàn miễn phí và Open Source! Bạn có thể xem mã nguồn trên GitHub của Oscar Family và áp dụng cho dự án của mình."
+                        "@value": "Thêm step npm run checkseo vào pipeline. Nếu score < 100, script sẽ exit với code 1 → Pipeline fail → Chặn deploy."
                       }
                     ]
                   }
                 ],
                 "http://schema.org/name": [
                   {
-                    "@value": "Hệ thống SEO này có miễn phí không?"
+                    "@value": "Làm sao để integrate vào CI/CD pipeline?"
                   }
                 ]
               },
@@ -3784,14 +4589,14 @@
                     ],
                     "http://schema.org/text": [
                       {
-                        "@value": "Hệ thống được thiết kế để chạy tự động. Tuy nhiên, kiến thức cơ bản về Vue.js và Node.js sẽ giúp bạn tùy biến sâu hơn theo nhu cầu riêng."
+                        "@value": "Hoàn toàn bảo mật. Route chỉ register khi import.meta.env.DEV. Production build sẽ tree-shake hết code này."
                       }
                     ]
                   }
                 ],
                 "http://schema.org/name": [
                   {
-                    "@value": "Tôi có cần biết code để sử dụng không?"
+                    "@value": "Route /checkseo có bảo mật không?"
                   }
                 ]
               },
@@ -3806,14 +4611,14 @@
                     ],
                     "http://schema.org/text": [
                       {
-                        "@value": "Hiện tại hệ thống tối ưu cho các website xây dựng bằng Vue.js/Vite. Tuy nhiên, tư duy và logic kiểm tra SEO có thể áp dụng cho mọi nền tảng."
+                        "@value": "Thư viện jsonld có customDocumentLoader. Khi expand JSON-LD, nó fetch schema.org context. Mình intercept request này và trả về cached context từ dev/schemaorg-context.jsonld."
                       }
                     ]
                   }
                 ],
                 "http://schema.org/name": [
                   {
-                    "@value": "Hệ thống có hỗ trợ WordPress không?"
+                    "@value": "Offline JSON-LD validation hoạt động thế nào?"
                   }
                 ]
               }
@@ -3842,12 +4647,12 @@
             ],
             "http://schema.org/description": [
               {
-                "@value": "Hệ thống tự động hóa kiểm tra và tối ưu SEO cho website Vue.js/Vite."
+                "@value": "Hệ thống kiểm tra SEO offline tự động cho Vue.js/Vite. Validate JSON-LD, meta tags, images alt text. Open source miễn phí."
               }
             ],
             "http://schema.org/name": [
               {
-                "@value": "AkiNet SEO Automation System"
+                "@value": "CheckSEO Offline"
               }
             ],
             "http://schema.org/offers": [
@@ -3879,7 +4684,7 @@
             ],
             "http://schema.org/description": [
               {
-                "@value": "Hệ sinh thái công nghệ hỗ trợ người làm nhạc và sáng tạo nội dung tại Việt Nam."
+                "@value": "Hệ sinh thái công nghệ hỗ trợ creator tại Việt Nam: lamnhac.net, vstshop.com, AkiWorkflow."
               }
             ],
             "http://schema.org/founder": [
@@ -3961,7 +4766,7 @@
             "alt": "Icon Sáng tác"
           },
           {
-            "src": "/img/default-og.jpg",
+            "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
           {
@@ -4248,7 +5053,7 @@
             "alt": "Giao diện tool tách nhạc AI tool.akivn.net tachnhac vocal remover"
           },
           {
-            "src": "/img/default-og.jpg",
+            "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
           {
