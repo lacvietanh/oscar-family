@@ -15,7 +15,7 @@
       <div class="text-sm text-gray-400 mb-6 flex justify-center items-center gap-4">
         <span class="flex items-center gap-2"><i class="fas fa-user-edit"></i> Lạc Việt Anh</span>
         <span class="w-1 h-1 bg-gray-600 rounded-full"></span>
-        <span class="flex items-center gap-2"><i class="fas fa-calendar-alt"></i> 08/12/2025</span>
+        <span class="flex items-center gap-2"><i class="fas fa-calendar-alt"></i> 08/12/2024</span>
       </div>
 
       <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -603,8 +603,8 @@ const articleSchema = {
       url: 'https://oscarfamily.vn/img/AkiNet-akivn.net.png' 
     }
   },
-  datePublished: '2025-12-08',
-  dateModified: '2025-12-08',
+  datePublished: '2024-12-08',
+  dateModified: '2024-12-08',
   mainEntityOfPage: { 
     '@type': 'WebPage', 
     '@id': url 
@@ -755,8 +755,8 @@ useHead({
     { property: 'og:type', content: 'article' },
     { property: 'og:site_name', content: 'Oscar Family' },
     { property: 'og:locale', content: 'vi_VN' },
-    { property: 'article:published_time', content: '2025-12-08T08:00:00+07:00' },
-    { property: 'article:modified_time', content: '2025-12-08T08:00:00+07:00' },
+    { property: 'article:published_time', content: '2024-12-08T08:00:00+07:00' },
+    { property: 'article:modified_time', content: '2024-12-08T08:00:00+07:00' },
     { property: 'article:author', content: 'Lạc Việt Anh' },
     { property: 'article:section', content: 'Technology' },
     { property: 'article:tag', content: 'JavaScript' },

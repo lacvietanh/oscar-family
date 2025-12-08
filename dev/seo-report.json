@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-08T08:38:52.724Z",
+  "generatedAt": "2025-12-08T08:40:29.222Z",
   "summary": {
     "totalPages": 12,
     "analyzedPages": 12,
@@ -877,8 +877,8 @@
                 "url": "https://oscarfamily.vn/img/AkiNet-akivn.net.png"
               }
             },
-            "datePublished": "2025-12-08",
-            "dateModified": "2025-12-08",
+            "datePublished": "2024-12-08",
+            "dateModified": "2024-12-08",
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://oscarfamily.vn/akiinfodetect-js"
@@ -1194,13 +1194,13 @@
             "http://schema.org/dateModified": [
               {
                 "@type": "http://schema.org/Date",
-                "@value": "2025-12-08"
+                "@value": "2024-12-08"
               }
             ],
             "http://schema.org/datePublished": [
               {
                 "@type": "http://schema.org/Date",
-                "@value": "2025-12-08"
+                "@value": "2024-12-08"
               }
             ],
             "http://schema.org/description": [
