@@ -128,6 +128,14 @@ const allPosts = [
     excerpt: 'Khám phá hệ thống SEO Automation do Lạc Việt Anh (Founder AkiNet) phát triển. Tự động kiểm tra lỗi, tối ưu JSON-LD và Meta Tags, giúp Creator tập trung vào nội dung.',
     tags: ['SEO automation', 'JSON-LD', 'Meta tags'],
     time: 1764441191
+  },
+  {
+    slug: '/akiinfodetect-js',
+    title: 'aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh',
+    image: '/img/AkiNet-akivn.net.png',
+    excerpt: 'Ra mắt aki-info-detect - thư viện JavaScript nhẹ, mạnh mẽ phát hiện browser, OS, hardware, network. Client Hints API, Apple Silicon M1-MX, tree-shakeable. By Lạc Việt Anh.',
+    tags: ['JavaScript', 'Device Detection', 'AkiNet'],
+    time: 1733641200
   }
 ];
 

@@ -56,6 +56,11 @@ export const routes = [
     name: "SEO System",
     component: () => import("./pages/seo-system.vue"),
   },
+  {
+    path: "/akiinfodetect-js",
+    name: "AkiInfoDetect JS",
+    component: () => import("./pages/akiinfodetect-js.vue"),
+  },
   // Dev-only routes
   ...(import.meta.env.DEV ? [
     {
