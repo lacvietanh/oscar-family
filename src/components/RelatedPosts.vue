@@ -135,15 +135,14 @@ const allPosts = [
     image: '/img/AkiNet-akivn.net.png',
     excerpt: 'Ra mắt aki-info-detect - thư viện JavaScript nhẹ, mạnh mẽ phát hiện browser, OS, hardware, network. Client Hints API, Apple Silicon M1-MX, tree-shakeable. By Lạc Việt Anh.',
     tags: ['JavaScript', 'Device Detection', 'AkiNet'],
-    time: 1733641200
+    time: 1765186455
   }
 ];
 
 const filteredPosts = computed(() => {
   return allPosts
     .filter(post => post.slug !== props.excludeSlug)
-    .sort((a, b) => b.time - a.time) // Mới nhất lên trước
-    .slice(0, 6);
+    .sort((a, b) => b.time - a.time); // Mới nhất lên trước
 });
 </script>
 
