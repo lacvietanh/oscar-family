@@ -135,7 +135,7 @@ const allPosts = [
     image: '/img/AkiNet-akivn.net.png',
     excerpt: 'Ra mắt aki-info-detect - thư viện JavaScript nhẹ, mạnh mẽ phát hiện browser, OS, hardware, network. Client Hints API, Apple Silicon M1-MX, tree-shakeable. By Lạc Việt Anh.',
     tags: ['JavaScript', 'Device Detection', 'AkiNet'],
-    time: Math.floor(Date.now() / 1000)
+    time: 1765186455
   }
 ];
 
