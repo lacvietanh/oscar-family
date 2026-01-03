@@ -605,7 +605,7 @@ import RelatedPosts from '../components/RelatedPosts.vue';
 const title = 'User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S - Oscar Family';
 const description = 'Hiểu rõ sự khác biệt quan trọng giữa User Cloud (Google Drive, Dropbox) và Hosting Cloud (AWS S3, Aki Cloud). Direct link, API, automation - tại sao developer phải biết điều này.';
 const url = 'https://oscarfamily.vn/cloud-services-comparison';
-const image = 'https://oscarfamily.vn/img/AkiNet-akivn.net.png';
+const image = 'https://oscarfamily.vn/img/user-cloud-services-vs-hosting-cloud.png';
 const datePublished = '2026-01-03T10:43:49+07:00';
 const dateModified = '2026-01-03T10:43:49+07:00';
 

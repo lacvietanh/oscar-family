@@ -74,7 +74,8 @@
 const title = 'Title KEYWORD - TRONG 5S' // ≤65 ký tự
 const description = 'Description lợi ích cụ thể - TRONG 5S' // 150-160 ký tự
 const url = 'https://oscarfamily.vn/<slug>'
-const image = 'https://oscarfamily.vn/img/<image>.png' // ≥1200px
+// LƯU Ý: Phải dùng ảnh bài viết (feature image), KHÔNG dùng ảnh logo mặc định
+const image = 'https://oscarfamily.vn/img/<specific-article-image>.png' // ≥1200px
 
 useHead({
   title,
@@ -269,7 +270,8 @@ details[open] summary::before { transform: rotate(90deg); }
   image: '/img/image.png',
   excerpt: 'Mô tả 1-2 câu nhấn mạnh lợi ích',
   tags: ['Tag1', 'Tag2'],
-  time: 1764441191  // Unix timestamp
+  // QUAN TRỌNG: Tính toán Unix timestamp HIỆN TẠI (không copy số cũ). Ví dụ: Math.floor(Date.now() / 1000)
+  time: 1764441191 
 }
 ```
 
