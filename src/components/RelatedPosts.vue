@@ -140,7 +140,7 @@ const allPosts = [
   {
     slug: '/cloud-services-comparison',
     title: 'User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S',
-    image: '/img/AkiNet-akivn.net.png',
+    image: '/img/user-cloud-services-vs-hosting-cloud.png',
     excerpt: 'Hiểu rõ sự khác biệt quan trọng giữa User Cloud (Google Drive, Dropbox) và Hosting Cloud (AWS S3, Aki Cloud). Direct link, API, automation - tại sao developer phải biết.',
     tags: ['Cloud Storage', 'Developer', 'Aki Cloud'],
     time: 1735901029

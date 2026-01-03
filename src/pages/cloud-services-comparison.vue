@@ -3,7 +3,7 @@
     <!-- HEADER + TINH TÚY NỔI BẬT -->
     <header class="text-center mb-12">
       <figure class="mb-8">
-        <img src="/img/AkiNet-akivn.net.png" alt="So sánh User Cloud Services vs Hosting Cloud - Hiểu rõ sự khác biệt quan trọng để lựa chọn đúng" class="w-full h-auto rounded-lg shadow-2xl object-cover aspect-video">
+        <img src="/img/user-cloud-services-vs-hosting-cloud.png" alt="So sánh User Cloud Services vs Hosting Cloud - Hiểu rõ sự khác biệt quan trọng để lựa chọn đúng" class="w-full h-auto rounded-lg shadow-2xl object-cover aspect-video">
         <figcaption class="text-center text-sm mt-4 text-gray-400 italic">Tại sao Google Drive không thể thay thế Hosting Cloud? Khám phá sự khác biệt quan trọng để đưa ra lựa chọn đúng đắn.</figcaption>
       </figure>
       
@@ -68,7 +68,7 @@
       <!-- SECTION 1: USER CLOUD VS HOSTING CLOUD -->
       <section id="user-cloud-vs-hosting-cloud" class="scroll-mt-20">
         <div class="flex items-center gap-4 mb-6">
-          <span class="text-5xl font-black text-gray-800 select-none">01</span>
+          <span class="text-5xl font-black text-gray-600 select-none">01</span>
           <h2 class="text-3xl font-bold text-white">User Cloud vs Hosting Cloud: Định Nghĩa & Vai Trò</h2>
         </div>
         
@@ -121,7 +121,7 @@
       <!-- SECTION 2: SO SÁNH CHI TIẾT -->
       <section id="so-sanh-chi-tiet" class="scroll-mt-20">
         <div class="flex items-center gap-4 mb-6">
-          <span class="text-5xl font-black text-gray-800 select-none">02</span>
+          <span class="text-5xl font-black text-gray-600 select-none">02</span>
           <h2 class="text-3xl font-bold text-white">So Sánh Chi Tiết - Bảng Đối Chiếu</h2>
         </div>
 
@@ -187,7 +187,7 @@
       <!-- SECTION 3: DIRECT LINK - ĐIỂM KHÁC BIỆT QUAN TRỌNG NHẤT -->
       <section id="direct-link" class="scroll-mt-20">
         <div class="flex items-center gap-4 mb-6">
-          <span class="text-5xl font-black text-gray-800 select-none">03</span>
+          <span class="text-5xl font-black text-gray-600 select-none">03</span>
           <h2 class="text-3xl font-bold text-white">Direct Link: Tại Sao Nó Quan Trọng?</h2>
         </div>
 
@@ -277,7 +277,7 @@ https://cdn.yourdomain.com/images/avatar.png
       <!-- SECTION 4: USE CASES THỰC TẾ -->
       <section id="use-cases" class="scroll-mt-20">
         <div class="flex items-center gap-4 mb-6">
-          <span class="text-5xl font-black text-gray-800 select-none">04</span>
+          <span class="text-5xl font-black text-gray-600 select-none">04</span>
           <h2 class="text-3xl font-bold text-white">Use Cases Thực Tế - Chọn Đúng Cloud Cho Đúng Việc</h2>
         </div>
 
@@ -363,7 +363,7 @@ https://cdn.yourdomain.com/images/avatar.png
       <!-- SECTION 5: AKI CLOUD INTRODUCTION -->
       <section id="aki-cloud" class="scroll-mt-20">
         <div class="flex items-center gap-4 mb-6">
-          <span class="text-5xl font-black text-gray-800 select-none">05</span>
+          <span class="text-5xl font-black text-gray-600 select-none">05</span>
           <h2 class="text-3xl font-bold text-white">Giới Thiệu Aki Cloud - Hosting Cloud Free 1GB</h2>
         </div>
 
@@ -387,10 +387,11 @@ https://cdn.yourdomain.com/images/avatar.png
               </h4>
               <ul class="list-disc list-inside text-gray-300 text-sm space-y-2">
                 <li>✅ <strong>Free 1GB</strong> mỗi tài khoản</li>
+                <li>✅ <strong>Mỗi file tối đa 500MB</strong></li>
+                <li>✅ <strong>Upload multiple file</strong> cùng lúc</li>
                 <li>✅ <strong>Direct link public</strong> ngay lập tức</li>
                 <li>✅ API đơn giản, tương thích RESTful</li>
                 <li>✅ CORS tùy chỉnh, cache control</li>
-                <li>✅ Upload qua web UI hoặc API</li>
                 <li>✅ CDN tốc độ cao tại Việt Nam</li>
               </ul>
             </div>
@@ -410,6 +411,20 @@ https://cdn.yourdomain.com/images/avatar.png
             </div>
           </div>
 
+          <div class="bg-purple-900/20 p-5 rounded-xl border border-purple-500/30 mb-6">
+            <h4 class="font-bold text-purple-300 mb-3 text-sm flex items-center gap-2">
+              <span>💎</span> Đặc Quyền Thành Viên AkiWorkflow
+            </h4>
+            <p class="text-gray-300 text-sm leading-relaxed mb-3">
+              Thành viên <strong><a href="/akiworkflow" class="text-purple-400 hover:text-purple-300 underline">AkiWorkflow</a></strong> nhận được gói nâng cấp đặc biệt:
+            </p>
+            <ul class="list-disc list-inside text-gray-300 text-sm space-y-1 ml-4">
+              <li>✨ <strong>10GB storage</strong> (thay vì 1GB)</li>
+              <li>✨ <strong>Mỗi file tối đa 2GB</strong> (thay vì 500MB)</li>
+              <li>✨ Phù hợp trao đổi file project, media nặng giữa producer, team</li>
+            </ul>
+          </div>
+
           <div class="bg-blue-900/20 p-5 rounded-xl border border-blue-500/30 mb-6">
             <h4 class="font-bold text-blue-300 mb-3 text-sm flex items-center gap-2">
               <span>💼</span> Dành Cho Ai?
@@ -420,11 +435,11 @@ https://cdn.yourdomain.com/images/avatar.png
           </div>
 
           <div class="text-center">
-            <a href="https://cloud.akivn.net" target="_blank" class="cta-button inline-flex items-center gap-2 group">
+            <a href="https://cloud.akivn.net" target="_blank" class="cta-button inline-flex items-center gap-2 group mb-4">
               <span>DÙNG THỬ MIỄN PHÍ</span>
               <span class="group-hover:translate-x-1 transition-transform">→</span>
             </a>
-            <p class="text-gray-400 mt-4 text-sm">Free 1GB • Không cần thẻ tín dụng • Đăng ký trong 30 giây</p>
+            <p class="text-gray-400 mt-4 text-sm">Free 1GB • File tối đa 500MB • Upload multiple • Không cần thẻ tín dụng</p>
           </div>
         </div>
       </section>
@@ -432,7 +447,7 @@ https://cdn.yourdomain.com/images/avatar.png
       <!-- SECTION 6: FAQ -->
       <section id="faq" class="scroll-mt-20">
         <div class="flex items-center gap-4 mb-6">
-          <span class="text-5xl font-black text-gray-800 select-none">06</span>
+          <span class="text-5xl font-black text-gray-600 select-none">06</span>
           <h2 class="text-3xl font-bold text-white">Câu Hỏi Thường Gặp (FAQ)</h2>
         </div>
 
@@ -482,7 +497,8 @@ https://cdn.yourdomain.com/images/avatar.png
                 <strong>Không đắt, thậm chí có free tier!</strong>
               </p>
               <ul class="list-disc list-inside space-y-1 ml-4">
-                <li><strong>Aki Cloud:</strong> Free 1GB, phù hợp học tập, dự án nhỏ</li>
+                <li><strong>Aki Cloud:</strong> Free 1GB, file tối đa 500MB, upload multiple file. Phù hợp học tập, dự án nhỏ</li>
+                <li><strong>AkiWorkflow members:</strong> 10GB storage, file tối đa 2GB</li>
                 <li><strong>Cloudflare R2:</strong> Free 10GB storage + 10GB bandwidth/tháng</li>
                 <li><strong>Backblaze B2:</strong> Free 10GB storage + 1GB download/day</li>
                 <li><strong>AWS S3 Free Tier:</strong> 5GB storage + 20,000 GET requests (12 tháng đầu)</li>
