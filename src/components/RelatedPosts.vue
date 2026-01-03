@@ -136,6 +136,14 @@ const allPosts = [
     excerpt: 'Ra mắt aki-info-detect - thư viện JavaScript nhẹ, mạnh mẽ phát hiện browser, OS, hardware, network. Client Hints API, Apple Silicon M1-MX, tree-shakeable. By Lạc Việt Anh.',
     tags: ['JavaScript', 'Device Detection', 'AkiNet'],
     time: 1765186455
+  },
+  {
+    slug: '/cloud-services-comparison',
+    title: 'User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S',
+    image: '/img/user-cloud-services-vs-hosting-cloud.png',
+    excerpt: 'Hiểu rõ sự khác biệt quan trọng giữa User Cloud (Google Drive, Dropbox) và Hosting Cloud (AWS S3, Aki Cloud). Direct link, API, automation - tại sao developer phải biết.',
+    tags: ['Cloud Storage', 'Developer', 'Aki Cloud'],
+    time: 1735901029
   }
 ];
 
