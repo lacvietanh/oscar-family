@@ -61,6 +61,11 @@ export const routes = [
     name: "AkiInfoDetect JS",
     component: () => import("./pages/akiinfodetect-js.vue"),
   },
+  {
+    path: "/cloud-services-comparison",
+    name: "Cloud Services Comparison",
+    component: () => import("./pages/cloud-services-comparison.vue"),
+  },
   // Dev-only routes
   ...(import.meta.env.DEV ? [
     {
