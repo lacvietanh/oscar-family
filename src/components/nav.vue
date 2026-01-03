@@ -2,7 +2,7 @@
   <nav class="bg-white bg-opacity-10 backdrop-blur-lg fixed w-full z-50 shadow-lg text-[#E0E0E0] sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
       <a href="/#" class="flex items-center space-x-3">
-        <img src="/favicon.png" alt="Oscar Logo" class="h-8 w-8" />
+        <img src="/favicon/icon-192.png" alt="Oscar Logo" class="h-8 w-8" />
         <span class="font-bold text-lg text-[#f2c35a]">OSCAR FAMILY</span>
       </a>
       <div class="hidden md:flex items-center space-x-6 font-medium">
