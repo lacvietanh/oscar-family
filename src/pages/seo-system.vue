@@ -466,7 +466,7 @@ import RelatedPosts from '../components/RelatedPosts.vue'
 const title = 'Hệ thống CheckSEO Offline - Kiểm Tra SEO Không Cần Deploy TRONG 5S'
 const description = 'Khác biệt hoàn toàn: Kiểm tra SEO trên localhost, validate JSON-LD offline, route /checkseo dev-only, chặn deploy nếu lỗi. Miễn phí 100% và open source.'
 const url = 'https://oscarfamily.vn/seo-system'
-const image = 'https://oscarfamily.vn/img/default-og.jpg'
+const image = 'https://oscarfamily.vn/img/seo-check.png'
 
 // 1. TechArticle Schema
 const techArticleSchema = {

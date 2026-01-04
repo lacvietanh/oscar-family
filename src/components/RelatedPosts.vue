@@ -83,11 +83,11 @@ const allPosts = [
   },
   {
     slug: '/akiworkflow',
-    title: 'AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc',
+    title: 'AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS',
     image: '/img/AkiWF-GrCover2025.png',
-    excerpt: 'Nền tảng quản lý dự án âm nhạc: task, version, stem, release checklist dành cho producer, studio, artist indie.',
-    tags: ['Workflow', 'Producer tool', 'Studio'],
-    time: 1757246716
+    excerpt: 'Giải pháp ALL-IN-ONE cho Music Producer: 2TB+ thư viện, Logic Pro X setup tối ưu, Sync Select, training 1-1. Đặc biệt cho người mới & chuyển từ Windows/DAW khác.',
+    tags: ['macOS', 'Logic Pro X', 'Workflow'],
+    time: 1735948800
   },
   {
     slug: '/akiapp',
