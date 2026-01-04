@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-04T06:25:52.594Z",
+  "generatedAt": "2026-01-04T06:26:53.696Z",
   "summary": {
     "totalPages": 13,
     "analyzedPages": 13,
@@ -4958,7 +4958,7 @@
         "title": "Hệ thống CheckSEO Offline - Kiểm Tra SEO Không Cần Deploy TRONG 5S",
         "description": "Khác biệt hoàn toàn: Kiểm tra SEO trên localhost, validate JSON-LD offline, route /checkseo dev-only, chặn deploy nếu lỗi. Miễn phí 100% và open source.",
         "h1": "Hệ thống CHECKSEO OFFLINE  Kiểm Tra SEO Không Cần Deploy TRONG 5S",
-        "ogImage": "https://oscarfamily.vn/img/default-og.jpg",
+        "ogImage": "https://oscarfamily.vn/img/seo-check.png",
         "canonicalUrl": "https://oscarfamily.vn/seo-system",
         "images": [
           {
@@ -5044,7 +5044,7 @@
             "@type": "TechArticle",
             "headline": "Hệ thống CheckSEO Offline - Kiểm Tra SEO Không Cần Deploy TRONG 5S",
             "description": "Khác biệt hoàn toàn: Kiểm tra SEO trên localhost, validate JSON-LD offline, route /checkseo dev-only, chặn deploy nếu lỗi. Miễn phí 100% và open source.",
-            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "image": "https://oscarfamily.vn/img/seo-check.png",
             "author": {
               "@type": "Person",
               "name": "Lạc Việt Anh",
@@ -5326,7 +5326,7 @@
             ],
             "http://schema.org/image": [
               {
-                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+                "@id": "https://oscarfamily.vn/img/seo-check.png"
               }
             ],
             "http://schema.org/mainEntityOfPage": [
