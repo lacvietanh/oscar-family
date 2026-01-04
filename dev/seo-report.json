@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-04T06:38:09.583Z",
+  "generatedAt": "2026-01-04T10:59:15.363Z",
   "summary": {
     "totalPages": 13,
     "analyzedPages": 13,
@@ -85,7 +85,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -324,7 +324,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -857,7 +857,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -1688,7 +1688,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -1893,9 +1893,9 @@
       "analyzed": true,
       "metadata": {
         "url": "https://oscarfamily.vn/akiworkflow",
-        "title": "AkiWorkflow - Nền tảng quản lý workflow sản xuất âm nhạc, project, stem, release checklist",
-        "description": "AkiWorkflow: quản lý dự án âm nhạc, track sheet, stem version, task, release checklist cho producer, studio, artist. Công cụ workflow sản xuất âm nhạc chuẩn hóa.",
-        "h1": "AkiWorkflow - Nền tảng quản lý quy trình sản xuất âm nhạc, project &amp; asset cho Producer, Studio, Artist",
+        "title": "AkiWorkflow - Hệ Sinh Thái Toàn Diện Cho Máy Tính Làm Nhạc macOS | 2TB+ Thư Viện",
+        "description": "AkiWorkflow - Giải pháp ALL-IN-ONE cho Music Producer trên macOS + Logic Pro X. Bao gồm 2TB+ kho thư viện, setup tối ưu, Sync Select, training 1-1. Đặc biệt cho người mới và chuyển từ Windows/DAW khác.",
+        "h1": "AkiWorkflow - Hệ Sinh Thái Toàn Diện  Cho Máy Tính Làm Nhạc Trên macOS",
         "ogImage": "https://oscarfamily.vn/img/AkiWF-GrCover2025.png",
         "canonicalUrl": "https://oscarfamily.vn/akiworkflow",
         "images": [
@@ -1905,7 +1905,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow, hệ sinh thái tất cả trong một dành cho producer."
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc trên macOS"
           },
           {
             "src": "/img/user-cloud-services-vs-hosting-cloud.png",
@@ -1979,17 +1979,143 @@
           },
           {
             "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "AkiWorkflow - Hệ Sinh Thái Toàn Diện Cho Máy Tính Làm Nhạc macOS | 2TB+ Thư Viện",
+            "description": "AkiWorkflow - Giải pháp ALL-IN-ONE cho Music Producer trên macOS + Logic Pro X. Bao gồm 2TB+ kho thư viện, setup tối ưu, Sync Select, training 1-1. Đặc biệt cho người mới và chuyển từ Windows/DAW khác.",
+            "image": "https://oscarfamily.vn/img/AkiWF-GrCover2025.png",
+            "author": {
+              "@type": "Person",
+              "name": "Lạc Việt Anh",
+              "url": "https://akivn.net",
+              "jobTitle": "Founder & Chief Product Architect",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "AkiNet"
+              }
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "AkiNet",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://oscarfamily.vn/logo.png"
+              }
+            },
+            "datePublished": "2026-01-04",
+            "dateModified": "2026-01-04",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://oscarfamily.vn/akiworkflow"
+            },
+            "about": [
+              {
+                "@type": "Thing",
+                "name": "Music Production Workflow"
+              },
+              {
+                "@type": "Thing",
+                "name": "Logic Pro X"
+              },
+              {
+                "@type": "Thing",
+                "name": "macOS Music Production"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
             "@type": "SoftwareApplication",
             "name": "AkiWorkflow",
-            "applicationCategory": "MusicProduction",
-            "operatingSystem": "Web",
-            "description": "AkiWorkflow: quản lý dự án âm nhạc, track sheet, stem version, task, release checklist cho producer, studio, artist. Công cụ workflow sản xuất âm nhạc chuẩn hóa.",
-            "url": "https://oscarfamily.vn/akiworkflow",
+            "applicationCategory": "MultimediaApplication",
+            "operatingSystem": "macOS",
             "offers": {
               "@type": "Offer",
-              "price": "0",
+              "price": "5500000",
               "priceCurrency": "VND"
-            }
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "ratingCount": "51"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Lạc Việt Anh"
+            },
+            "description": "Hệ sinh thái toàn diện cho Music Producer trên macOS: 2TB+ thư viện, Logic Pro X setup tối ưu, Sync Select độc quyền, training 1-1."
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Lạc Việt Anh",
+            "url": "https://akivn.net",
+            "jobTitle": "Founder & Chief Product Architect",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "AkiNet",
+              "url": "https://akivn.net"
+            },
+            "sameAs": [
+              "https://github.com/lacvietanh",
+              "https://akiworkflow.com"
+            ],
+            "knowsAbout": [
+              "Music Production",
+              "Logic Pro X",
+              "macOS",
+              "Software Development",
+              "Workflow Optimization"
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Tôi ở nước ngoài, có tham gia được không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Được. AkiWorkflow hỗ trợ toàn cầu (Mỹ, Nhật, Hàn, Úc...). Cài đặt và training hoàn toàn online qua TeamViewer/AnyDesk. Thanh toán qua Paypal."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Tôi chưa có Mac, phải mua máy mới không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Không nhất thiết. Bạn có thể mua Mac cũ (từ 2019 trở lên), hoặc dùng dịch vụ Hackintosh cài macOS lên PC hiện tại."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Tôi mới bắt đầu, có quá khó không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Không. AkiWorkflow thiết kế cho người mới. Training 1-1 giúp bạn nắm bắt nhanh nhất. Cộng đồng luôn sẵn sàng hỗ trợ."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Tại sao phải trả 5.5M?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Đây là phí trọn gói cho 7 năm R&D, kho VST 200M+, Logic Pro setup, Sync Select tool, Training 1-1, Support suốt đời, AkiCloud. Tiết kiệm hơn nhiều so với tự mua lẻ tẻ."
+                }
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "AkiNet",
+            "url": "https://akivn.net",
+            "logo": "https://oscarfamily.vn/logo.png",
+            "founder": {
+              "@type": "Person",
+              "name": "Lạc Việt Anh"
+            },
+            "description": "Hệ sinh thái công nghệ hỗ trợ Music Producer & Creator tại Việt Nam: AkiWorkflow, VSTShop, LamNhac.net, TachNhac AI."
           }
         ],
         "expandedData": [
@@ -2083,16 +2209,175 @@
           },
           {
             "@type": [
-              "http://schema.org/SoftwareApplication"
+              "http://schema.org/TechArticle"
             ],
-            "http://schema.org/applicationCategory": [
+            "http://schema.org/about": [
               {
-                "@value": "MusicProduction"
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Music Production Workflow"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Logic Pro X"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "macOS Music Production"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/author": [
+              {
+                "@type": [
+                  "http://schema.org/Person"
+                ],
+                "http://schema.org/jobTitle": [
+                  {
+                    "@value": "Founder & Chief Product Architect"
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Lạc Việt Anh"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://akivn.net"
+                  }
+                ],
+                "http://schema.org/worksFor": [
+                  {
+                    "@type": [
+                      "http://schema.org/Organization"
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "AkiNet"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/dateModified": [
+              {
+                "@type": "http://schema.org/Date",
+                "@value": "2026-01-04"
+              }
+            ],
+            "http://schema.org/datePublished": [
+              {
+                "@type": "http://schema.org/Date",
+                "@value": "2026-01-04"
               }
             ],
             "http://schema.org/description": [
               {
-                "@value": "AkiWorkflow: quản lý dự án âm nhạc, track sheet, stem version, task, release checklist cho producer, studio, artist. Công cụ workflow sản xuất âm nhạc chuẩn hóa."
+                "@value": "AkiWorkflow - Giải pháp ALL-IN-ONE cho Music Producer trên macOS + Logic Pro X. Bao gồm 2TB+ kho thư viện, setup tối ưu, Sync Select, training 1-1. Đặc biệt cho người mới và chuyển từ Windows/DAW khác."
+              }
+            ],
+            "http://schema.org/headline": [
+              {
+                "@value": "AkiWorkflow - Hệ Sinh Thái Toàn Diện Cho Máy Tính Làm Nhạc macOS | 2TB+ Thư Viện"
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/AkiWF-GrCover2025.png"
+              }
+            ],
+            "http://schema.org/mainEntityOfPage": [
+              {
+                "@id": "https://oscarfamily.vn/akiworkflow",
+                "@type": [
+                  "http://schema.org/WebPage"
+                ]
+              }
+            ],
+            "http://schema.org/publisher": [
+              {
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/logo": [
+                  {
+                    "@type": [
+                      "http://schema.org/ImageObject"
+                    ],
+                    "http://schema.org/url": [
+                      {
+                        "@id": "https://oscarfamily.vn/logo.png"
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiNet"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/SoftwareApplication"
+            ],
+            "http://schema.org/aggregateRating": [
+              {
+                "@type": [
+                  "http://schema.org/AggregateRating"
+                ],
+                "http://schema.org/ratingCount": [
+                  {
+                    "@value": "51"
+                  }
+                ],
+                "http://schema.org/ratingValue": [
+                  {
+                    "@value": "5"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/applicationCategory": [
+              {
+                "@value": "MultimediaApplication"
+              }
+            ],
+            "http://schema.org/author": [
+              {
+                "@type": [
+                  "http://schema.org/Person"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Lạc Việt Anh"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Hệ sinh thái toàn diện cho Music Producer trên macOS: 2TB+ thư viện, Logic Pro X setup tối ưu, Sync Select độc quyền, training 1-1."
               }
             ],
             "http://schema.org/name": [
@@ -2107,7 +2392,7 @@
                 ],
                 "http://schema.org/price": [
                   {
-                    "@value": "0"
+                    "@value": "5500000"
                   }
                 ],
                 "http://schema.org/priceCurrency": [
@@ -2119,12 +2404,201 @@
             ],
             "http://schema.org/operatingSystem": [
               {
-                "@value": "Web"
+                "@value": "macOS"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/Person"
+            ],
+            "http://schema.org/jobTitle": [
+              {
+                "@value": "Founder & Chief Product Architect"
+              }
+            ],
+            "http://schema.org/knowsAbout": [
+              {
+                "@value": "Music Production"
+              },
+              {
+                "@value": "Logic Pro X"
+              },
+              {
+                "@value": "macOS"
+              },
+              {
+                "@value": "Software Development"
+              },
+              {
+                "@value": "Workflow Optimization"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Lạc Việt Anh"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://github.com/lacvietanh"
+              },
+              {
+                "@id": "https://akiworkflow.com"
               }
             ],
             "http://schema.org/url": [
               {
-                "@id": "https://oscarfamily.vn/akiworkflow"
+                "@id": "https://akivn.net"
+              }
+            ],
+            "http://schema.org/worksFor": [
+              {
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiNet"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://akivn.net"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/FAQPage"
+            ],
+            "http://schema.org/mainEntity": [
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Được. AkiWorkflow hỗ trợ toàn cầu (Mỹ, Nhật, Hàn, Úc...). Cài đặt và training hoàn toàn online qua TeamViewer/AnyDesk. Thanh toán qua Paypal."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Tôi ở nước ngoài, có tham gia được không?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Không nhất thiết. Bạn có thể mua Mac cũ (từ 2019 trở lên), hoặc dùng dịch vụ Hackintosh cài macOS lên PC hiện tại."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Tôi chưa có Mac, phải mua máy mới không?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Không. AkiWorkflow thiết kế cho người mới. Training 1-1 giúp bạn nắm bắt nhanh nhất. Cộng đồng luôn sẵn sàng hỗ trợ."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Tôi mới bắt đầu, có quá khó không?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Đây là phí trọn gói cho 7 năm R&D, kho VST 200M+, Logic Pro setup, Sync Select tool, Training 1-1, Support suốt đời, AkiCloud. Tiết kiệm hơn nhiều so với tự mua lẻ tẻ."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Tại sao phải trả 5.5M?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Hệ sinh thái công nghệ hỗ trợ Music Producer & Creator tại Việt Nam: AkiWorkflow, VSTShop, LamNhac.net, TachNhac AI."
+              }
+            ],
+            "http://schema.org/founder": [
+              {
+                "@type": [
+                  "http://schema.org/Person"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Lạc Việt Anh"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/logo.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "AkiNet"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://akivn.net"
               }
             ]
           }
@@ -2188,7 +2662,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -2925,7 +3399,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -3526,7 +4000,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -4295,7 +4769,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -4508,7 +4982,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -5003,7 +5477,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -5668,7 +6142,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
@@ -5967,7 +6441,7 @@
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
-            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+            "alt": "AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS"
           }
         ],
         "issues": []
