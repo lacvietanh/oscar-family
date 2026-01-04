@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2025-12-08T08:40:29.222Z",
+  "generatedAt": "2026-01-04T06:25:52.594Z",
   "summary": {
-    "totalPages": 12,
-    "analyzedPages": 12,
+    "totalPages": 13,
+    "analyzedPages": 13,
     "averageScore": 100,
-    "pagesWithJsonLd": 12,
-    "pagesWithValidJsonLd": 12,
+    "pagesWithJsonLd": 13,
+    "pagesWithValidJsonLd": 13,
     "totalIssues": 0,
     "errorCount": 0,
     "warningCount": 0,
-    "perfectPages": 12
+    "perfectPages": 13
   },
   "results": [
     {
@@ -24,7 +24,7 @@
         "canonicalUrl": "https://oscarfamily.vn",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
@@ -46,6 +46,14 @@
           {
             "src": "/assets/tt-COZSjbkX.jpg",
             "alt": "Thuy Tien"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
           },
           {
             "src": "/img/seo-check.png",
@@ -70,6 +78,14 @@
           {
             "src": "/img/akivn-tachnhacv1.png",
             "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
@@ -267,12 +283,20 @@
         "canonicalUrl": "https://oscarfamily.vn/akiapp",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
             "src": "/img/AkiApp-cover.png",
             "alt": "AkiApp - Mini-OS Platform for Creators"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
           },
           {
             "src": "/img/seo-check.png",
@@ -297,6 +321,10 @@
           {
             "src": "/img/AkiNet-akivn.net.png",
             "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
@@ -788,12 +816,16 @@
         "canonicalUrl": "https://oscarfamily.vn/akiinfodetect-js",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
             "src": "/img/AkiNet-akivn.net.png",
             "alt": "aki-info-detect - JavaScript library phát hiện thông tin thiết bị, trình duyệt, phần cứng"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
           },
           {
             "src": "/img/seo-check.png",
@@ -818,6 +850,14 @@
           {
             "src": "/img/akivn-tachnhacv1.png",
             "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
@@ -1607,12 +1647,20 @@
         "canonicalUrl": "https://oscarfamily.vn/akinet",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
             "src": "/img/AkiNet-akivn.net.png",
             "alt": "AkiNet - hệ sinh thái công nghệ sản xuất âm nhạc"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
           },
           {
             "src": "/img/seo-check.png",
@@ -1637,6 +1685,10 @@
           {
             "src": "/img/akivn-tachnhacv1.png",
             "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
@@ -1848,12 +1900,20 @@
         "canonicalUrl": "https://oscarfamily.vn/akiworkflow",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
             "src": "/img/AkiWF-GrCover2025.png",
             "alt": "AkiWorkflow, hệ sinh thái tất cả trong một dành cho producer."
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
           },
           {
             "src": "/img/seo-check.png",
@@ -1878,6 +1938,10 @@
           {
             "src": "/img/akivn-tachnhacv1.png",
             "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
           }
         ],
         "issues": []
@@ -2072,6 +2136,743 @@
       "score": 100
     },
     {
+      "url": "https://oscarfamily.vn/cloud-services-comparison",
+      "analyzed": true,
+      "metadata": {
+        "url": "https://oscarfamily.vn/cloud-services-comparison",
+        "title": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S - Oscar Family",
+        "description": "Hiểu rõ sự khác biệt quan trọng giữa User Cloud (Google Drive, Dropbox) và Hosting Cloud (AWS S3, Aki Cloud). Direct link, API, automation - tại sao developer phải biết điều này.",
+        "h1": "User Cloud vs Hosting Cloud:  Sự Khác Biệt TRONG 5S",
+        "ogImage": "https://oscarfamily.vn/img/user-cloud-services-vs-hosting-cloud.png",
+        "canonicalUrl": "https://oscarfamily.vn/cloud-services-comparison",
+        "images": [
+          {
+            "src": "/favicon/icon-192.png",
+            "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "So sánh User Cloud Services vs Hosting Cloud - Hiểu rõ sự khác biệt quan trọng để lựa chọn đúng"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
+          },
+          {
+            "src": "/img/seo-check.png",
+            "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
+          },
+          {
+            "src": "/img/qqmusicsearch-logo.png",
+            "alt": "QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc"
+          },
+          {
+            "src": "/img/AkiApp-cover.png",
+            "alt": "AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)"
+          },
+          {
+            "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
+            "alt": "Oscar Studio Hà Nội - Phòng Thu Âm &amp; Làm Nhạc Chuyên Nghiệp"
+          },
+          {
+            "src": "/img/lamnhac-net.png",
+            "alt": "LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam"
+          },
+          {
+            "src": "/img/akivn-tachnhacv1.png",
+            "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
+          }
+        ],
+        "issues": []
+      },
+      "jsonLd": {
+        "found": true,
+        "valid": true,
+        "data": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Oscar Family",
+            "description": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.",
+            "url": "https://oscarfamily.vn",
+            "logo": "https://oscarfamily.vn/favicon.png",
+            "image": "https://oscarfamily.vn/img/default-og.jpg",
+            "sameAs": [
+              "https://www.youtube.com/@oscarstudiohanoi",
+              "https://www.tiktok.com/@oscarstudio.vn",
+              "https://fb.com/oscarstudiohanoi",
+              "https://zalo.me/0849297957"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "0849 297 957",
+              "contactType": "customer service",
+              "availableLanguage": "Vietnamese"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VN"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "TechArticle",
+            "headline": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S - Oscar Family",
+            "description": "Hiểu rõ sự khác biệt quan trọng giữa User Cloud (Google Drive, Dropbox) và Hosting Cloud (AWS S3, Aki Cloud). Direct link, API, automation - tại sao developer phải biết điều này.",
+            "image": "https://oscarfamily.vn/img/user-cloud-services-vs-hosting-cloud.png",
+            "author": {
+              "@type": "Person",
+              "name": "Lạc Việt Anh",
+              "url": "https://akivn.net",
+              "jobTitle": "Chief Product Architect",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "AkiNet"
+              }
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "AkiNet",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://oscarfamily.vn/img/AkiNet-akivn.net.png"
+              }
+            },
+            "datePublished": "2026-01-03T10:43:49+07:00",
+            "dateModified": "2026-01-03T10:43:49+07:00",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://oscarfamily.vn/cloud-services-comparison"
+            },
+            "about": [
+              {
+                "@type": "Thing",
+                "name": "Cloud Storage"
+              },
+              {
+                "@type": "Thing",
+                "name": "Web Development"
+              },
+              {
+                "@type": "Thing",
+                "name": "Cloud Computing"
+              }
+            ],
+            "keywords": "user cloud, hosting cloud, google drive vs aws s3, direct link, cloud storage, aki cloud, developer tools, web hosting"
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Lạc Việt Anh",
+            "url": "https://akivn.net",
+            "jobTitle": "Chief Product Architect & Founder",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "AkiNet",
+              "url": "https://akivn.net"
+            },
+            "sameAs": [
+              "https://oscarfamily.vn",
+              "https://akivn.net"
+            ],
+            "knowsAbout": [
+              "Cloud Computing",
+              "Web Development",
+              "Music Production",
+              "Software Architecture"
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Tôi có thể dùng Google Drive để host ảnh cho website không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Không. Google Drive không cung cấp direct link. Khi bạn embed link Google Drive vào <img src=\"\">, browser sẽ không load được ảnh. Để host ảnh cho website, bạn cần dùng Hosting Cloud như Aki Cloud, AWS S3, Cloudflare R2."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Dropbox có direct link không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Có, nhưng giới hạn. Dropbox có tính năng \"direct link\" bằng cách thay ?dl=0 thành ?dl=1, nhưng có rate limit nghiêm ngặt, không có CDN, và không tùy chỉnh CORS. Dropbox không phải Hosting Cloud chuyên nghiệp."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Google Cloud Storage và Google Drive có giống nhau không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Hoàn toàn khác nhau. Google Drive là User Cloud cho cá nhân, không có direct link, free 15GB. Google Cloud Storage (GCS) là Hosting Cloud cho developer, có direct link, pay-as-you-go. Hai dịch vụ phục vụ mục đích hoàn toàn khác nhau."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hosting Cloud có đắt không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Không đắt, thậm chí có free tier. Aki Cloud free 1GB, Cloudflare R2 free 10GB storage + 10GB bandwidth/tháng, Backblaze B2 free 10GB storage. Nếu vượt free tier, chi phí khoảng $0.01-0.02/GB storage."
+                }
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Aki Cloud",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Web Browser",
+            "url": "https://cloud.akivn.net",
+            "description": "Hosting Cloud miễn phí 1GB với direct link, API đơn giản, phù hợp cho developer Việt Nam và content creator.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "VND",
+              "name": "Free Tier - 1GB Storage"
+            },
+            "creator": {
+              "@type": "Organization",
+              "name": "AkiNet",
+              "url": "https://akivn.net"
+            },
+            "featureList": "Direct link public, API RESTful, CORS tùy chỉnh, CDN tốc độ cao, Upload qua web UI hoặc API"
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "AkiNet",
+            "url": "https://akivn.net",
+            "logo": "https://oscarfamily.vn/img/AkiNet-akivn.net.png",
+            "founder": {
+              "@type": "Person",
+              "name": "Lạc Việt Anh"
+            },
+            "sameAs": [
+              "https://oscarfamily.vn",
+              "https://cloud.akivn.net"
+            ],
+            "description": "Hệ sinh thái công nghệ phục vụ producer, developer và content creator Việt Nam"
+          }
+        ],
+        "expandedData": [
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/address": [
+              {
+                "@type": [
+                  "http://schema.org/PostalAddress"
+                ],
+                "http://schema.org/addressCountry": [
+                  {
+                    "@value": "VN"
+                  }
+                ],
+                "http://schema.org/addressLocality": [
+                  {
+                    "@value": "Hà Nội"
+                  }
+                ],
+                "http://schema.org/streetAddress": [
+                  {
+                    "@value": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/contactPoint": [
+              {
+                "@type": [
+                  "http://schema.org/ContactPoint"
+                ],
+                "http://schema.org/availableLanguage": [
+                  {
+                    "@value": "Vietnamese"
+                  }
+                ],
+                "http://schema.org/contactType": [
+                  {
+                    "@value": "customer service"
+                  }
+                ],
+                "http://schema.org/telephone": [
+                  {
+                    "@value": "0849 297 957"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê."
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/default-og.jpg"
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/favicon.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Oscar Family"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://www.youtube.com/@oscarstudiohanoi"
+              },
+              {
+                "@id": "https://www.tiktok.com/@oscarstudio.vn"
+              },
+              {
+                "@id": "https://fb.com/oscarstudiohanoi"
+              },
+              {
+                "@id": "https://zalo.me/0849297957"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://oscarfamily.vn"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/TechArticle"
+            ],
+            "http://schema.org/about": [
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Cloud Storage"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Web Development"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Thing"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Cloud Computing"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/author": [
+              {
+                "@type": [
+                  "http://schema.org/Person"
+                ],
+                "http://schema.org/jobTitle": [
+                  {
+                    "@value": "Chief Product Architect"
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Lạc Việt Anh"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://akivn.net"
+                  }
+                ],
+                "http://schema.org/worksFor": [
+                  {
+                    "@type": [
+                      "http://schema.org/Organization"
+                    ],
+                    "http://schema.org/name": [
+                      {
+                        "@value": "AkiNet"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/dateModified": [
+              {
+                "@type": "http://schema.org/Date",
+                "@value": "2026-01-03T10:43:49+07:00"
+              }
+            ],
+            "http://schema.org/datePublished": [
+              {
+                "@type": "http://schema.org/Date",
+                "@value": "2026-01-03T10:43:49+07:00"
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Hiểu rõ sự khác biệt quan trọng giữa User Cloud (Google Drive, Dropbox) và Hosting Cloud (AWS S3, Aki Cloud). Direct link, API, automation - tại sao developer phải biết điều này."
+              }
+            ],
+            "http://schema.org/headline": [
+              {
+                "@value": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S - Oscar Family"
+              }
+            ],
+            "http://schema.org/image": [
+              {
+                "@id": "https://oscarfamily.vn/img/user-cloud-services-vs-hosting-cloud.png"
+              }
+            ],
+            "http://schema.org/keywords": [
+              {
+                "@value": "user cloud, hosting cloud, google drive vs aws s3, direct link, cloud storage, aki cloud, developer tools, web hosting"
+              }
+            ],
+            "http://schema.org/mainEntityOfPage": [
+              {
+                "@id": "https://oscarfamily.vn/cloud-services-comparison",
+                "@type": [
+                  "http://schema.org/WebPage"
+                ]
+              }
+            ],
+            "http://schema.org/publisher": [
+              {
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/logo": [
+                  {
+                    "@type": [
+                      "http://schema.org/ImageObject"
+                    ],
+                    "http://schema.org/url": [
+                      {
+                        "@id": "https://oscarfamily.vn/img/AkiNet-akivn.net.png"
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiNet"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/Person"
+            ],
+            "http://schema.org/jobTitle": [
+              {
+                "@value": "Chief Product Architect & Founder"
+              }
+            ],
+            "http://schema.org/knowsAbout": [
+              {
+                "@value": "Cloud Computing"
+              },
+              {
+                "@value": "Web Development"
+              },
+              {
+                "@value": "Music Production"
+              },
+              {
+                "@value": "Software Architecture"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Lạc Việt Anh"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://oscarfamily.vn"
+              },
+              {
+                "@id": "https://akivn.net"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://akivn.net"
+              }
+            ],
+            "http://schema.org/worksFor": [
+              {
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiNet"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://akivn.net"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/FAQPage"
+            ],
+            "http://schema.org/mainEntity": [
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Không. Google Drive không cung cấp direct link. Khi bạn embed link Google Drive vào <img src=\"\">, browser sẽ không load được ảnh. Để host ảnh cho website, bạn cần dùng Hosting Cloud như Aki Cloud, AWS S3, Cloudflare R2."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Tôi có thể dùng Google Drive để host ảnh cho website không?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Có, nhưng giới hạn. Dropbox có tính năng \"direct link\" bằng cách thay ?dl=0 thành ?dl=1, nhưng có rate limit nghiêm ngặt, không có CDN, và không tùy chỉnh CORS. Dropbox không phải Hosting Cloud chuyên nghiệp."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Dropbox có direct link không?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Hoàn toàn khác nhau. Google Drive là User Cloud cho cá nhân, không có direct link, free 15GB. Google Cloud Storage (GCS) là Hosting Cloud cho developer, có direct link, pay-as-you-go. Hai dịch vụ phục vụ mục đích hoàn toàn khác nhau."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Google Cloud Storage và Google Drive có giống nhau không?"
+                  }
+                ]
+              },
+              {
+                "@type": [
+                  "http://schema.org/Question"
+                ],
+                "http://schema.org/acceptedAnswer": [
+                  {
+                    "@type": [
+                      "http://schema.org/Answer"
+                    ],
+                    "http://schema.org/text": [
+                      {
+                        "@value": "Không đắt, thậm chí có free tier. Aki Cloud free 1GB, Cloudflare R2 free 10GB storage + 10GB bandwidth/tháng, Backblaze B2 free 10GB storage. Nếu vượt free tier, chi phí khoảng $0.01-0.02/GB storage."
+                      }
+                    ]
+                  }
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Hosting Cloud có đắt không?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/SoftwareApplication"
+            ],
+            "http://schema.org/applicationCategory": [
+              {
+                "@value": "DeveloperApplication"
+              }
+            ],
+            "http://schema.org/creator": [
+              {
+                "@type": [
+                  "http://schema.org/Organization"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "AkiNet"
+                  }
+                ],
+                "http://schema.org/url": [
+                  {
+                    "@id": "https://akivn.net"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Hosting Cloud miễn phí 1GB với direct link, API đơn giản, phù hợp cho developer Việt Nam và content creator."
+              }
+            ],
+            "http://schema.org/featureList": [
+              {
+                "@value": "Direct link public, API RESTful, CORS tùy chỉnh, CDN tốc độ cao, Upload qua web UI hoặc API"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "Aki Cloud"
+              }
+            ],
+            "http://schema.org/offers": [
+              {
+                "@type": [
+                  "http://schema.org/Offer"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Free Tier - 1GB Storage"
+                  }
+                ],
+                "http://schema.org/price": [
+                  {
+                    "@value": "0"
+                  }
+                ],
+                "http://schema.org/priceCurrency": [
+                  {
+                    "@value": "VND"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/operatingSystem": [
+              {
+                "@value": "Web Browser"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://cloud.akivn.net"
+              }
+            ]
+          },
+          {
+            "@type": [
+              "http://schema.org/Organization"
+            ],
+            "http://schema.org/description": [
+              {
+                "@value": "Hệ sinh thái công nghệ phục vụ producer, developer và content creator Việt Nam"
+              }
+            ],
+            "http://schema.org/founder": [
+              {
+                "@type": [
+                  "http://schema.org/Person"
+                ],
+                "http://schema.org/name": [
+                  {
+                    "@value": "Lạc Việt Anh"
+                  }
+                ]
+              }
+            ],
+            "http://schema.org/logo": [
+              {
+                "@id": "https://oscarfamily.vn/img/AkiNet-akivn.net.png"
+              }
+            ],
+            "http://schema.org/name": [
+              {
+                "@value": "AkiNet"
+              }
+            ],
+            "http://schema.org/sameAs": [
+              {
+                "@id": "https://oscarfamily.vn"
+              },
+              {
+                "@id": "https://cloud.akivn.net"
+              }
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://akivn.net"
+              }
+            ]
+          }
+        ],
+        "validationError": null,
+        "issues": []
+      },
+      "allIssues": [],
+      "score": 100
+    },
+    {
       "url": "https://oscarfamily.vn/lamnhac",
       "analyzed": true,
       "metadata": {
@@ -2083,12 +2884,20 @@
         "canonicalUrl": "https://oscarfamily.vn/lamnhac",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
             "src": "/img/lamnhac-net.png",
             "alt": "LamNhac.net cong dong lam nhac Viet Nam - hoc lam nhac, cai dat VST, cong cu music production"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
           },
           {
             "src": "/img/seo-check.png",
@@ -2113,6 +2922,10 @@
           {
             "src": "/img/AkiNet-akivn.net.png",
             "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
@@ -2672,12 +3485,20 @@
         "canonicalUrl": "https://oscarfamily.vn/oscarstudio",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
             "src": "/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg",
             "alt": "Oscar Studio Hanoi phong thu am chuyen nghiep lam nhac mix master quay MV"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
           },
           {
             "src": "/img/seo-check.png",
@@ -2702,6 +3523,10 @@
           {
             "src": "/img/AkiNet-akivn.net.png",
             "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
@@ -3429,8 +4254,16 @@
         "canonicalUrl": "https://oscarfamily.vn/posts",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
           },
           {
             "src": "/img/seo-check.png",
@@ -3455,6 +4288,14 @@
           {
             "src": "/img/akivn-tachnhacv1.png",
             "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
@@ -3626,12 +4467,20 @@
         "canonicalUrl": "https://oscarfamily.vn/qqmusic-lyrics-search",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
             "src": "/img/qqmusicsearch-logo.png",
             "alt": "QQMusic Lyrics Search - Công cụ tìm kiếm lyrics với timecode chuẩn xác cho video âm nhạc Trung Quốc và quốc tế"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
           },
           {
             "src": "/img/seo-check.png",
@@ -3656,6 +4505,10 @@
           {
             "src": "/img/AkiNet-akivn.net.png",
             "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
@@ -4109,12 +4962,20 @@
         "canonicalUrl": "https://oscarfamily.vn/seo-system",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
             "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO Automation Oscar Family - kiểm tra offline không cần deploy"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
           },
           {
             "src": "/img/qqmusicsearch-logo.png",
@@ -4139,6 +5000,10 @@
           {
             "src": "/img/AkiNet-akivn.net.png",
             "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
@@ -4734,7 +5599,7 @@
         "canonicalUrl": "https://oscarfamily.vn/studio",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
@@ -4766,6 +5631,14 @@
             "alt": "Icon Sáng tác"
           },
           {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
+          },
+          {
             "src": "/img/seo-check.png",
             "alt": "Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S"
           },
@@ -4788,6 +5661,14 @@
           {
             "src": "/img/akivn-tachnhacv1.png",
             "alt": "Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
@@ -5045,12 +5926,20 @@
         "canonicalUrl": "https://oscarfamily.vn/tachnhac",
         "images": [
           {
-            "src": "/favicon.png",
+            "src": "/favicon/icon-192.png",
             "alt": "Oscar Logo"
           },
           {
             "src": "/img/akivn-tachnhacv1.png",
             "alt": "Giao diện tool tách nhạc AI tool.akivn.net tachnhac vocal remover"
+          },
+          {
+            "src": "/img/user-cloud-services-vs-hosting-cloud.png",
+            "alt": "User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S"
+          },
+          {
+            "src": "/img/AkiNet-akivn.net.png",
+            "alt": "aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh"
           },
           {
             "src": "/img/seo-check.png",
@@ -5075,6 +5964,10 @@
           {
             "src": "/img/AkiNet-akivn.net.png",
             "alt": "AkiNet - Hệ sinh thái công nghệ làm nhạc (AkiWorkflow, VSTShop, AkiApp)"
+          },
+          {
+            "src": "/img/AkiWF-GrCover2025.png",
+            "alt": "AkiWorkflow - Hệ sinh thái tất cả trong một để bắt đầu làm nhạc"
           }
         ],
         "issues": []
