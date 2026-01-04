@@ -174,7 +174,7 @@ import RelatedPosts from '../components/RelatedPosts.vue'
 const title = 'Tách Nhạc AI tool.akivn.net: tachnhac, vocal remover, tải nhạc'
 const description = 'Giới thiệu tool.akivn.net/tachnhac: tách nhạc AI, vocal remove, tải nhạc YouTube, download SoundCloud, tích hợp Spleeter tối ưu cho producer Việt Nam.'
 const url = 'https://oscarfamily.vn/tachnhac'
-const image = 'https://oscarfamily.vn/img/intro-tachnhacv1-3d.png'
+const image = 'https://oscarfamily.vn/img/akivn-tachnhacv1.png'
 
 const jsonLd = {
   '@context': 'https://schema.org',
