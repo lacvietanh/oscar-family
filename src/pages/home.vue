@@ -176,11 +176,10 @@ const contactInfo = inject('contactInfo');
 const hrefHover = ref('');
 const showRankHelp = ref(false);
 
-// Trang chủ Oscar Family
+// Trang chủ Oscar Entertainment
 const pageTitle = 'Oscar Entertainment - Sản xuất, phát hành & truyền thông âm nhạc'
 const pageDescription = 'Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.'
 const pageUrl = 'https://oscarfamily.vn'
-const ogImage = 'https://oscarfamily.vn/img/oscar-studio-render.jpg'
 
 const jsonLd = computed(() => ({
   '@context': 'https://schema.org',
@@ -200,27 +199,12 @@ const jsonLd = computed(() => ({
 const websiteJsonLd = computed(() => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Oscar Label',
+  name: 'Oscar Entertainment',
   url: 'https://oscarfamily.vn/'
 }))
 
 useHead({
   title: pageTitle,
-  meta: [
-    { name: 'description', content: pageDescription },
-    // Open Graph
-    { property: 'og:title', content: pageTitle },
-    { property: 'og:description', content: pageDescription },
-    { property: 'og:url', content: pageUrl },
-    { property: 'og:image', content: ogImage },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:site_name', content: 'Oscar Entertainment' },
-    // Twitter Card
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: pageTitle },
-    { name: 'twitter:description', content: pageDescription },
-    { name: 'twitter:image', content: ogImage }
-  ],
   script: [
     {
       type: 'application/ld+json',
@@ -229,12 +213,6 @@ useHead({
     {
       type: 'application/ld+json',
       innerHTML: computed(() => JSON.stringify(websiteJsonLd.value)),
-    },
-  ],
-  link: [
-    {
-      rel: 'canonical',
-      href: pageUrl,
     },
   ],
 })
