@@ -197,6 +197,13 @@ const jsonLd = computed(() => ({
   ]
 }))
 
+const websiteJsonLd = computed(() => ({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Oscar Label',
+  url: 'https://oscarfamily.vn/'
+}))
+
 useHead({
   title: pageTitle,
   meta: [
@@ -218,6 +225,10 @@ useHead({
     {
       type: 'application/ld+json',
       innerHTML: computed(() => JSON.stringify(jsonLd.value)),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: computed(() => JSON.stringify(websiteJsonLd.value)),
     },
   ],
   link: [
