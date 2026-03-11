@@ -66,6 +66,16 @@ export const routes = [
     name: "Cloud Services Comparison",
     component: () => import("./pages/cloud-services-comparison.vue"),
   },
+  {
+    path: "/privacy-policy",
+    name: "PrivacyPolicy",
+    component: () => import("./pages/privacy-policy.vue"),
+  },
+  {
+    path: "/terms-of-service",
+    name: "TermsOfService",
+    component: () => import("./pages/terms-of-service.vue"),
+  },
   // Dev-only routes
   ...(import.meta.env.DEV ? [
     {

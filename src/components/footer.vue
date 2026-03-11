@@ -59,6 +59,10 @@ const buildDate = isDev
         </div>
         <div class="text-center text-xs text-gray-500 mt-6">
             All Oscar Website system powered by <a href="https://akivn.net" target="_blank" class="text-[#0099cc] hover:underline">AkiNet</a>
+            <div class="mt-2 flex justify-center gap-4">
+                <router-link to="/privacy-policy" class="hover:text-[#f2c35a] hover:underline transition">Chính sách bảo mật</router-link>
+                <router-link to="/terms-of-service" class="hover:text-[#f2c35a] hover:underline transition">Điều khoản dịch vụ</router-link>
+            </div>
             <div class="mt-2">
                 <span class="text-xs text-gray-600">
                     {{ isDev ? 'Dev' : 'Build' }} {{ buildDate }}
