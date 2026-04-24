@@ -7,7 +7,7 @@
         <img
           src="https://github.com/user-attachments/assets/100b9886-5267-4eb2-ac9a-a436db330c17"
           alt="Oscar Music Group - Trụ sở phân phối âm nhạc số tại Hà Nội với slogan Lan toả âm nhạc của bạn đến mọi nơi"
-          class="w-full h-auto rounded-lg shadow-2xl object-cover"
+          class="w-1/2 h-auto rounded-lg shadow-2xl object-cover mx-auto"
         >
         <figcaption class="text-center text-sm mt-4 text-gray-400 italic">
           Trụ sở Oscar Entertainment tại Hà Nội — nơi khởi nguồn hành trình "Lan toả âm nhạc của bạn đến mọi nơi".
@@ -81,17 +81,6 @@
           <h2 class="text-3xl font-bold text-white">Sứ Mệnh &amp; Tầm Nhìn</h2>
         </div>
 
-        <figure class="mb-8">
-          <img
-            src="https://github.com/user-attachments/assets/7438d5fe-ca8c-4ba2-8f5f-4448e6fcae52"
-            alt="Văn phòng điều hành Oscar Entertainment nhìn ra toàn cảnh thành phố Hà Nội về đêm - Oscar Music Group phân phối âm nhạc số"
-            class="w-full h-auto rounded-xl shadow-lg object-cover"
-          >
-          <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
-            Phòng làm việc của đội ngũ điều hành Oscar Entertainment — nơi những chiến lược phân phối âm nhạc toàn cầu được định hình.
-          </figcaption>
-        </figure>
-
         <div class="space-y-4 text-gray-300 leading-relaxed">
           <p>
             <strong>Oscar Music Group</strong> là đơn vị tiên phong trong việc cung cấp các giải pháp công nghệ
@@ -130,17 +119,6 @@
           <span class="text-5xl font-black text-gray-600 select-none">02</span>
           <h2 class="text-3xl font-bold text-white">Hệ Sinh Thái Công Nghệ: <span class="highlight-keyword">Oscar Music Group Dashboard</span></h2>
         </div>
-
-        <figure class="mb-8">
-          <img
-            src="https://github.com/user-attachments/assets/32cbcdd6-fb25-477b-93bf-f6780764efba"
-            alt="Phòng họp Oscar Entertainment - Đội ngũ chiến lược phát triển Oscar Music Group Dashboard"
-            class="w-full h-auto rounded-xl shadow-lg object-cover"
-          >
-          <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
-            Không gian làm việc và trao đổi chiến lược của đội ngũ Oscar Entertainment — nơi Oscar Music Group Dashboard được kiến tạo.
-          </figcaption>
-        </figure>
 
         <p class="text-gray-300 leading-relaxed mb-8">
           Trái tim của hệ sinh thái chúng tôi là <strong>Oscar Music Group Dashboard</strong> — nền tảng quản trị âm nhạc toàn diện
@@ -187,17 +165,6 @@
           <span class="text-5xl font-black text-gray-600 select-none">03</span>
           <h2 class="text-3xl font-bold text-white">Tại Sao Chọn Oscar Music Group?</h2>
         </div>
-
-        <figure class="mb-8">
-          <img
-            src="https://github.com/user-attachments/assets/f038500a-4499-4769-8694-7bc6b1cfb8bc"
-            alt="Phòng họp ban điều hành Oscar Entertainment - Chiến lược phân phối âm nhạc toàn cầu"
-            class="w-full h-auto rounded-xl shadow-lg object-cover"
-          >
-          <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
-            Phòng họp chiến lược của Oscar Entertainment — nơi các quyết định tốc độ phân phối và minh bạch doanh thu được cam kết.
-          </figcaption>
-        </figure>
 
         <p class="text-gray-300 leading-relaxed mb-8">
           Chúng tôi tạo ra sự khác biệt thông qua <span class="highlight-keyword">tốc độ và sự minh bạch</span>:
@@ -360,6 +327,43 @@
     </div>
 
     <RelatedPosts exclude-slug="/oscar-music-group" />
+
+    <!-- GALLERY: CÁC HÌNH ẢNH VĂN PHÒNG OSCAR MUSIC GROUP -->
+    <section class="mt-16">
+      <h2 class="text-2xl font-bold text-white mb-8 text-center">Các hình ảnh văn phòng Oscar Music Group</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <figure>
+          <img
+            src="https://github.com/user-attachments/assets/7438d5fe-ca8c-4ba2-8f5f-4448e6fcae52"
+            alt="Văn phòng điều hành Oscar Entertainment nhìn ra toàn cảnh thành phố Hà Nội về đêm - Oscar Music Group phân phối âm nhạc số"
+            class="w-1/2 h-auto rounded-xl shadow-lg object-cover mx-auto"
+          >
+          <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
+            Phòng làm việc của đội ngũ điều hành Oscar Entertainment.
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://github.com/user-attachments/assets/32cbcdd6-fb25-477b-93bf-f6780764efba"
+            alt="Phòng họp Oscar Entertainment - Đội ngũ chiến lược phát triển Oscar Music Group Dashboard"
+            class="w-1/2 h-auto rounded-xl shadow-lg object-cover mx-auto"
+          >
+          <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
+            Không gian làm việc và trao đổi chiến lược của đội ngũ Oscar Entertainment.
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://github.com/user-attachments/assets/f038500a-4499-4769-8694-7bc6b1cfb8bc"
+            alt="Phòng họp ban điều hành Oscar Entertainment - Chiến lược phân phối âm nhạc toàn cầu"
+            class="w-1/2 h-auto rounded-xl shadow-lg object-cover mx-auto"
+          >
+          <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
+            Phòng họp chiến lược của Oscar Entertainment.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
   </article>
 </template>
 

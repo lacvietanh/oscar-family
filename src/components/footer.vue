@@ -45,7 +45,7 @@ const buildDate = isDev
         <div class="max-w-5xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
             <div class="mb-4 md:mb-0 flex items-center space-x-2">
                 <i class="fa-solid fa-music text-xl text-[#f2c35a]"></i>
-                <span class="font-semibold text-[#f2c35a]">Oscar Entertainment © 2025</span>
+                <span class="font-semibold text-[#f2c35a]">Oscar Entertainment © {{ currentYear }}</span>
             </div>
             <div class="flex flex-wrap gap-4 items-center">
                 <router-link to="/" class="flex items-center gap-2 hover:text-[#f2c35a] transition"><i class="fa-solid fa-house"></i></router-link>

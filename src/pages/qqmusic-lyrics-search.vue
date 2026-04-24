@@ -357,8 +357,8 @@ const jsonLd = {
       url: 'https://oscarfamily.vn/img/oscar-studio-logo.png'
     }
   },
-  datePublished: '2025-01-29',
-  dateModified: '2025-01-29',
+  datePublished: '2026-11-29',
+  dateModified: '2026-11-29',
   url,
   inLanguage: 'vi',
   mainEntityOfPage: {

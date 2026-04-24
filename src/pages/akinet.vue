@@ -10,7 +10,7 @@
       </h1>
       <div class="text-sm text-gray-400 mb-4 flex items-center gap-2">
         <i class="fas fa-calendar"></i>
-        Đăng ngày: 07/09/2025
+        Đăng ngày: 07/09/2026
       </div>
       <p class="text-lg text-muted">
         AkiNet (akivn.net) là mạng lưới dự án công nghệ hỗ trợ sản xuất âm nhạc & media tại Việt Nam do <strong>Lạc Việt Anh</strong> sáng lập. Hệ sinh thái bao gồm: <strong>AkiWorkflow</strong> (quản lý quy trình sản xuất âm nhạc), <strong>VSTShop.com</strong> (plugin & sample marketplace), <strong>AkiApp</strong> (ứng dụng hỗ trợ học & luyện thanh), <strong>Tách Nhạc</strong> (AI stem separation), <strong>LamNhac.net</strong> (cộng đồng làm nhạc). Bài viết này tối ưu SEO chuyên sâu với mục tiêu phủ từ khóa brand + long-tail ở mảng công nghệ âm nhạc tại Việt Nam.

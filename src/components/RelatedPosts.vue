@@ -71,7 +71,7 @@ const allPosts = [
     image: '/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg',
     excerpt: 'Phòng thu âm chuyên nghiệp tại Hà Nội: thu âm, làm nhạc, hòa âm phối khí, mixing mastering, quay MV chất lượng cao.',
     tags: ['Phòng thu âm', 'Làm nhạc', 'Hà Nội'],
-    time: 1760933084
+    time: 1792469084
   },
   {
     slug: '/akinet',
@@ -79,7 +79,7 @@ const allPosts = [
     image: '/img/AkiNet-akivn.net.png',
     excerpt: 'AkiNet (akivn.net) kết nối AkiWorkflow, VSTShop, AkiApp, Tách Nhạc AI, LamNhac.net tạo nền tảng công nghệ âm nhạc Việt Nam.',
     tags: ['Công nghệ', 'Âm nhạc', 'AI'],
-    time: 1757246755
+    time: 1788782755
   },
   {
     slug: '/akiworkflow',
@@ -87,7 +87,7 @@ const allPosts = [
     image: '/img/AkiWF-GrCover2025.png',
     excerpt: 'Giải pháp ALL-IN-ONE cho Music Producer: 2TB+ thư viện, Logic Pro X setup tối ưu, Sync Select, training 1-1. Đặc biệt cho người mới & chuyển từ Windows/DAW khác.',
     tags: ['macOS', 'Logic Pro X', 'Workflow'],
-    time: 1735948800
+    time: 1767484800
   },
   {
     slug: '/akiapp',
@@ -95,7 +95,7 @@ const allPosts = [
     image: '/img/AkiApp-cover.png',
     excerpt: 'AkiApp là một nền tảng Mini-OS trên trình duyệt, cung cấp các ứng dụng và tiện ích cho producer, content creator và người dùng sáng tạo.',
     tags: ['Mini-OS', 'Web App', 'Công cụ'],
-    time: 1764397499
+    time: 1795933499
   },
   {
     slug: '/lamnhac',
@@ -103,7 +103,7 @@ const allPosts = [
     image: '/img/lamnhac-net.png',
     excerpt: 'LamNhac.net là hub chia sẻ preset, tutorial, feedback và mentorship dành cho cộng đồng producer Việt Nam.',
     tags: ['Cộng đồng', 'Preset', 'Mentorship'],
-    time: 1760933084
+    time: 1792469084
   },
   {
     slug: '/tachnhac',
@@ -111,7 +111,7 @@ const allPosts = [
     image: '/img/akivn-tachnhacv1.png',
     excerpt: 'Giới thiệu tool.akivn.net/tachnhac: tách nhạc AI, vocal remove, tải nhạc YouTube, download SoundCloud cho producer và content creator.',
     tags: ['AI', 'Tách nhạc', 'YouTube'],
-    time: 1760747169
+    time: 1792283169
   },
   {
     slug: '/qqmusic-lyrics-search',
@@ -119,7 +119,7 @@ const allPosts = [
     image: '/img/qqmusicsearch-logo.png',
     excerpt: 'Công cụ tìm kiếm lyrics từ QQMusic với timecode chuẩn, hỗ trợ nhạc Trung và quốc tế - giải pháp tối ưu cho creator video âm nhạc.',
     tags: ['Lyrics', 'Video editing', 'Content creator'],
-    time: 1764435883
+    time: 1795971883
   },
   {
     slug: '/seo-system',
@@ -127,7 +127,7 @@ const allPosts = [
     image: '/img/seo-check.png',
     excerpt: 'Khám phá hệ thống SEO Automation do Lạc Việt Anh (Founder AkiNet) phát triển. Tự động kiểm tra lỗi, tối ưu JSON-LD và Meta Tags, giúp Creator tập trung vào nội dung.',
     tags: ['SEO automation', 'JSON-LD', 'Meta tags'],
-    time: 1764441191
+    time: 1795977191
   },
   {
     slug: '/akiinfodetect-js',
@@ -135,7 +135,7 @@ const allPosts = [
     image: '/img/AkiNet-akivn.net.png',
     excerpt: 'Ra mắt aki-info-detect - thư viện JavaScript nhẹ, mạnh mẽ phát hiện browser, OS, hardware, network. Client Hints API, Apple Silicon M1-MX, tree-shakeable. By Lạc Việt Anh.',
     tags: ['JavaScript', 'Device Detection', 'AkiNet'],
-    time: 1765186455
+    time: 1796722455
   },
   {
     slug: '/cloud-services-comparison',
@@ -151,7 +151,7 @@ const allPosts = [
     image: 'https://github.com/user-attachments/assets/100b9886-5267-4eb2-ac9a-a436db330c17',
     excerpt: 'Oscar Music Group: nền tảng All-in-one phân phối âm nhạc số, lên Zing MP3 trong 24h, Spotify/Apple Music trong 48h, Content ID tự động và Dashboard quản lý cho nghệ sĩ & Label Việt Nam.',
     tags: ['Phân phối nhạc', 'Oscar Music', 'Label'],
-    time: 1745477150
+    time: 1777013150
   }
 ];
 
