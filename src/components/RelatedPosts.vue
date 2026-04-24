@@ -144,6 +144,14 @@ const allPosts = [
     excerpt: 'Hiểu rõ sự khác biệt quan trọng giữa User Cloud (Google Drive, Dropbox) và Hosting Cloud (AWS S3, Aki Cloud). Direct link, API, automation - tại sao developer phải biết.',
     tags: ['Cloud Storage', 'Developer', 'Aki Cloud'],
     time: 1767411829
+  },
+  {
+    slug: '/oscar-music-group',
+    title: 'Oscar Music Group - Phân Phối Âm Nhạc Số Toàn Cầu TRONG 24H',
+    image: 'https://github.com/user-attachments/assets/100b9886-5267-4eb2-ac9a-a436db330c17',
+    excerpt: 'Oscar Music Group: nền tảng All-in-one phân phối âm nhạc số, lên Zing MP3 trong 24h, Spotify/Apple Music trong 48h, Content ID tự động và Dashboard quản lý cho nghệ sĩ & Label Việt Nam.',
+    tags: ['Phân phối nhạc', 'Oscar Music', 'Label'],
+    time: 1745477150
   }
 ];
 

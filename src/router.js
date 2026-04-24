@@ -67,6 +67,11 @@ export const routes = [
     component: () => import("./pages/cloud-services-comparison.vue"),
   },
   {
+    path: "/oscar-music-group",
+    name: "OscarMusicGroup",
+    component: () => import("./pages/oscar-music-group.vue"),
+  },
+  {
     path: "/privacy-policy",
     name: "PrivacyPolicy",
     component: () => import("./pages/privacy-policy.vue"),
