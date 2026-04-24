@@ -331,35 +331,65 @@
     <!-- GALLERY: CÁC HÌNH ẢNH VĂN PHÒNG OSCAR MUSIC GROUP -->
     <section class="mt-16">
       <h2 class="text-2xl font-bold text-white mb-8 text-center">Các hình ảnh văn phòng Oscar Music Group</h2>
-      <div class="grid md:grid-cols-3 gap-6">
+      <div class="space-y-8">
         <figure>
           <img
-            src="https://github.com/user-attachments/assets/7438d5fe-ca8c-4ba2-8f5f-4448e6fcae52"
-            alt="Văn phòng điều hành Oscar Entertainment nhìn ra toàn cảnh thành phố Hà Nội về đêm - Oscar Music Group phân phối âm nhạc số"
-            class="w-1/2 h-auto rounded-xl shadow-lg object-cover mx-auto"
+            src="/img/oscar-music-phong-lam-viec.jpg"
+            alt="oscar-music-phong-lam-viec"
+            class="w-full h-auto rounded-xl shadow-lg object-cover"
+            style="min-width:400px;max-width:860px;margin:0 auto;display:block;"
+            loading="lazy"
           >
           <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
-            Phòng làm việc của đội ngũ điều hành Oscar Entertainment.
+            Phòng làm việc đội ngũ Oscar Music Group.
           </figcaption>
         </figure>
         <figure>
           <img
-            src="https://github.com/user-attachments/assets/32cbcdd6-fb25-477b-93bf-f6780764efba"
-            alt="Phòng họp Oscar Entertainment - Đội ngũ chiến lược phát triển Oscar Music Group Dashboard"
-            class="w-1/2 h-auto rounded-xl shadow-lg object-cover mx-auto"
+            src="/img/oscar-music-phong-hop.jpg"
+            alt="oscar-music-phong-hop"
+            class="w-full h-auto rounded-xl shadow-lg object-cover"
+            style="min-width:400px;max-width:860px;margin:0 auto;display:block;"
+            loading="lazy"
           >
           <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
-            Không gian làm việc và trao đổi chiến lược của đội ngũ Oscar Entertainment.
+            Phòng họp chiến lược Oscar Music Group.
           </figcaption>
         </figure>
         <figure>
           <img
-            src="https://github.com/user-attachments/assets/f038500a-4499-4769-8694-7bc6b1cfb8bc"
-            alt="Phòng họp ban điều hành Oscar Entertainment - Chiến lược phân phối âm nhạc toàn cầu"
-            class="w-1/2 h-auto rounded-xl shadow-lg object-cover mx-auto"
+            src="/img/oscar-music-phong-giam-doc.jpg"
+            alt="oscar-music-phong-giam-doc"
+            class="w-full h-auto rounded-xl shadow-lg object-cover"
+            style="min-width:400px;max-width:860px;margin:0 auto;display:block;"
+            loading="lazy"
           >
           <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
-            Phòng họp chiến lược của Oscar Entertainment.
+            Phòng giám đốc Oscar Entertainment.
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="/img/oscar-music-le-tan.jpg"
+            alt="oscar-music-le-tan"
+            class="w-full h-auto rounded-xl shadow-lg object-cover"
+            style="min-width:400px;max-width:860px;margin:0 auto;display:block;"
+            loading="lazy"
+          >
+          <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
+            Sảnh lễ tân Oscar Entertainment — "Lan toả âm nhạc của bạn đến mọi nơi".
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="/img/oscar-music-khong-gian-cafe.jpg"
+            alt="oscar-music-khong-gian-cafe"
+            class="w-full h-auto rounded-xl shadow-lg object-cover"
+            style="min-width:400px;max-width:860px;margin:0 auto;display:block;"
+            loading="lazy"
+          >
+          <figcaption class="text-center text-sm mt-3 text-gray-400 italic">
+            Không gian café sáng tạo tại Oscar Entertainment.
           </figcaption>
         </figure>
       </div>

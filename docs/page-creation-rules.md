@@ -164,6 +164,9 @@ const schemas = [
 ```
 
 ## 6a. Date/Time Standards
+
+> **🚨 CRITICAL — BẮT BUỘC:** Trước khi tạo hoặc cập nhật bất kỳ bài viết nào, AI Agent **PHẢI** lấy thời gian hiện tại theo múi giờ GMT+7 (Việt Nam) để đảm bảo tính chính xác tuyệt đối cho `datePublished`, `dateModified`, ngày hiển thị trên UI và `time` (Unix timestamp) trong `RelatedPosts`. Không được tự suy đoán hoặc dùng năm mặc định từ training data.
+
 - **Format:** ISO 8601 (`YYYY-MM-DD` hoặc `YYYY-MM-DDTHH:mm:ss+07:00`)
 - **datePublished:** Ngày xuất bản (không đổi)
 - **dateModified:** Ngày update (thay đổi khi sửa content)

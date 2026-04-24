@@ -15,7 +15,7 @@
       <div class="text-sm text-gray-400 mb-6 flex justify-center items-center gap-4">
         <span class="flex items-center gap-2"><i class="fas fa-user-edit"></i> Lạc Việt Anh</span>
         <span class="w-1 h-1 bg-gray-600 rounded-full"></span>
-        <span class="flex items-center gap-2"><i class="fas fa-calendar-alt"></i> 30/11/2026</span>
+        <span class="flex items-center gap-2"><i class="fas fa-calendar-alt"></i> 30/11/2025</span>
       </div>
 
       <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -488,8 +488,8 @@ const techArticleSchema = {
       url: 'https://oscarfamily.vn/logo.png'
     }
   },
-  datePublished: '2026-11-30',
-  dateModified: '2026-11-30',
+  datePublished: '2025-11-30',
+  dateModified: '2025-11-30',
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': url
