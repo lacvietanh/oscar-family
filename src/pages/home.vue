@@ -35,7 +35,6 @@
         <nav class="flex gap-2 md:gap-4">
           <a href="#gioi-thieu" class="home-link">Giới thiệu</a>
           <a href="#quyen-loi" class="home-link">Quyền lợi</a>
-          <a href="#nghe-si" class="home-link">Nghệ sĩ</a>
           <a href="#san-pham" class="home-link">Sản phẩm</a>
           <a href="#dang-ky" class="home-link">Đăng ký</a>
         </nav>
@@ -102,29 +101,6 @@
               <li>Tiếp cận khán giả qua show diễn, chương trình truyền hình.</li>
               <li>Cơ hội làm việc với nghệ sĩ nổi tiếng, học hỏi về Media & đa nền tảng.</li>
             </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- Nghệ sĩ -->
-      <section id="nghe-si" class="mb-24 bg-gradient-to-br from-[#181814] to-[#232323] rounded-3xl py-12 shadow-2xl">
-        <h3 class="text-3xl md:text-4xl font-black uppercase mb-6 text-center text-[#f2c35a] tracking-widest">Nghệ sĩ</h3>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-10 justify-items-center">
-          <div class="flex flex-col items-center">
-            <img src="/src/assets/qiti.jpg" alt="Qiti" class="rounded-full shadow-2xl w-36 h-36 object-cover mb-3 hover:scale-105 transition-all duration-200">
-            <span class="font-semibold text-lg">Qiti</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="/src/assets/quin.jpg" alt="Quin" class="rounded-full shadow-2xl w-36 h-36 object-cover mb-3 hover:scale-105 transition-all duration-200">
-            <span class="font-semibold text-lg">Quin</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="/src/assets/tuyner.jpg" alt="Tuyner" class="rounded-full shadow-2xl w-36 h-36 object-cover mb-3 hover:scale-105 transition-all duration-200">
-            <span class="font-semibold text-lg">Tuyner</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="/src/assets/tt.jpg" alt="Thuy Tien" class="rounded-full shadow-2xl w-36 h-36 object-cover mb-3 hover:scale-105 transition-all duration-200">
-            <span class="font-semibold text-lg">Thuy Tien</span>
           </div>
         </div>
       </section>
