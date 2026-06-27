@@ -176,9 +176,9 @@
           <div class="bg-gray-900/50 p-6 rounded-xl border border-gray-700">
             <h3 class="font-bold text-lg mb-4 text-yellow-500">Workflow Thực Tế:</h3>
             <div class="font-mono text-xs text-gray-300 leading-relaxed">
-              <div class="mb-2"><span class="text-blue-400">1.</span> <code class="bg-gray-800 px-2 py-1 rounded">npm run checkseo</code></div>
-              <div class="pl-4 mb-2"><span class="text-gray-600">↓</span> Chạy <code class="bg-gray-800 px-2 py-1 rounded">vite-ssg build</code> (SSG prerender)</div>
-              <div class="pl-4 mb-2"><span class="text-gray-600">↓</span> Scripts: <code class="bg-gray-800 px-2 py-1 rounded">generate-sitemap.js</code> → Scan dist/ → Tạo sitemap.xml</div>
+              <div class="mb-2"><span class="text-blue-400">1.</span> <code class="bg-gray-800 px-2 py-1 rounded">npm run generate</code></div>
+              <div class="pl-4 mb-2"><span class="text-gray-600">↓</span> Chạy <code class="bg-gray-800 px-2 py-1 rounded">nuxt generate</code> (SSG prerender via Nitro)</div>
+              <div class="pl-4 mb-2"><span class="text-gray-600">↓</span> <code class="bg-gray-800 px-2 py-1 rounded">@nuxtjs/seo</code> → Tự động tạo sitemap.xml và robots.txt</div>
               <div class="pl-4 mb-2"><span class="text-gray-600">↓</span> Scripts: <code class="bg-gray-800 px-2 py-1 rounded">checkseo-offline.js</code></div>
               <div class="pl-8 mb-2"><span class="text-blue-400">→</span> Đọc sitemap.xml</div>
               <div class="pl-8 mb-2"><span class="text-blue-400">→</span> Loop từng URL → Đọc HTML từ dist/</div>
@@ -238,7 +238,7 @@
               <h3 class="font-bold text-xl mb-4 text-purple-400">Cách Hoạt Động:</h3>
               <ol class="space-y-3 text-gray-300 text-sm list-decimal pl-5">
                 <li>Route <code class="bg-gray-800 px-2 py-1 rounded">/checkseo</code> chỉ tồn tại trong development mode</li>
-                <li>Component <code class="bg-gray-800 px-2 py-1 rounded">src/pages/checkseo.vue</code> fetch <code class="bg-gray-800 px-2 py-1 rounded">/dev/seo-report.json</code></li>
+                <li>Component <code class="bg-gray-800 px-2 py-1 rounded">app/pages/checkseo.vue</code> fetch <code class="bg-gray-800 px-2 py-1 rounded">/dev/seo-report.json</code></li>
                 <li>Vite dev server serve cả thư mục <code class="bg-gray-800 px-2 py-1 rounded">dev/</code> (không build vào production)</li>
                 <li>Hiển thị UI trực quan: Summary cards, Per-page results, Issues list</li>
                 <li>Score color-coded: Green (90-100), Yellow (70-89), Red (&lt;70)</li>
@@ -453,7 +453,7 @@
     </div>
 
     <div class="mt-16 border-t border-gray-800 pt-12">
-      <RelatedPosts exclude-slug="/seo-system" />
+      <RelatedPosts exclude-slug="/seo-system/" />
     </div>
 
   </article>
@@ -464,7 +464,7 @@ import RelatedPosts from '../components/RelatedPosts.vue'
 
 const title = 'Hệ thống CheckSEO Offline - Kiểm Tra SEO Không Cần Deploy TRONG 5S'
 const description = 'Khác biệt hoàn toàn: Kiểm tra SEO trên localhost, validate JSON-LD offline, route /checkseo dev-only, chặn deploy nếu lỗi. Miễn phí 100% và open source.'
-const url = 'https://oscarfamily.vn/seo-system'
+const url = 'https://oscarfamily.vn/seo-system/'
 const image = 'https://oscarfamily.vn/img/seo-check.png'
 
 // 1. TechArticle Schema
@@ -583,27 +583,16 @@ const organizationSchema = {
   description: 'Hệ sinh thái công nghệ hỗ trợ creator tại Việt Nam: lamnhac.net, vstshop.com, AkiWorkflow.'
 }
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'checkseo offline, SEO automation, JSON-LD validation, offline SEO checker, Vue.js SEO, Vite SSG, schema.org validation, localhost SEO, CI/CD SEO, Lạc Việt Anh, AkiNet',
+  author: 'Lạc Việt Anh'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'checkseo offline, SEO automation, JSON-LD validation, offline SEO checker, Vue.js SEO, Vite SSG, schema.org validation, localhost SEO, CI/CD SEO, Lạc Việt Anh, AkiNet' },
-    { name: 'author', content: 'Lạc Việt Anh' },
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { property: 'og:site_name', content: 'Oscar Family' },
-    { property: 'og:locale', content: 'vi_VN' },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
-  ],
-  link: [
-    { rel: 'canonical', href: url }
-  ],
   script: [
     { type: 'application/ld+json', innerHTML: JSON.stringify(techArticleSchema) },
     { type: 'application/ld+json', innerHTML: JSON.stringify(personSchema) },

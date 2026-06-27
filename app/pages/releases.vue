@@ -48,7 +48,7 @@ import releasesData from '../data/releases.json'
 
 const title = 'Release Notes - Nhật Ký Cập Nhật Hệ Thống | Oscar Family'
 const description = 'Nhật ký cập nhật hệ thống Oscar Family: cập nhật tính năng mới, cải tiến hiệu năng và các sửa lỗi.'
-const url = 'https://oscarfamily.vn/releases'
+const url = 'https://oscarfamily.vn/releases/'
 const image = 'https://oscarfamily.vn/img/ogimage.jpg'
 const currentDate = '2026-06-27T16:54:59+07:00'
 
@@ -127,28 +127,15 @@ const faqSchema = {
   ]
 }
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  keywords: 'Release Notes, nhật ký cập nhật, oscar family, changelog, tính năng mới, sửa lỗi, nâng cấp hệ thống, Lạc Việt Anh, Oscar Entertainment',
+  author: 'Lạc Việt Anh'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'Release Notes, nhật ký cập nhật, oscar family, changelog, tính năng mới, sửa lỗi, nâng cấp hệ thống, Lạc Việt Anh, Oscar Entertainment' },
-    { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large' },
-    { name: 'author', content: 'Lạc Việt Anh' },
-    // Open Graph
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { property: 'og:site_name', content: 'Oscar Family' },
-    { property: 'og:locale', content: 'vi_VN' },
-    // Twitter
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
-  ],
-  link: [{ rel: 'canonical', href: url }],
   script: [
     { type: 'application/ld+json', innerHTML: JSON.stringify(techArticleSchema) },
     { type: 'application/ld+json', innerHTML: JSON.stringify(personSchema) },

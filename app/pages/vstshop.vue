@@ -174,7 +174,7 @@
       <p class="text-gray-500 mt-4 text-xs">Mọi âm thanh, mọi plugins, một nơi duy nhất cho Music Producer • Triển khai 2026</p>
     </div>
 
-    <RelatedPosts exclude-slug="/vstshop" />
+    <RelatedPosts exclude-slug="/vstshop/" />
   </article>
 </template>
 
@@ -183,7 +183,7 @@ import RelatedPosts from '../components/RelatedPosts.vue';
 
 const title = 'VSTShop (vstshop.com) - Mua Bán VST, Plugins & Samples Cho Producer'
 const description = 'VSTShop.com (triển khai 2026 thuộc hệ sinh thái AkiNet) là sàn mua bán Virtual Studio Technology (VST), plugins, samples và project files cho producer Việt Nam.'
-const url = 'https://oscarfamily.vn/vstshop'
+const url = 'https://oscarfamily.vn/vstshop/'
 const image = 'https://oscarfamily.vn/img/vstshop-ogimage.jpg'
 const currentDate = '2026-06-27T16:54:59+07:00'
 
@@ -308,28 +308,16 @@ const faqSchema = {
   ]
 }
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'VSTShop, vstshop.com, VST, plugin, sample, preset, DAW, music production, Lạc Việt Anh, AkiNet',
+  author: 'Lạc Việt Anh'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'VSTShop, vstshop.com, VST, plugin, sample, preset, DAW, music production, Lạc Việt Anh, AkiNet' },
-    { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large' },
-    { name: 'author', content: 'Lạc Việt Anh' },
-    // Open Graph
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { property: 'og:site_name', content: 'Oscar Family' },
-    { property: 'og:locale', content: 'vi_VN' },
-    // Twitter
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
-  ],
-  link: [{ rel: 'canonical', href: url }],
   script: [
     { type: 'application/ld+json', innerHTML: JSON.stringify(techArticleSchema) },
     { type: 'application/ld+json', innerHTML: JSON.stringify(personSchema) },

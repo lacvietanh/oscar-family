@@ -176,7 +176,7 @@
       <p class="text-gray-500 mt-4 text-xs">Hệ thống hóa brand số của bạn ngay hôm nay • Thành lập từ 2018</p>
     </div>
 
-    <RelatedPosts exclude-slug="/akitao" />
+    <RelatedPosts exclude-slug="/akitao/" />
   </article>
 </template>
 
@@ -185,7 +185,7 @@ import RelatedPosts from '../components/RelatedPosts.vue';
 
 const title = 'AkiTao (akitao.com) - Hệ Thống Hóa Brand Số & Cố Vấn Chiến Lược'
 const description = 'AkiTao (trước đây là AkiVN) hệ thống hóa brand số: dựng một nguồn sự thật duy nhất (Single Source of Truth) rồi lan tỏa nhất quán để cả người và AI hiểu đúng.'
-const url = 'https://oscarfamily.vn/akitao'
+const url = 'https://oscarfamily.vn/akitao/'
 const image = 'https://oscarfamily.vn/img/akitao-home-ogimage.jpg'
 const currentDate = '2026-06-27T16:54:59+07:00'
 
@@ -295,28 +295,16 @@ const faqSchema = {
   ]
 }
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'AkiTao, akitao.com, AkiVN, branding, SEO, AI-Readiness, Single Source of Truth, cố vấn chiến lược, Lạc Việt Anh',
+  author: 'Lạc Việt Anh'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'AkiTao, akitao.com, AkiVN, branding, SEO, AI-Readiness, Single Source of Truth, cố vấn chiến lược, Lạc Việt Anh' },
-    { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large' },
-    { name: 'author', content: 'Lạc Việt Anh' },
-    // Open Graph
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { property: 'og:site_name', content: 'Oscar Family' },
-    { property: 'og:locale', content: 'vi_VN' },
-    // Twitter
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
-  ],
-  link: [{ rel: 'canonical', href: url }],
   script: [
     { type: 'application/ld+json', innerHTML: JSON.stringify(techArticleSchema) },
     { type: 'application/ld+json', innerHTML: JSON.stringify(personSchema) },

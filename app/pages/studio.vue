@@ -244,7 +244,7 @@ const services = [
 
 const pageTitle = 'Oscar Studio - Phòng Thu Âm Chuyên Nghiệp tại Hà Nội'
 const pageDescription = 'Oscar Studio - Phòng thu âm chuyên nghiệp tại Hà Nội. Cung cấp dịch vụ thu âm, sản xuất âm nhạc, hoà âm phối khí, quay MV. Không gian sáng tạo, thiết bị hiện đại.'
-const pageUrl = 'https://oscarfamily.vn/studio'
+const pageUrl = 'https://oscarfamily.vn/studio/'
 const ogImage = 'https://oscarfamily.vn/img/oscar-studio-desk.jpg'
 
 const jsonLd = computed(() => ({
@@ -273,35 +273,20 @@ const jsonLd = computed(() => ({
   ]
 }))
 
-useHead({
+usePageSeo({
   title: pageTitle,
-  meta: [
-    { name: 'description', content: pageDescription },
-    // Open Graph
-    { property: 'og:title', content: pageTitle },
-    { property: 'og:description', content: pageDescription },
-    { property: 'og:url', content: pageUrl },
-    { property: 'og:image', content: ogImage },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:site_name', content: 'Oscar Studio' },
-    // Twitter Card
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: pageTitle },
-    { name: 'twitter:description', content: pageDescription },
-    { name: 'twitter:image', content: ogImage }
-  ],
+  description: pageDescription,
+  ogImage: ogImage,
+  ogType: 'article'
+})
+
+useHead({
   script: [
     {
       type: 'application/ld+json',
       innerHTML: computed(() => JSON.stringify(jsonLd.value)),
     },
-  ],
-  link: [
-    {
-      rel: 'canonical',
-      href: pageUrl,
-    },
-  ],
+  ]
 })
 </script>
 

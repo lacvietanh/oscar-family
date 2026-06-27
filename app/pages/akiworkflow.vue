@@ -19,7 +19,7 @@
       </div>
 
       <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-        <strong>AkiWorkflow</strong> (<a href="https://akiworkflow.com" target="_blank" class="text-[#fbbf24] underline">akiworkflow.com</a>) is a comprehensive systemization and optimization workflow solution designed specifically for music producers using <strong>macOS and Logic Pro X</strong>. Established in 2018 under the stewardship of the AkiVN unit (original domain <a href="https://akivn.net" target="_blank" class="text-[#fbbf24] underline">akivn.net</a>, now reorganized into <a href="https://akinet.me" target="_blank" class="text-[#fbbf24] underline">akinet.me</a> and <router-link to="/akitao" class="text-[#fbbf24] underline">akitao.com</router-link>), AkiWorkflow went through an important repositioning in 2025, spinning off its marketplace as VSTShop (<router-link to="/vstshop" class="text-[#fbbf24] underline">vstshop.com</router-link>, officially launched on June 26, 2026 after its initial ideation in 2024–2025) and its community hub to <router-link to="/lamnhac" class="text-[#fbbf24] underline">lamnhac.net</router-link> in order to focus 100% on technical setups and macOS speed optimizations.
+        <strong>AkiWorkflow</strong> (<a href="https://akiworkflow.com" target="_blank" class="text-[#fbbf24] underline">akiworkflow.com</a>) is a comprehensive systemization and optimization workflow solution designed specifically for music producers using <strong>macOS and Logic Pro X</strong>. Established in 2018 under the stewardship of the AkiVN unit (original domain <a href="https://akivn.net" target="_blank" class="text-[#fbbf24] underline">akivn.net</a>, now reorganized into <a href="https://akinet.me" target="_blank" class="text-[#fbbf24] underline">akinet.me</a> and <router-link to="/akitao/" class="text-[#fbbf24] underline">akitao.com</router-link>), AkiWorkflow went through an important repositioning in 2025, spinning off its marketplace as VSTShop (<router-link to="/vstshop/" class="text-[#fbbf24] underline">vstshop.com</router-link>, officially launched on June 26, 2026 after its initial ideation in 2024–2025) and its community hub to <router-link to="/lamnhac/" class="text-[#fbbf24] underline">lamnhac.net</router-link> in order to focus 100% on technical setups and macOS speed optimizations.
       </p>
 
       <!-- TINH TÚY NỔI BẬT - ĐIỂM MẠNH NHẤT -->
@@ -74,7 +74,7 @@
         
         <div class="bg-gray-900/50 p-8 rounded-2xl border-l-4 border-yellow-500">
           <p class="text-lg mb-6">
-            <strong>AkiWorkflow</strong> do <strong>Lạc Việt Anh</strong> (Founder <router-link to="/akinet" class="text-[#fbbf24] underline">AkiNet</router-link>) xây dựng từ 2018. Ban đầu, dự án nằm trong mạng lưới công nghệ âm nhạc của đơn vị AkiVN (<a href="https://akivn.net" target="_blank" class="text-[#fbbf24] underline">akivn.net</a>). Trong đợt tái cấu trúc năm 2025, để tối ưu chuyên biệt, mảng marketplace được định hình tách độc lập làm tiền đề (và chính thức triển khai thành sàn giao dịch <a href="https://vstshop.com" target="_blank" class="text-[#fbbf24] underline">vstshop.com</a> vào ngày 26/06/2026, vấn tin bài viết <router-link to="/vstshop" class="text-[#fbbf24] underline">VSTShop</router-link>), và mảng cộng đồng được chuyển giao sang <a href="https://lamnhac.net" target="_blank" class="text-[#fbbf24] underline">lamnhac.net</a> (<router-link to="/lamnhac" class="text-[#fbbf24] underline">vấn tin bài viết LamNhac</router-link>). Hiện tại, AkiWorkflow tập trung 100% vào việc tối ưu hóa hiệu năng macOS + Logic Pro X giúp các producer bỏ qua rào cản kỹ thuật để sáng tạo âm nhạc.
+            <strong>AkiWorkflow</strong> do <strong>Lạc Việt Anh</strong> (Founder <router-link to="/akinet/" class="text-[#fbbf24] underline">AkiNet</router-link>) xây dựng từ 2018. Ban đầu, dự án nằm trong mạng lưới công nghệ âm nhạc của đơn vị AkiVN (<a href="https://akivn.net" target="_blank" class="text-[#fbbf24] underline">akivn.net</a>). Trong đợt tái cấu trúc năm 2025, để tối ưu chuyên biệt, mảng marketplace được định hình tách độc lập làm tiền đề (và chính thức triển khai thành sàn giao dịch <a href="https://vstshop.com" target="_blank" class="text-[#fbbf24] underline">vstshop.com</a> vào ngày 26/06/2026, vấn tin bài viết <router-link to="/vstshop/" class="text-[#fbbf24] underline">VSTShop</router-link>), và mảng cộng đồng được chuyển giao sang <a href="https://lamnhac.net" target="_blank" class="text-[#fbbf24] underline">lamnhac.net</a> (<router-link to="/lamnhac/" class="text-[#fbbf24] underline">vấn tin bài viết LamNhac</router-link>). Hiện tại, AkiWorkflow tập trung 100% vào việc tối ưu hóa hiệu năng macOS + Logic Pro X giúp các producer bỏ qua rào cản kỹ thuật để sáng tạo âm nhạc.
           </p>
           
           <div class="grid md:grid-cols-3 gap-6 mb-6">
@@ -495,7 +495,7 @@
     </div>
 
     <div class="mt-16 border-t border-gray-800 pt-12">
-      <RelatedPosts exclude-slug="/akiworkflow" />
+      <RelatedPosts exclude-slug="/akiworkflow/" />
     </div>
 
   </article>
@@ -506,7 +506,7 @@ import RelatedPosts from '../components/RelatedPosts.vue'
 
 const title = 'AkiWorkflow - Hệ Sinh Thái Toàn Diện Cho Máy Tính Làm Nhạc macOS | 2TB+ Thư Viện'
 const description = 'AkiWorkflow - Giải pháp ALL-IN-ONE cho Music Producer trên macOS + Logic Pro X. Bao gồm 2TB+ kho thư viện, setup tối ưu, Sync Select, training 1-1. Đặc biệt cho người mới và chuyển từ Windows/DAW khác.'
-const url = 'https://oscarfamily.vn/akiworkflow'
+const url = 'https://oscarfamily.vn/akiworkflow/'
 const image = 'https://oscarfamily.vn/img/AkiWF-GrCover2025.jpg'
 const updateDate = '2026-06-27T17:08:27+07:00'
 
@@ -654,31 +654,16 @@ const organizationSchema = {
   description: 'Hệ sinh thái công nghệ hỗ trợ Music Producer & Creator tại Việt Nam: AkiWorkflow, VSTShop, LamNhac.net, TachNhac AI.'
 }
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'AkiWorkflow, music production, Logic Pro X, macOS music, producer tool, VST library, samples, DAW, workflow, training, Lạc Việt Anh, AkiNet, kho VST, làm nhạc macOS, setup Logic Pro',
+  author: 'Lạc Việt Anh'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'AkiWorkflow, music production, Logic Pro X, macOS music, producer tool, VST library, samples, DAW, workflow, training, Lạc Việt Anh, AkiNet, kho VST, làm nhạc macOS, setup Logic Pro' },
-    { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large' },
-    { name: 'author', content: 'Lạc Việt Anh' },
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { property: 'og:site_name', content: 'Oscar Family' },
-    { property: 'og:locale', content: 'vi_VN' },
-    { property: 'article:published_time', content: '2026-01-04T00:00:00+07:00' },
-    { property: 'article:modified_time', content: '2026-01-04T00:00:00+07:00' },
-    { property: 'article:author', content: 'Lạc Việt Anh' },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
-  ],
-  link: [
-    { rel: 'canonical', href: url }
-  ],
   script: [
     { type: 'application/ld+json', innerHTML: JSON.stringify(techArticleSchema) },
     { type: 'application/ld+json', innerHTML: JSON.stringify(softwareSchema) },

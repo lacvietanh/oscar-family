@@ -200,7 +200,7 @@
       </section>
     </section>
 
-    <RelatedPosts exclude-slug="/lamnhac" />
+    <RelatedPosts exclude-slug="/lamnhac/" />
   </article>
 </template>
 
@@ -209,7 +209,7 @@ import RelatedPosts from "../components/RelatedPosts.vue";
 
 const title = "LamNhac.net - Nền tảng làm nhạc, học làm nhạc, cài đặt VST và tìm job âm nhạc";
 const description = "LamNhac.net (Lam Nhac, LamNhac) là cổng cộng đồng làm nhạc Việt Nam với 4 phân hệ Học - Cài - Làm - Tìm, hỗ trợ học làm nhạc online, cài đặt VST 1 click, marketplace plugin và job âm nhạc.";
-const url = "https://oscarfamily.vn/lamnhac";
+const url = "https://oscarfamily.vn/lamnhac/";
 const image = "https://oscarfamily.vn/img/lamnhac-net.png";
 
 const structuredData = {
@@ -319,27 +319,15 @@ const structuredData = {
   ]
 };
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  author: 'Oscar Family'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: "description", content: description },
-    { name: "author", content: "Oscar Family" },
-    { property: "og:title", content: title },
-    { property: "og:description", content: description },
-    { property: "og:image", content: image },
-    { property: "og:url", content: url },
-    { property: "og:type", content: "article" },
-    { property: "og:locale", content: "vi_VN" },
-    { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: title },
-    { name: "twitter:description", content: description },
-    { name: "twitter:image", content: image },
-    { property: "article:tag", content: "LamNhac.net" },
-    { property: "article:tag", content: "hoc lam nhac" },
-    { property: "article:tag", content: "cai dat VST" },
-    { property: "article:tag", content: "music production Vietnam" }
-  ],
-  link: [{ rel: "canonical", href: url }],
   script: [{ type: "application/ld+json", innerHTML: JSON.stringify(structuredData) }]
 });
 </script>

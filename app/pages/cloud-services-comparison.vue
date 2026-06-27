@@ -416,7 +416,7 @@ https://cdn.yourdomain.com/images/avatar.png
               <span>💎</span> Đặc Quyền Thành Viên AkiWorkflow
             </h4>
             <p class="text-gray-300 text-sm leading-relaxed mb-3">
-              Thành viên <strong><a href="/akiworkflow" class="text-purple-400 hover:text-purple-300 underline">AkiWorkflow</a></strong> nhận được gói nâng cấp đặc biệt:
+              Thành viên <strong><router-link to="/akiworkflow/" class="text-purple-400 hover:text-purple-300 underline">AkiWorkflow</router-link></strong> nhận được gói nâng cấp đặc biệt:
             </p>
             <ul class="list-disc list-inside text-gray-300 text-sm space-y-1 ml-4">
               <li>✨ <strong>10GB storage</strong> (thay vì 1GB)</li>
@@ -594,7 +594,7 @@ https://cdn.yourdomain.com/images/avatar.png
       <p class="text-gray-400 mt-4 text-sm">1GB Free • Direct Link • API Đơn Giản • Hỗ Trợ Tiếng Việt</p>
     </div>
 
-    <RelatedPosts exclude-slug="/cloud-services-comparison" />
+    <RelatedPosts exclude-slug="/cloud-services-comparison/" />
   </article>
 </template>
 
@@ -603,7 +603,7 @@ import RelatedPosts from '../components/RelatedPosts.vue';
 
 const title = 'User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S - Oscar Family';
 const description = 'Hiểu rõ sự khác biệt quan trọng giữa User Cloud (Google Drive, Dropbox) và Hosting Cloud (AWS S3, Aki Cloud). Direct link, API, automation - tại sao developer phải biết điều này.';
-const url = 'https://oscarfamily.vn/cloud-services-comparison';
+const url = 'https://oscarfamily.vn/cloud-services-comparison/';
 const image = 'https://oscarfamily.vn/img/user-cloud-services-vs-hosting-cloud.jpg';
 const datePublished = '2026-01-03T10:43:49+07:00';
 const dateModified = '2026-01-03T10:43:49+07:00';
@@ -755,30 +755,14 @@ const schemas = [
   organizationSchema
 ];
 
-useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'user cloud, hosting cloud, google drive, dropbox, aws s3, cloudflare r2, aki cloud, direct link, cloud storage, developer tools, web hosting, cloud computing, TRONG 5S' },
-    { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large' },
-    { name: 'author', content: 'Lạc Việt Anh' },
-    // Open Graph
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { property: 'og:site_name', content: 'Oscar Family' },
-    { property: 'og:locale', content: 'vi_VN' },
-    // Twitter
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
-  ],
-  link: [{ rel: 'canonical', href: url }],
-  script: schemas.map(s => ({ type: 'application/ld+json', innerHTML: JSON.stringify(s) }))
-});
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'user cloud, hosting cloud, google drive, dropbox, aws s3, cloudflare r2, aki cloud, direct link, cloud storage, developer tools, web hosting, cloud computing, TRONG 5S',
+  author: 'Lạc Việt Anh'
+})
 </script>
 
 <style scoped>

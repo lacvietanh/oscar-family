@@ -186,7 +186,7 @@
       </section>
     </section>
 
-    <RelatedPosts exclude-slug="/oscarstudio" />
+    <RelatedPosts exclude-slug="/oscarstudio/" />
   </article>
 </template>
 
@@ -195,7 +195,7 @@ import RelatedPosts from "../components/RelatedPosts.vue";
 
 const title = "Oscar Studio Hà Nội - Phòng thu âm, làm nhạc trọn gói, mix master, quay MV chuyên nghiệp";
 const description = "Oscar Studio Hà Nội cung cấp dịch vụ phòng thu âm, làm nhạc trọn gói, hòa âm phối khí, mixing mastering, quay MV và livestream studio cho nghệ sĩ, doanh nghiệp tại Hà Nội.";
-const url = "https://oscarfamily.vn/oscarstudio";
+const url = "https://oscarfamily.vn/oscarstudio/";
 const image = "https://oscarfamily.vn/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg";
 
 const structuredData = {
@@ -345,27 +345,15 @@ const structuredData = {
   ]
 };
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  author: 'Oscar Family'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: "description", content: description },
-    { name: "author", content: "Oscar Family" },
-    { property: "og:title", content: title },
-    { property: "og:description", content: description },
-    { property: "og:image", content: image },
-    { property: "og:url", content: url },
-    { property: "og:type", content: "article" },
-    { property: "og:locale", content: "vi_VN" },
-    { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: title },
-    { name: "twitter:description", content: description },
-    { name: "twitter:image", content: image },
-    { property: "article:tag", content: "phòng thu âm Hà Nội" },
-    { property: "article:tag", content: "studio làm nhạc" },
-    { property: "article:tag", content: "mix master Hà Nội" },
-    { property: "article:tag", content: "quay MV Hà Nội" }
-  ],
-  link: [{ rel: "canonical", href: url }],
   script: [{ type: "application/ld+json", innerHTML: JSON.stringify(structuredData) }]
 });
 </script>

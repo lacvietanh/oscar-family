@@ -161,7 +161,7 @@ const featuredMVs = [
 
 const pageTitle = 'Oscar Entertainment - Sản xuất, phát hành & truyền thông âm nhạc'
 const pageDescription = 'Oscar Entertainment là đơn vị sản xuất, phát hành, truyền thông âm nhạc. Chúng tôi đào tạo các giọng hát tiềm năng, tiếp sức cho các tài năng trẻ theo đuổi đam mê.'
-const pageUrl = 'https://oscarfamily.vn'
+const pageUrl = 'https://oscarfamily.vn/'
 
 const jsonLd = computed(() => ({
   '@context': 'https://schema.org',
@@ -185,12 +185,16 @@ const websiteJsonLd = computed(() => ({
   url: 'https://oscarfamily.vn/'
 }))
 
-useHead({
+usePageSeo({
   title: pageTitle,
+  description: pageDescription
+})
+
+useHead({
   script: [
     { type: 'application/ld+json', innerHTML: computed(() => JSON.stringify(jsonLd.value)) },
     { type: 'application/ld+json', innerHTML: computed(() => JSON.stringify(websiteJsonLd.value)) },
-  ],
+  ]
 })
 </script>
 

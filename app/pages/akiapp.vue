@@ -76,7 +76,7 @@
       </p>
     </section>
 
-    <RelatedPosts exclude-slug="/akiapp" />
+    <RelatedPosts exclude-slug="/akiapp/" />
   </article>
 </template>
 
@@ -85,7 +85,7 @@ import RelatedPosts from '../components/RelatedPosts.vue';
 
 const title = 'AkiApp (app.akivn.net) - Nền tảng Mini-OS cho người sáng tạo'
 const description = 'AkiApp (app.akivn.net) là một nền tảng Mini-OS trên trình duyệt do Lạc Việt Anh phát triển, cung cấp các ứng dụng và tiện ích cho producer, content creator và người dùng sáng tạo.'
-const url = 'https://oscarfamily.vn/akiapp'
+const url = 'https://oscarfamily.vn/akiapp/'
 const image = 'https://oscarfamily.vn/img/AkiApp-cover.jpg'
 
 const jsonLd = {
@@ -131,22 +131,15 @@ const jsonLd = {
   ]
 }
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'AkiApp, app.akivn.net, Mini-OS, WebOS, Lạc Việt Anh, Aki QQ Search, AkiNet QR Bank, Aki Chord Viewer, công cụ producer, ứng dụng sáng tạo'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'AkiApp, app.akivn.net, Mini-OS, WebOS, Lạc Việt Anh, Aki QQ Search, AkiNet QR Bank, Aki Chord Viewer, công cụ producer, ứng dụng sáng tạo' },
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'website' },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
-  ],
-  link: [ { rel: 'canonical', href: url } ],
   script: [ { type: 'application/ld+json', innerHTML: JSON.stringify(jsonLd) } ]
 })
 </script>

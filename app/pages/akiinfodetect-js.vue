@@ -531,10 +531,10 @@ export function useSystemInfo() {
                 <span>🏢</span> Về tác giả & AkiNet
               </h4>
               <ul class="space-y-2 text-sm">
-                <li><a href="/akinet" class="text-yellow-400 hover:underline">📖 AkiNet - Hệ sinh thái công nghệ</a></li>
-                <li><a href="/oscarstudio" class="text-yellow-400 hover:underline">🎵 Oscar Studio - Phòng thu âm</a></li>
-                <li><a href="/akiworkflow" class="text-yellow-400 hover:underline">⚙️ AkiWorkflow - Quản lý dự án</a></li>
-                <li><a href="/lamnhac" class="text-yellow-400 hover:underline">🎹 LamNhac.net - Cộng đồng</a></li>
+                <li><router-link to="/akinet/" class="text-yellow-400 hover:underline">📖 AkiNet - Hệ sinh thái công nghệ</router-link></li>
+                <li><router-link to="/oscarstudio/" class="text-yellow-400 hover:underline">🎵 Oscar Studio - Phòng thu âm</router-link></li>
+                <li><router-link to="/akiworkflow/" class="text-yellow-400 hover:underline">⚙️ AkiWorkflow - Quản lý dự án</router-link></li>
+                <li><router-link to="/lamnhac/" class="text-yellow-400 hover:underline">🎹 LamNhac.net - Cộng đồng</router-link></li>
               </ul>
             </div>
           </div>
@@ -565,7 +565,7 @@ export function useSystemInfo() {
       </div>
     </div>
 
-    <RelatedPosts exclude-slug="/akiinfodetect-js" />
+    <RelatedPosts exclude-slug="/akiinfodetect-js/" />
   </article>
 </template>
 
@@ -574,7 +574,7 @@ import RelatedPosts from '../components/RelatedPosts.vue';
 
 const title = 'aki-info-detect: JavaScript Library Phát Hiện Thiết Bị - TRONG 5S | AkiNet'
 const description = 'Ra mắt aki-info-detect - thư viện JavaScript nhẹ, mạnh mẽ phát hiện browser, OS, hardware, network. Client Hints API, Apple Silicon M1-MX, tree-shakeable. By Lạc Việt Anh - Founder AkiNet.'
-const url = 'https://oscarfamily.vn/akiinfodetect-js'
+const url = 'https://oscarfamily.vn/akiinfodetect-js/'
 const image = 'https://oscarfamily.vn/img/AkiNet-akivn.net.png'
 
 // TechArticle Schema
@@ -739,40 +739,13 @@ const faqSchema = {
 
 const schemas = [articleSchema, softwareSchema, personSchema, organizationSchema, faqSchema]
 
-useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'aki-info-detect, JavaScript library, device detection, browser detection, hardware detection, Client Hints API, Apple Silicon, tree-shakeable, network info, GPU detection, AkiNet, Lạc Việt Anh, Oscar Family, Oscar Studio, phát hiện thiết bị, thư viện JavaScript, TRONG 5S' },
-    { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large' },
-    { name: 'author', content: 'Lạc Việt Anh' },
-    // Open Graph
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { property: 'og:site_name', content: 'Oscar Family' },
-    { property: 'og:locale', content: 'vi_VN' },
-    { property: 'article:published_time', content: '2024-12-08T08:00:00+07:00' },
-    { property: 'article:modified_time', content: '2024-12-08T08:00:00+07:00' },
-    { property: 'article:author', content: 'Lạc Việt Anh' },
-    { property: 'article:section', content: 'Technology' },
-    { property: 'article:tag', content: 'JavaScript' },
-    // Twitter
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image },
-    { name: 'twitter:creator', content: '@lacvietanh' }
-  ],
-  link: [
-    { rel: 'canonical', href: url }
-  ],
-  script: schemas.map(s => ({ 
-    type: 'application/ld+json', 
-    innerHTML: JSON.stringify(s) 
-  }))
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'aki-info-detect, JavaScript library, device detection, browser detection, hardware detection, Client Hints API, Apple Silicon, tree-shakeable, network info, GPU detection, AkiNet, Lạc Việt Anh, Oscar Family, Oscar Studio, phát hiện thiết bị, thư viện JavaScript, TRONG 5S',
+  author: 'Lạc Việt Anh'
 })
 </script>
 

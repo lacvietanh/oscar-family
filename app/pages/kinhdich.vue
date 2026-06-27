@@ -158,7 +158,7 @@
       <p class="text-gray-500 mt-4 text-xs">Thành tâm gieo quẻ • Luận giải Lục Lục Tứ Quái miễn phí</p>
     </div>
 
-    <RelatedPosts exclude-slug="/kinhdich" />
+    <RelatedPosts exclude-slug="/kinhdich/" />
   </article>
 </template>
 
@@ -167,7 +167,7 @@ import RelatedPosts from '../components/RelatedPosts.vue';
 
 const title = 'Kinh Dịch (kinhdich.akinet.me) - Gieo Quẻ Lục Hào Ba Đồng Xu Online'
 const description = 'Kinh Dịch Online gieo quẻ Lục Hào chuẩn cổ truyền bằng ba đồng tiền. Hệ thống luận giải 64 quẻ dịch, bóc tách Quẻ Gốc - Biến - Hỗ trên 16 lĩnh vực.'
-const url = 'https://oscarfamily.vn/kinhdich'
+const url = 'https://oscarfamily.vn/kinhdich/'
 const image = 'https://oscarfamily.vn/img/kinhdich-ogimage.jpg'
 const currentDate = '2026-06-27T16:54:59+07:00'
 
@@ -262,28 +262,16 @@ const faqSchema = {
   ]
 }
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'Kinh Dịch, gieo quẻ online, Lục Hào, gieo quẻ Lục Hào, ba đồng xu, 64 quẻ dịch, kinhdich.akinet.me, triết lý âm dương, Lạc Việt Anh, AkiNet',
+  author: 'Lạc Việt Anh'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'Kinh Dịch, gieo quẻ online, Lục Hào, gieo quẻ Lục Hào, ba đồng xu, 64 quẻ dịch, kinhdich.akinet.me, triết lý âm dương, Lạc Việt Anh, AkiNet' },
-    { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large' },
-    { name: 'author', content: 'Lạc Việt Anh' },
-    // Open Graph
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { property: 'og:site_name', content: 'Oscar Family' },
-    { property: 'og:locale', content: 'vi_VN' },
-    // Twitter
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
-  ],
-  link: [{ rel: 'canonical', href: url }],
   script: [
     { type: 'application/ld+json', innerHTML: JSON.stringify(techArticleSchema) },
     { type: 'application/ld+json', innerHTML: JSON.stringify(personSchema) },

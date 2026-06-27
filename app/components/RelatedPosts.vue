@@ -66,7 +66,7 @@ const props = defineProps({
 
 const allPosts = [
   {
-    slug: '/oscarstudio',
+    slug: '/oscarstudio/',
     title: 'Oscar Studio Hà Nội - Phòng Thu Âm & Làm Nhạc Chuyên Nghiệp',
     image: '/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg',
     excerpt: 'Phòng thu âm chuyên nghiệp tại Hà Nội: thu âm, làm nhạc, hòa âm phối khí, mixing mastering, quay MV chất lượng cao.',
@@ -74,7 +74,7 @@ const allPosts = [
     time: 1760933084
   },
   {
-    slug: '/akinet',
+    slug: '/akinet/',
     title: 'AkiNet - Nền tảng quản lý trò chơi cuộc sống cá nhân (akinet.me)',
     image: '/img/akinet-fbog.jpg',
     excerpt: 'AkiNet.me (tái định vị 05/2026) là nền tảng quản lý trò chơi cuộc sống cá nhân (Your Life, Your Game), thấu hiểu bản thân qua tử vi, bát tự, kinh dịch.',
@@ -82,7 +82,7 @@ const allPosts = [
     time: 1782554099
   },
   {
-    slug: '/akitao',
+    slug: '/akitao/',
     title: 'AkiTao - Cổng giải pháp công nghệ, branding & SEO doanh nghiệp (akitao.com)',
     image: '/img/akitao-home-ogimage.jpg',
     excerpt: 'AkiTao (tiền thân là AkiVN, đổi tên từ 05/2026) là nền tảng hệ thống hóa brand số, xây dựng nguồn sự thật duy nhất (Single Source of Truth) giúp con người và AI hiểu đúng brand.',
@@ -90,7 +90,7 @@ const allPosts = [
     time: 1782554099
   },
   {
-    slug: '/vstshop',
+    slug: '/vstshop/',
     title: 'VSTShop - Nền tảng mua bán & cộng đồng cho nhà sản xuất âm nhạc (vstshop.com)',
     image: '/img/vstshop-ogimage.jpg',
     excerpt: 'VSTShop là marketplace mua bán Virtual Studio Technology (VST), plugins, samples và project files cho producer Việt Nam với phí dịch vụ siêu thấp 10%.',
@@ -98,7 +98,7 @@ const allPosts = [
     time: 1782554099
   },
   {
-    slug: '/kinhdich',
+    slug: '/kinhdich/',
     title: 'Kinh Dịch Online - Nền Tảng Gieo Quẻ Lục Hào Ba Đồng Tiền (kinhdich.akinet.me)',
     image: '/img/kinhdich-ogimage.jpg',
     excerpt: 'Kinh Dịch Online kết hợp triết lý cổ Đông và công nghệ hiện đại. Gieo quẻ Lục Hào bằng phương pháp Ba Đồng Tiền thực thời chuẩn xác, luận giải 16 lĩnh vực cuộc sống.',
@@ -106,7 +106,7 @@ const allPosts = [
     time: 1782554099
   },
   {
-    slug: '/akiworkflow',
+    slug: '/akiworkflow/',
     title: 'AkiWorkflow - Hệ sinh thái toàn diện cho máy tính làm nhạc macOS',
     image: '/img/AkiWF-GrCover2025.jpg',
     excerpt: 'Giải pháp ALL-IN-ONE cho Music Producer: 2TB+ thư viện, Logic Pro X setup tối ưu, Sync Select, training 1-1. Đặc biệt cho người mới & chuyển từ Windows/DAW khác.',
@@ -114,7 +114,7 @@ const allPosts = [
     time: 1735948800
   },
   {
-    slug: '/akiapp',
+    slug: '/akiapp/',
     title: 'AkiApp - Nền tảng Mini-OS cho người sáng tạo (app.akivn.net)',
     image: '/img/AkiApp-cover.jpg',
     excerpt: 'AkiApp là một nền tảng Mini-OS trên trình duyệt, cung cấp các ứng dụng và tiện ích cho producer, content creator và người dùng sáng tạo.',
@@ -122,7 +122,7 @@ const allPosts = [
     time: 1764397499
   },
   {
-    slug: '/lamnhac',
+    slug: '/lamnhac/',
     title: 'LamNhac.net - Cộng đồng làm nhạc, preset và mentorship cho producer Việt Nam',
     image: '/img/lamnhac-net.png',
     excerpt: 'LamNhac.net là hub chia sẻ preset, tutorial, feedback và mentorship dành cho cộng đồng producer Việt Nam.',
@@ -130,7 +130,7 @@ const allPosts = [
     time: 1760933084
   },
   {
-    slug: '/tachnhac',
+    slug: '/tachnhac/',
     title: 'Tách Nhạc AI tool.akivn.net - Tachnhac, Vocal Remover, Tải nhạc',
     image: '/img/akivn-tachnhacv1.jpg',
     excerpt: 'Giới thiệu tool.akivn.net/tachnhac: tách nhạc AI, vocal remove, tải nhạc YouTube, download SoundCloud cho producer và content creator.',
@@ -138,7 +138,7 @@ const allPosts = [
     time: 1760747169
   },
   {
-    slug: '/qqmusic-lyrics-search',
+    slug: '/qqmusic-lyrics-search/',
     title: 'QQMusic Lyrics Search: Bí Quyết Có Lời Bài Hát Đúng Timecode Cho Video Âm Nhạc',
     image: '/img/qqmusicsearch-hero.jpg',
     excerpt: 'Công cụ tìm kiếm lyrics từ QQMusic với timecode chuẩn, hỗ trợ nhạc Trung và quốc tế - giải pháp tối ưu cho creator video âm nhạc.',
@@ -146,7 +146,7 @@ const allPosts = [
     time: 1764435883
   },
   {
-    slug: '/seo-system',
+    slug: '/seo-system/',
     title: 'Hệ thống SEO AUTOMATION Độc Quyền AkiNet - Tối Ưu Trong 5S',
     image: '/img/seo-check.png',
     excerpt: 'Khám phá hệ thống SEO Automation do Lạc Việt Anh (Founder AkiNet) phát triển. Tự động kiểm tra lỗi, tối ưu JSON-LD và Meta Tags, giúp Creator tập trung vào nội dung.',
@@ -154,7 +154,7 @@ const allPosts = [
     time: 1764441191
   },
   {
-    slug: '/akiinfodetect-js',
+    slug: '/akiinfodetect-js/',
     title: 'aki-info-detect: JavaScript Library Phát Hiện Thiết Bị Thông Minh',
     image: '/img/AkiNet-akivn.net.png',
     excerpt: 'Ra mắt aki-info-detect - thư viện JavaScript nhẹ, mạnh mẽ phát hiện browser, OS, hardware, network. Client Hints API, Apple Silicon M1-MX, tree-shakeable. By Lạc Việt Anh.',
@@ -162,7 +162,7 @@ const allPosts = [
     time: 1765186455
   },
   {
-    slug: '/cloud-services-comparison',
+    slug: '/cloud-services-comparison/',
     title: 'User Cloud vs Hosting Cloud: Sự Khác Biệt TRONG 5S',
     image: '/img/user-cloud-services-vs-hosting-cloud.jpg',
     excerpt: 'Hiểu rõ sự khác biệt quan trọng giữa User Cloud (Google Drive, Dropbox) và Hosting Cloud (AWS S3, Aki Cloud). Direct link, API, automation - tại sao developer phải biết.',
@@ -170,7 +170,7 @@ const allPosts = [
     time: 1767411829
   },
   {
-    slug: '/oscar-music-group',
+    slug: '/oscar-music-group/',
     title: 'Oscar Music Group - Phân Phối Âm Nhạc Số Toàn Cầu TRONG 24H',
     image: '/img/oscar-music-le-tan.jpg',
     excerpt: 'Oscar Music Group: nền tảng All-in-one phân phối âm nhạc số, lên Zing MP3 trong 24h, Spotify/Apple Music trong 48h, Content ID tự động và Dashboard quản lý cho nghệ sĩ & Label Việt Nam.',

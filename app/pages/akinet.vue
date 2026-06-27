@@ -194,7 +194,7 @@
       <p class="text-gray-500 mt-4 text-xs">Cá nhân hóa trò chơi cuộc đời của bạn • Tái định vị 05/2026</p>
     </div>
 
-    <RelatedPosts exclude-slug="/akinet" />
+    <RelatedPosts exclude-slug="/akinet/" />
   </article>
 </template>
 
@@ -203,7 +203,7 @@ import RelatedPosts from '../components/RelatedPosts.vue';
 
 const title = 'AkiNet (akinet.me) - Nền Tảng Quản Lý Trò Chơi Cuộc Sống'
 const description = 'AkiNet.me (tái định vị 05/2026 bởi Lạc Việt Anh) là nền tảng quản lý trò chơi cuộc sống cá nhân (Your Life, Your Game). Khám phá vận mệnh qua tử vi, bát tự, kinh dịch.'
-const url = 'https://oscarfamily.vn/akinet'
+const url = 'https://oscarfamily.vn/akinet/'
 const image = 'https://oscarfamily.vn/img/akinet-fbog.jpg'
 const updateDate = '2026-06-27T16:54:59+07:00'
 
@@ -313,28 +313,16 @@ const faqSchema = {
   ]
 }
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'AkiNet, akinet.me, triết lý YLYG, Your Life Your Game, phát triển bản thân, tâm thức, tử vi, bát tự, kinh dịch, Lạc Việt Anh, AkiTao',
+  author: 'Lạc Việt Anh'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'AkiNet, akinet.me, triết lý YLYG, Your Life Your Game, phát triển bản thân, tâm thức, tử vi, bát tự, kinh dịch, Lạc Việt Anh, AkiTao' },
-    { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large' },
-    { name: 'author', content: 'Lạc Việt Anh' },
-    // Open Graph
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { property: 'og:site_name', content: 'Oscar Family' },
-    { property: 'og:locale', content: 'vi_VN' },
-    // Twitter
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
-  ],
-  link: [{ rel: 'canonical', href: url }],
   script: [
     { type: 'application/ld+json', innerHTML: JSON.stringify(techArticleSchema) },
     { type: 'application/ld+json', innerHTML: JSON.stringify(personSchema) },

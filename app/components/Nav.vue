@@ -12,10 +12,10 @@
         <a href="/#gioi-thieu" class="nav-link">
           <i class="fa-solid fa-circle-info"></i>Giới thiệu
         </a>
-        <router-link to="/posts" class="nav-link">
+        <router-link to="/posts/" class="nav-link">
           <i class="fa-solid fa-newspaper"></i>Bài viết
         </router-link>
-        <router-link to="/studio" class="nav-link">
+        <router-link to="/studio/" class="nav-link">
           <i class="fa-solid fa-headphones"></i>Studio
         </router-link>
         <a href="https://studio.oscarfamily.vn/contact" target="_blank" class="nav-cta">
@@ -34,8 +34,8 @@
       <ul v-if="open" class="nav-mobile">
         <li><a href="/" class="nav-mobile-link" @click="open = false"><i class="fa-solid fa-house"></i>Trang chủ</a></li>
         <li><a href="/#gioi-thieu" class="nav-mobile-link" @click="open = false"><i class="fa-solid fa-circle-info"></i>Giới thiệu</a></li>
-        <li><router-link to="/posts" class="nav-mobile-link" @click="open = false"><i class="fa-solid fa-newspaper"></i>Bài viết</router-link></li>
-        <li><router-link to="/studio" class="nav-mobile-link" @click="open = false"><i class="fa-solid fa-headphones"></i>Studio</router-link></li>
+        <li><router-link to="/posts/" class="nav-mobile-link" @click="open = false"><i class="fa-solid fa-newspaper"></i>Bài viết</router-link></li>
+        <li><router-link to="/studio/" class="nav-mobile-link" @click="open = false"><i class="fa-solid fa-headphones"></i>Studio</router-link></li>
         <li>
           <a href="https://studio.oscarfamily.vn/contact" target="_blank" class="nav-mobile-cta" @click="open = false">
             <i class="fa-solid fa-headset"></i>Liên hệ

@@ -11,10 +11,16 @@ const contactInfo = ref({
 });
 provide('contactInfo', contactInfo);
 
-const route = useRoute()
 
-// Use default SEO configuration
-useHead(getDefaultSEO(route))
+onMounted(() => {
+  if (window.location.hostname === 'oscarfamily.vn') {
+    const script = document.createElement('script')
+    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6183950712708494'
+    script.async = true
+    script.setAttribute('crossorigin', 'anonymous')
+    document.head.appendChild(script)
+  }
+})
 </script>
 
 <template>

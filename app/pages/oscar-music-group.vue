@@ -382,7 +382,7 @@
     </section>
   </article>
 
-  <RelatedPosts exclude-slug="/oscar-music-group" />
+  <RelatedPosts exclude-slug="/oscar-music-group/" />
   
 </template>
 
@@ -391,7 +391,7 @@ import RelatedPosts from "../components/RelatedPosts.vue";
 
 const title = "Oscar Music Group - Phân Phối Âm Nhạc Số Toàn Cầu TRONG 24H";
 const description = "Oscar Music Group cung cấp giải pháp phân phối âm nhạc số All-in-one: lên Zing MP3 trong 24h, Spotify/Apple Music trong 48h, Content ID tự động và Dashboard quản lý toàn diện cho nghệ sĩ & Label Việt Nam.";
-const url = "https://oscarfamily.vn/oscar-music-group";
+const url = "https://oscarfamily.vn/oscar-music-group/";
 const image = "https://oscarfamily.vn/img/oscar-music-le-tan.jpg";
 
 const schemas = [
@@ -537,27 +537,13 @@ const schemas = [
   }
 ];
 
-useHead({
-  title,
-  meta: [
-    { name: "description", content: description },
-    { name: "keywords", content: "Oscar Music Group, phân phối âm nhạc số, Oscar Music Group Dashboard, Zing MP3 24h, Spotify Apple Music, Content ID tự động, Label Việt Nam, All-in-one music platform, Oscar Entertainment, phân phối nhạc toàn cầu" },
-    { name: "robots", content: "index, follow, max-snippet:-1, max-image-preview:large" },
-    { name: "author", content: "Oscar Entertainment" },
-    { property: "og:title", content: title },
-    { property: "og:description", content: description },
-    { property: "og:image", content: image },
-    { property: "og:url", content: url },
-    { property: "og:type", content: "article" },
-    { property: "og:site_name", content: "Oscar Family" },
-    { property: "og:locale", content: "vi_VN" },
-    { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: title },
-    { name: "twitter:description", content: description },
-    { name: "twitter:image", content: image }
-  ],
-  link: [{ rel: "canonical", href: url }],
-  script: schemas.map(s => ({ type: "application/ld+json", innerHTML: JSON.stringify(s) }))
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'Oscar Music Group, phân phối âm nhạc số, Oscar Music Group Dashboard, Zing MP3 24h, Spotify Apple Music, Content ID tự động, Label Việt Nam, All-in-one music platform, Oscar Entertainment, phân phối nhạc toàn cầu',
+  author: 'Oscar Entertainment'
 });
 </script>
 

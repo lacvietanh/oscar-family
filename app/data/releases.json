@@ -1,6 +1,26 @@
 [
   {
+    "version": "2.2.0",
+    "date": "2026-06-27",
+    "title": "Dọn dẹp hệ thống & Chuẩn hóa kỹ thuật nền tảng",
+    "changes": [
+      {
+        "type": "improved",
+        "text": "Tối ưu nội bộ hệ thống: dọn sạch toàn bộ dữ liệu dư thừa, cải thiện hiệu suất tải trang và độ ổn định lâu dài."
+      },
+      {
+        "type": "improved",
+        "text": "Nâng cấp hệ thống SEO nền tảng lên phiên bản mới nhất, đồng bộ với toàn bộ hệ sinh thái Oscar & AkiNet."
+      },
+      {
+        "type": "improved",
+        "text": "Cập nhật hướng dẫn kỹ thuật nội bộ cho đội ngũ, phản ánh đúng công nghệ hiện tại đang vận hành."
+      }
+    ]
+  },
+  {
     "version": "2.1.0",
+
     "date": "2026-06-27",
     "title": "Tối ưu hình ảnh hàng loạt, Chuẩn hóa Đuôi Ảnh và Refactor Giao diện Trang chủ",
     "changes": [

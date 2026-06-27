@@ -325,7 +325,7 @@
       <p class="text-gray-400 mt-4 text-sm">Mở trong tab mới • Hoàn toàn miễn phí • Không cần đăng ký</p>
     </div>
 
-    <RelatedPosts exclude-slug="/qqmusic-lyrics-search" />
+    <RelatedPosts exclude-slug="/qqmusic-lyrics-search/" />
   </article>
 </template>
 
@@ -334,7 +334,7 @@ import RelatedPosts from '../components/RelatedPosts.vue'
 
 const title = 'QQMusic Lyrics Search: Có Lyrics Phụ Đề Chuẩn TRONG 5S Cho Video Âm Nhạc'
 const description = 'QQMusic Lyrics Search - công cụ siêu tốc có lyrics phụ đề chuẩn với timecode TRONG 5S! Hỗ trợ nhạc Trung, K-pop, J-pop, nhạc Việt. Miễn phí, kéo thả trực tiếp và có ngay lập tức.'
-const url = 'https://oscarfamily.vn/qqmusic-lyrics-search'
+const url = 'https://oscarfamily.vn/qqmusic-lyrics-search/'
 const image = 'https://oscarfamily.vn/img/qqmusicsearch-hero.jpg'
 
 const jsonLd = {
@@ -383,31 +383,16 @@ const jsonLd = {
   ]
 }
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'qqmusic lyrics search, tìm lyrics qqmusic, lyrics timecode, phụ đề nhạc trung, video âm nhạc, content creator, lyrics srt, lyrics lrc, qq music, nhạc trung quốc, kpop lyrics, jpop lyrics, lyrics việt nam, tạo phụ đề video, capcut lyrics, premiere lyrics',
+  author: 'LacVietAnh'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'qqmusic lyrics search, tìm lyrics qqmusic, lyrics timecode, phụ đề nhạc trung, video âm nhạc, content creator, lyrics srt, lyrics lrc, qq music, nhạc trung quốc, kpop lyrics, jpop lyrics, lyrics việt nam, tạo phụ đề video, capcut lyrics, premiere lyrics' },
-    { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' },
-    { name: 'author', content: 'LacVietAnh' },
-    { name: 'language', content: 'vi' },
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { property: 'og:site_name', content: 'Oscar Family' },
-    { property: 'og:locale', content: 'vi_VN' },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image },
-    { name: 'twitter:site', content: '@oscarfamily' }
-  ],
-  link: [
-    { rel: 'canonical', href: url },
-    { rel: 'alternate', hreflang: 'vi', href: url }
-  ],
   script: [{ type: 'application/ld+json', innerHTML: JSON.stringify(jsonLd) }]
 })
 </script>

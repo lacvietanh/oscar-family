@@ -16,26 +16,9 @@ import RelatedPosts from '../components/RelatedPosts.vue'
 const pageTitle = 'Bài viết - Oscar Family'
 const pageDescription = 'Tổng hợp bài viết liên quan về Oscar Studio, AkiNet, AkiWorkflow, LamNhac và các công cụ âm nhạc.'
 
-useHead({
+usePageSeo({
   title: pageTitle,
-  meta: [
-    { name: 'description', content: pageDescription },
-    { property: 'og:title', content: pageTitle },
-    { property: 'og:description', content: pageDescription },
-    // og:image from App.vue default, canonical from App.vue
-  ],
-  script: [
-    {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'CollectionPage',
-        name: pageTitle,
-        description: pageDescription,
-        url: 'https://oscarfamily.vn/posts'
-      })
-    }
-  ]
+  description: pageDescription
 })
 </script>
 

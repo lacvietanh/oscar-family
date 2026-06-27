@@ -71,9 +71,9 @@
       </section>
 
       <div class="mt-10 pt-6 border-t border-gray-700">
-        <a href="/" class="text-[#f2c35a] hover:underline">&larr; Về trang chủ</a>
+        <router-link to="/" class="text-[#f2c35a] hover:underline">&larr; Về trang chủ</router-link>
         &nbsp;&nbsp;
-        <a href="/terms-of-service" class="text-[#f2c35a] hover:underline">Điều khoản dịch vụ</a>
+        <router-link to="/terms-of-service/" class="text-[#f2c35a] hover:underline">Điều khoản dịch vụ</router-link>
       </div>
     </main>
   </div>
@@ -82,21 +82,10 @@
 <script setup>
 const pageTitle = 'Chính sách bảo mật - Oscar Entertainment'
 const pageDescription = 'Chính sách bảo mật của Oscar Entertainment. Tìm hiểu cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn.'
-const pageUrl = 'https://oscarfamily.vn/privacy-policy'
+const pageUrl = 'https://oscarfamily.vn/privacy-policy/'
 
-useHead({
+usePageSeo({
   title: pageTitle,
-  meta: [
-    { name: 'description', content: pageDescription },
-    { property: 'og:title', content: pageTitle },
-    { property: 'og:description', content: pageDescription },
-    { property: 'og:url', content: pageUrl },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:site_name', content: 'Oscar Entertainment' },
-    { name: 'robots', content: 'index, follow' },
-  ],
-  link: [
-    { rel: 'canonical', href: pageUrl },
-  ],
+  description: pageDescription
 })
 </script>

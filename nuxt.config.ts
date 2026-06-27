@@ -8,6 +8,8 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
+  devtools: { enabled: true },
+
   ssr: true,
 
   srcDir: 'app',
@@ -15,6 +17,35 @@ export default defineNuxtConfig({
   // Tailwind CSS v4 integration via Vite plugin
   vite: {
     plugins: [tailwindcss()]
+  },
+
+  nitro: {
+    preset: 'cloudflare-pages',
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/posts/',
+        '/studio/',
+        '/releases/',
+        '/privacy-policy/',
+        '/terms-of-service/',
+        '/oscarstudio/',
+        '/akinet/',
+        '/akitao/',
+        '/vstshop/',
+        '/kinhdich/',
+        '/akiworkflow/',
+        '/akiapp/',
+        '/lamnhac/',
+        '/tachnhac/',
+        '/qqmusic-lyrics-search/',
+        '/seo-system/',
+        '/akiinfodetect-js/',
+        '/cloud-services-comparison/',
+        '/oscar-music-group/'
+      ]
+    }
   },
 
   css: ['~/assets/css/main.css'],
@@ -52,8 +83,20 @@ export default defineNuxtConfig({
   },
 
   modules: [
-    '@nuxtjs/sitemap'
+    '@nuxtjs/seo'
   ],
+
+  seo: {
+    enabled: true
+  },
+
+  ogImage: {
+    enabled: false
+  },
+
+  robots: {
+    enabled: true
+  },
 
   sitemap: {
     enabled: true,

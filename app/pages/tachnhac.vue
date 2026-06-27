@@ -163,7 +163,7 @@
       </div>
     </section>
 
-    <RelatedPosts exclude-slug="/tachnhac" />
+    <RelatedPosts exclude-slug="/tachnhac/" />
   </article>
 </template>
 
@@ -172,7 +172,7 @@ import RelatedPosts from '../components/RelatedPosts.vue'
 
 const title = 'Tách Nhạc AI tool.akivn.net: tachnhac, vocal remover, tải nhạc'
 const description = 'Giới thiệu tool.akivn.net/tachnhac: tách nhạc AI, vocal remove, tải nhạc YouTube, download SoundCloud, tích hợp Spleeter tối ưu cho producer Việt Nam.'
-const url = 'https://oscarfamily.vn/tachnhac'
+const url = 'https://oscarfamily.vn/tachnhac/'
 const image = 'https://oscarfamily.vn/img/akivn-tachnhacv1.jpg'
 
 const jsonLd = {
@@ -273,22 +273,15 @@ const faqLd = {
   ]
 }
 
+usePageSeo({
+  title: title,
+  description: description,
+  ogImage: image,
+  ogType: 'article',
+  keywords: 'tachnhac, tach nhac, tách nhạc, vocal remove, vocal remover, spleeter, tải nhạc youtube, tải video youtube, download soundcloud, tách vocal, tách beat, karaoke ai, stem separation, tool.akivn.net'
+})
+
 useHead({
-  title,
-  meta: [
-    { name: 'description', content: description },
-    { name: 'keywords', content: 'tachnhac, tach nhac, tách nhạc, vocal remove, vocal remover, spleeter, tải nhạc youtube, tải video youtube, download soundcloud, tách vocal, tách beat, karaoke ai, stem separation, tool.akivn.net' },
-    { property: 'og:title', content: title },
-    { property: 'og:description', content: description },
-    { property: 'og:image', content: image },
-    { property: 'og:url', content: url },
-    { property: 'og:type', content: 'article' },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: title },
-    { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: image }
-  ],
-  link: [{ rel: 'canonical', href: url }],
   script: [
     { type: 'application/ld+json', innerHTML: JSON.stringify(jsonLd) },
     { type: 'application/ld+json', innerHTML: JSON.stringify(serviceLd) },

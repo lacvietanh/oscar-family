@@ -1,6 +1,6 @@
 production url: https://oscarfamily.vn
 
-purpose: Đẩy mạnh SEO bằng cách viết từng page sau đó build.
+purpose: Đẩy mạnh SEO bằng cách viết từng page sau đó build tĩnh (SSG).
 
 features: Mỗi bài viết có một site riêng được viết thủ công và build tĩnh, tối đa SEO và social để prerender, đặc biệt là JSON-LD schema để google/AI crawl.
 
@@ -8,14 +8,14 @@ features: Mỗi bài viết có một site riêng được viết thủ công v�
 
 # Oscar Family Content Platform
 
-Dự án sử dụng Vue 3 + Vite để xây dựng hệ thống các trang tĩnh tối ưu SEO cho hệ sinh thái Oscar Family.
+Dự án sử dụng Nuxt 4 + Tailwind CSS v4 để xây dựng hệ thống các trang tĩnh tối ưu SEO cho hệ sinh thái Oscar Family.
 
 ## Quy trình phát triển
 
-- Cấu trúc trang chuẩn hóa nằm trong `docs/page-authoring-instructions.md`.
-- Mỗi trang mới được tạo dưới `src/pages/` theo cấu trúc SFC, import `useHead` để thiết lập meta/JSON-LD.
-- Cập nhật `src/components/RelatedPosts.vue` để hiển thị danh sách bài liên quan và loại bỏ slug hiện tại.
-- Sau khi hoàn tất nội dung, chạy build để xác thực (`npm run build`).
+- Cấu trúc trang chuẩn hóa nằm trong `docs/ref/page-creation-rules.md`.
+- Mỗi trang mới được tạo dưới `app/pages/` theo cấu trúc SFC, sử dụng `usePageSeo` cho các thẻ meta và `useHead` cho JSON-LD schema truyền thống.
+- Cập nhật `app/components/RelatedPosts.vue` để hiển thị danh sách bài liên quan và loại bỏ slug hiện tại.
+- Sau khi hoàn tất nội dung, chạy check và build để xác thực (`npm run check`, `npm run build`).
 
 ## Cài đặt & chạy cục bộ
 
@@ -26,12 +26,15 @@ npm run dev
 
 ## Build & deploy
 
-- `npm run build`: xuất bản asset tĩnh sẵn sàng deploy.
-- Asset build được phục vụ thông qua Vite Static Hosting hoặc nền tảng tương tự.
-- **Tự động deploy:** Khi thực hiện git push lên repository, Cloudflare Pages sẽ tự động build và deploy phiên bản mới lên production.
+- `npm run build`: biên dịch dự án và prerender vào `dist/` sẵn sàng deploy, đồng thời tự động chạy kiểm tra SEO (`validate-seo.js`).
+- **Tự động deploy:** Khi thực hiện git push lên repository branch `master`, Cloudflare Pages sẽ tự động build và deploy phiên bản mới lên production.
+
+## Cơ chế SEO & Metadata
+
+- **Thẻ Meta / OpenGraph**: Được khai báo qua composable `usePageSeo(...)` trong `app/composables/usePageSeo.ts` để đồng bộ cấu hình Robots, Twitter, canonical và trailing slash.
+- **Schema JSON-LD**: Tiếp tục sử dụng thẻ `useHead({ script: [...] })` truyền thống để trực quan hóa, dễ tùy biến và bảo toàn cấu trúc dữ liệu thô.
 
 ## Liên kết hữu ích
 
-- Hướng dẫn viết trang mới: `docs/page-authoring-instructions.md`
-- Tailwind config: `tailwind.config.js`
-- Vite config: `vite.config.js`
+- Hướng dẫn viết trang mới: `docs/ref/page-creation-rules.md`
+- Cấu hình Nuxt: `nuxt.config.ts`

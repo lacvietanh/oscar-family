@@ -12,19 +12,19 @@ Gemini reads them directly from that path.
 ### 1. Project
 - **Name**: Oscar Family (oscarfamily.vn)
 - **Description**: Website giới thiệu dịch vụ và hệ sinh thái của Oscar Entertainment và Oscar Studio.
-- **Stack**: Vue 3 + Vite + Tailwind CSS v3 + Vite-SSG (Static Site Generation).
+- **Stack**: Nuxt 4 + Tailwind CSS v4 + Cloudflare Pages (hybrid SSR+SSG preset).
 - **Build / Verification**:
-  - Dev server: `npm run fe` (chạy vite dev server)
-  - Build SSG: `npm run build` (chạy `vite-ssg build` kết xuất ra thư mục `dist/` và tự động tạo sitemap.xml)
+  - Dev server: `npm run dev`
+  - Build: `npm run build` (chạy `nuxt build`, kết xuất ra `dist/`, tự động chạy `scripts/validate-seo.js` thông qua `postbuild`)
   - Preview: `npm run preview`
-  - SEO Analysis: `npm run checkseo` (build dự án và chạy phân tích SEO offline xuất báo cáo ra `dev/seo-report.json`)
+  - Route check: `npm run check` (chạy `scripts/validate-routes.js`, xác minh tất cả 20 file page cốt lõi tồn tại)
 
 ### 2. Specific Config
-- **SEO & Metadata**: Cấu hình mặc định nằm trong `src/utils/seoDefault.js`. Các trang con sử dụng `@vueuse/head` (`useHead`) để override.
-- **Google Adsense**: Được inject động ở client-side trong `src/main.js` và chỉ chạy trên production domain `oscarfamily.vn`. Không nhúng cứng vào `index.html` để tránh lỗi môi trường phát triển.
+- **SEO & Metadata**: Sử dụng module `@nuxtjs/seo`. Khai báo meta/OpenGraph bằng `usePageSeo` (`app/composables/usePageSeo.ts`). Schema JSON-LD sử dụng `useHead({ script: [...] })` truyền thống để trực quan và bảo toàn dữ liệu.
+- **Google Adsense**: Được inject động ở client-side trong `app/app.vue` (`onMounted`) và chỉ chạy trên production domain `oscarfamily.vn`.
 - **Release Channel**:
   - Bản ghi thay đổi kỹ thuật (Developer): `CHANGELOG.md` ở root.
-  - Bản ghi cập nhật người dùng (Public): `src/data/releases.json`.
+  - Bản ghi cập nhật người dùng (Public): `app/data/releases.json`.
 
 ### 3. Vibe / Styling
-- **Vibe**: Tối giản, hiện đại, tối ưu UX cho cả thiết bị di động và máy tính. Sử dụng font Montserrat, các màu tối (`#121212`) kết hợp vàng/gradient làm điểm nhấn phù hợp với thương hiệu Oscar Entertainment.
+- **Vibe**: Tối giản, hiện đại, tối ưu UX cho cả thiết bị di động và máy tính. Sử dụng font Montserrat, các màu tối (`#111111`) kết hợp vàng/gradient làm điểm nhấn phù hợp với thương hiệu Oscar Entertainment.

@@ -3,7 +3,36 @@
 All notable changes to this project will be documented in this file.  
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
-> **Changelog split**: This file is for developer/technical notes. User-facing release notes are in [`src/data/releases.json`](src/data/releases.json).
+> **Changelog split**: This file is for developer/technical notes. User-facing release notes are in [`app/data/releases.json`](app/data/releases.json).
+
+---
+
+## [2.2.0] - 2026-06-27
+
+### Changed
+- **Git history**: Reset toàn bộ lịch sử về 1 commit sạch (`git orphan fresh-start`) — loại bỏ ~49MB blob cũ (ảnh PNG nặng từ lịch sử), `.git/objects` giảm còn 16MB khớp với dung lượng file thực tế.
+- **`@nuxtjs/seo` upgrade**: Thay `@nuxtjs/sitemap` ^6 → `@nuxtjs/seo` ^3 (bao gồm sitemap + sitemap_index + robots + schema + link checker). Chuẩn hóa với toàn bộ AkiNet ecosystem (akitao.com, akinet.me, kinhdich.akinet.me).
+- **`nuxt.config.ts`**: Thêm `devtools: { enabled: true }`, `ogImage: { enabled: false }`, `robots: { enabled: true }`, `seo: { enabled: true }` và `nitro: { preset: 'cloudflare-pages' }`.
+- **`CLAUDE.md`**: Cập nhật build commands cho đúng Nuxt 4 (`npm run dev`, `npm run generate`, `npm run check`).
+- **Trailing Slashes and Canonicals**: Chuẩn hóa toàn bộ liên kết điều hướng và URL canonical có dấu gạch chéo `/` cuối, sửa lỗi cảnh báo Link Checker và validate-seo (đưa warnings về 0).
+- **Google Adsense Dynamic Injection**: Khôi phục Adsense chỉ tải ở client-side trong `app/app.vue` khi chạy trên production `oscarfamily.vn` (khắc phục tàn dư do mất `src/main.js` khi nâng cấp Nuxt 4).
+
+### Added
+- **`tsconfig.json`**: Chuẩn hóa TypeScript config theo ecosystem (`strict`, `ESNext`, `bundler`).
+- **`.npmrc`**: Thêm `include=optional` — chuẩn hóa với mọi dự án cùng stack.
+- **`scripts/validate-routes.js`**: Port từ akinet.me — kiểm tra 20 page files tồn tại, chạy `npm run check`.
+- **`scripts/validate-seo.js`**: Kịch bản kiểm tra SEO offline cực nhẹ sau build, thay thế cho script cũ.
+
+### Removed
+- **`task.md`**: File rác của AI session (Gemini task list).
+- **`scripts/generate-sitemap.js`**: Dead code — `@nuxtjs/sitemap` đã xử lý hoàn toàn.
+- **`scripts/checkseo-offline.js`**: Thay bằng `validate-seo.js`.
+- **`app/pages/checkseo.vue`**: Giao diện check SEO cũ (đã chuyển sang dùng validate-seo.js CLI).
+- **`tailwind.config.js`**: Dead code — Tailwind v4 không dùng file này (dùng Vite plugin).
+- **`index.html`** (root): Tàn dư Vite-SSG — Nuxt không dùng.
+- **`docs/feat/flow-generate-sitemap.md` & `docs/feat/flow-checkseo-offline.md`**: Xóa tài liệu lỗi thời.
+- **Thư viện `jsonld`**: Gỡ bỏ khỏi package.json.
+- **GitHub branches cũ**: Xóa 8 Copilot branches còn tồn đọng.
 
 ---
 

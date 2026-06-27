@@ -6,7 +6,7 @@
 **Thuyết phục trong 5 giây đầu tiên**. Cấu trúc "tinh túy trước - chi tiết sau" phù hợp thói quen "scroll nhanh quyết định nhanh".
 
 ## 1. File & Naming
-- `src/pages/<slug>.vue` (SFC Vue 3, `<script setup>`)
+- `app/pages/<slug>.vue` (SFC Vue 3, `<script setup>`)
 - Slug: chữ thường, không dấu, gạch ngang
 - Route trùng tên file
 
@@ -307,7 +307,7 @@ details[open] summary::before { transform: rotate(90deg); }
 **Technical:**
 - [ ] Meta tags đầy đủ (OG, Twitter, robots, author)
 - [ ] RelatedPosts entry + `exclude-slug` đúng
-- [ ] **`npm run checkseo` pass 100/100**
+- [ ] **`npm run check` and generate pass 100/100**
 - [ ] CSS scoped, không duplicate Tailwind
 - [ ] `npm run build` không lỗi lint
 
