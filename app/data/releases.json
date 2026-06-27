@@ -1,0 +1,284 @@
+[
+  {
+    "version": "2.1.0",
+    "date": "2026-06-27",
+    "title": "Tối ưu hình ảnh hàng loạt, Chuẩn hóa Đuôi Ảnh và Refactor Giao diện Trang chủ",
+    "changes": [
+      {
+        "type": "improved",
+        "text": "Tối ưu hóa hàng loạt 8 tệp PNG nặng (500KB–2MB) sang JPG chất lượng cao nhất bằng ffmpeg, tiết kiệm ~70% dung lượng tổng (7.5MB → 2.5MB). Cập nhật đồng bộ toàn bộ đường dẫn ảnh trong code."
+      },
+      {
+        "type": "improved",
+        "text": "Đổi tên qqmusicsearch-logo.jpg thành qqmusicsearch-hero.jpg cho chính xác theo nội dung thực tế của ảnh (hero/banner, không phải logo)."
+      },
+      {
+        "type": "improved",
+        "text": "Refactor giao diện trang chủ: Hero section có gradient thật, khắc phục lỗi màu sắc do class bg-dark không tồn tại, tối ưu phông chữ, bắc sạch xung đột z-index giữa nav các cấp."
+      },
+      {
+        "type": "improved",
+        "text": "Nâng cấp thanh điều hướng (Nav): Thống nhất style glass morphism, thêm animation slide-down cho mobile menu, hạm icon hamburger chầng giua mở/đóng."
+      },
+      {
+        "type": "fixed",
+        "text": "Xóa postcss.config.js gây cảnh báo Nuxt 4 do Tailwind CSS v4 đã được xử lý qua Vite plugin, không cần PostCSS standalone."
+      }
+    ]
+  },
+  {
+    "version": "2.0.0",
+    "date": "2026-06-27",
+    "title": "Nâng cấp Kiến trúc Nuxt 4, Tailwind CSS v4 và Tối ưu Chân trang",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Refactor dự án từ Vite-SSG sang framework Nuxt 4 (SSG mode) và Tailwind CSS v4 tối tân."
+      },
+      {
+        "type": "improved",
+        "text": "Tối ưu hóa hình ảnh hiệu năng cao: Nén tệp ảnh qqmusicsearch-logo từ 6.1MB xuống còn 776KB (giảm 87.5% dung lượng) bằng ffmpeg và cập nhật đồng bộ định dạng đuôi .jpg trong toàn bộ code."
+      },
+      {
+        "type": "improved",
+        "text": "Chuẩn hóa bộ Favicon đa kích thước (hỗ trợ favicon.ico, icon-48.png, icon-96.png, icon-512-maskable.png) theo đúng tiêu chuẩn AkiTao."
+      },
+      {
+        "type": "improved",
+        "text": "Đồng bộ hóa định tuyến trailing-slash và site metadata chuẩn xác với Cloudflare Pages."
+      },
+      {
+        "type": "improved",
+        "text": "Chuẩn hóa chân trang (Footer): Tăng kích thước icons lên 20px, chuyển quyền điều hành sang Powered by AkiTao, mở rộng dynamic copyright 2018–2026, và tích hợp link chính chủ hãng đĩa Oscar Label."
+      },
+      {
+        "type": "fixed",
+        "text": "Khắc phục triệt để lỗi biên dịch Tailwind v4 scoped style trong checkseo.vue bằng chỉ thị @reference."
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "date": "2026-06-27",
+    "title": "Chuẩn hóa Giao diện, Nâng cấp Phông chữ và Đồng bộ Hệ sinh thái",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Ra mắt trang hiển thị Release Notes (/releases) kết xuất động lịch sử nâng cấp hệ thống."
+      },
+      {
+        "type": "improved",
+        "text": "Chuẩn hóa chân trang (Footer) dạng lưới 4 cột chuyên nghiệp, tích hợp đầy đủ liên kết Oscar và AkiNet Ecosystem kèm icons chính thức."
+      },
+      {
+        "type": "improved",
+        "text": "Nâng cấp phông chữ toàn trang: Thay Montserrat thô/dính bằng cặp phông hiện đại Inter (cho body) và Outfit (cho headings)."
+      },
+      {
+        "type": "fixed",
+        "text": "Khắc phục lỗi dính chữ headings tận gốc (Native Flow) bằng cách xóa bỏ class tracking-tight và hạ weight từ 900 xuống 800/700 trên cả 9 bài viết con."
+      },
+      {
+        "type": "fixed",
+        "text": "Đồng bộ hóa lịch sử VSTShop (ra mắt 2026 thay vì 2018) và bổ sung khối kiến thức FAQ / Schema Timeline sâu rộng giúp LLM hiểu đúng hệ sinh thái."
+      }
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "date": "2026-06-27",
+    "title": "Bổ sung các trang hệ sinh thái mới và Tinh chỉnh liên kết",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Ra mắt trang giới thiệu AkiTao B2B hỗ trợ các giải pháp branding số, cố vấn chiến lược và AI-Readiness doanh nghiệp."
+      },
+      {
+        "type": "new",
+        "text": "Ra mắt trang giới thiệu VSTShop marketplace cung cấp nhạc cụ ảo, plugins, samples và project files cho producers."
+      },
+      {
+        "type": "new",
+        "text": "Ra mắt trang giới thiệu Kinh Dịch Online hỗ trợ gieo quẻ Lục Hào bằng phương pháp ba đồng xu cổ truyền thực thời."
+      },
+      {
+        "type": "improved",
+        "text": "Cập nhật bài viết AkiNet theo định vị mới thành nền tảng quản lý trò chơi cuộc sống cá nhân (YLYG) tại akinet.me."
+      },
+      {
+        "type": "improved",
+        "text": "Tinh chỉnh liên kết chéo và bổ sung lịch sử phát triển sâu sắc cho bài viết AkiWorkflow."
+      }
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "date": "2026-06-27",
+    "title": "Khởi tạo hệ thống và Tối ưu SEO",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Khởi tạo website giới thiệu dịch vụ và hệ sinh thái Oscar Entertainment."
+      },
+      {
+        "type": "improved",
+        "text": "Chuẩn hóa cấu trúc tài liệu lưu trữ theo tiêu chuẩn akirule và sửa các liên kết trong code."
+      },
+      {
+        "type": "improved",
+        "text": "Tối ưu hóa cơ chế nhúng Google Adsense động chỉ chạy trên production để bảo vệ tài khoản ads."
+      },
+      {
+        "type": "improved",
+        "text": "Cập nhật ảnh đại diện mặc định mới (ogimage.png) cho toàn bộ trang web."
+      }
+    ]
+  },
+  {
+    "version": "0.9.0",
+    "date": "2026-04-30",
+    "title": "Sắp xếp tin tức trang chủ",
+    "changes": [
+      {
+        "type": "improved",
+        "text": "Thay đổi thứ tự sắp xếp tin tức để hiển thị tin mới nhất lên đầu tiên ở trang chủ."
+      }
+    ]
+  },
+  {
+    "version": "0.8.0",
+    "date": "2026-04-24",
+    "title": "Ra mắt trang Oscar Music Group",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Ra mắt trang giới thiệu Oscar Music Group với SEO đầy đủ và thư viện ảnh chuyên nghiệp."
+      },
+      {
+        "type": "improved",
+        "text": "Loại bỏ phần Nghệ sĩ khỏi trang chủ để làm gọn gàng giao diện."
+      }
+    ]
+  },
+  {
+    "version": "0.7.0",
+    "date": "2026-03-11",
+    "title": "Trang chính sách & Xác minh Google",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Thêm các trang chính sách bảo mật và điều khoản dịch vụ phục vụ quy trình xác minh thương hiệu của Google."
+      },
+      {
+        "type": "improved",
+        "text": "Tích hợp schema structured JSON-LD cho Oscar Label trên trang chủ."
+      },
+      {
+        "type": "fixed",
+        "text": "Khắc phục hiện tượng trùng lặp thẻ meta SEO trên hệ thống."
+      }
+    ]
+  },
+  {
+    "version": "0.6.0",
+    "date": "2026-01-04",
+    "title": "So sánh dịch vụ đám mây & Cập nhật AkiWorkflow",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Thêm trang so sánh dịch vụ đám mây (User Cloud vs Hosting Cloud) tối ưu."
+      },
+      {
+        "type": "improved",
+        "text": "Cập nhật bài viết AkiWorkflow chuẩn hóa thông tin cho năm 2026."
+      },
+      {
+        "type": "fixed",
+        "text": "Cập nhật ảnh thật và sửa lỗi đường dẫn favicon bị thiếu."
+      }
+    ]
+  },
+  {
+    "version": "0.5.0",
+    "date": "2025-12-08",
+    "title": "Ra mắt trang akiinfodetect-js",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Thêm trang chi tiết về thư viện kiểm tra thông tin akiinfodetect-js."
+      },
+      {
+        "type": "improved",
+        "text": "Loại bỏ giới hạn phân trang (pagination limit) giúp hiển thị đầy đủ liên kết bài viết liên quan."
+      },
+      {
+        "type": "fixed",
+        "text": "Khắc phục cấu hình ngày tháng hiển thị nhầm năm 2024 về đúng năm 2025."
+      }
+    ]
+  },
+  {
+    "version": "0.4.0",
+    "date": "2025-11-30",
+    "title": "Ra mắt trang SEO System & QQMusic Search",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Thêm trang giới thiệu hệ thống SEO Oscar Family và trang QQMusic Lyrics Search."
+      },
+      {
+        "type": "new",
+        "text": "Thêm giao diện checkseo trực quan và công cụ quản lý metadata bài viết tập trung."
+      },
+      {
+        "type": "improved",
+        "text": "Cập nhật chân trang hiển thị ngày build tự động theo UTC/client timezone và tối ưu hóa script sinh sitemap.xml."
+      }
+    ]
+  },
+  {
+    "version": "0.3.0",
+    "date": "2025-11-29",
+    "title": "Ra mắt trang AkiApp",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Thêm trang giới thiệu ứng dụng AkiApp và tối ưu kích thước ảnh."
+      },
+      {
+        "type": "fixed",
+        "text": "Sửa lỗi thẻ JSON-LD schema trang chủ."
+      }
+    ]
+  },
+  {
+    "version": "0.2.0",
+    "date": "2025-10-20",
+    "title": "Ra mắt trang Tách Nhạc AI",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Thêm trang giới thiệu ứng dụng Tách Nhạc AI và trang danh sách bài viết tổng hợp."
+      },
+      {
+        "type": "improved",
+        "text": "Thiết kế lại menu điều hướng chính, thêm sticky navigation cho trang chủ và tăng tần suất quét sitemap."
+      }
+    ]
+  },
+  {
+    "version": "0.1.0",
+    "date": "2025-10-13",
+    "title": "Khởi động dự án & Tích hợp Adsense",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Khởi tạo bài viết giới thiệu LamNhac.net."
+      },
+      {
+        "type": "new",
+        "text": "Tích hợp ads.txt và Google Adsense phục vụ quảng cáo."
+      }
+    ]
+  }
+]
