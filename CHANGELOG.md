@@ -7,6 +7,19 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · [Semantic Ve
 
 ---
 
+## [2.2.1] - 2026-06-30
+
+### Changed
+- **Footer Background & Borders**: Softened the dark background from `#0a0a0a` to `#151515` and adjusted borders for improved contrast and visual comfort.
+- **AkiNet Ecosystem list**: Collapsed the links from a two-column grid to a single vertical column (`space-y-3`) structure.
+- **Footer grid**: Switched layout from a 3-column layout to a standard 4-column layout (`md:grid-cols-4`) on medium and larger viewports.
+
+### Added
+- **Logo drop shadow**: Added white drop shadow filter and scale transitions on hover (micro-interactions) for the main Oscar logo and links inside `oscarSystem` list.
+- **Contact info column**: Introduced a 4th footer column dynamically displaying address, phone, email, Zalo, and Messenger details injected from the root `contactInfo` provider.
+
+---
+
 ## [2.2.0] - 2026-06-27
 
 ### Changed

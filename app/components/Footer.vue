@@ -1,5 +1,8 @@
 <script setup>
+import { inject } from 'vue'
+
 // Footer Oscar Family
+const contactInfo = inject('contactInfo')
 const currentYear = new Date().getFullYear()
 
 const isDev = import.meta.env.DEV === true
@@ -37,7 +40,7 @@ const oscarSystem = [
   { name: 'Oscar Entertainment', href: '/', internal: true, icon: '/favicon/icon-192.png' },
   { name: 'Oscar Studio', href: '/studio/', internal: true, icon: '/favicon/icon-192.png' },
   { name: 'Oscar Label', href: 'https://oscarlabel.com', internal: false, icon: '/img/oscarlabel-logo.png' },
-  { name: 'Oscar Music Group', href: 'https://app.oscarlabel.com', internal: false, icon: 'https://akitao.com/pj/icon-oscarfamily.vn-96.png' }
+  { name: 'Oscar Music Group', href: 'https://app.oscarlabel.com', internal: false, icon: '/img/oscarlabel-logo.png' }
 ]
 
 const akinetEcosystem = [
@@ -46,18 +49,17 @@ const akinetEcosystem = [
   { name: 'Kinh Dịch', href: 'https://kinhdich.akinet.me', icon: 'https://akitao.com/pj/icon-kinhdich.akinet.me-96.png' },
   { name: 'VSTShop.com', href: 'https://vstshop.com', icon: 'https://akitao.com/pj/icon-vstshop.com-96.png' },
   { name: 'LamNhac.net', href: 'https://lamnhac.net', icon: 'https://akitao.com/pj/icon-lamnhac.net-96.png' },
-  { name: 'AkiWorkflow.com', href: 'https://akiworkflow.com', icon: 'https://akitao.com/pj/icon-akiworkflow.com-96.png' }
 ]
 </script>
 
 <template>
-  <footer class="site-footer bg-[#0a0a0a] border-t border-gray-900 text-[#e0e0e0] pt-12 pb-8">
+  <footer class="site-footer bg-[#151515] border-t border-[#222222] text-[#e0e0e0] pt-12 pb-8">
     <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-4 gap-8 mb-10">
 
       <!-- Cột 1: Brand & Social -->
       <div class="brand-column flex flex-col gap-4">
         <router-link to="/" class="footer-logo flex items-center space-x-2">
-          <img src="/favicon/icon-192.png" alt="Oscar Logo" class="h-8 w-8 rounded-lg shadow-lg">
+          <img src="/favicon/icon-192.png" alt="Oscar Logo" class="h-8 w-8 rounded-lg shadow-lg footer-logo-img">
           <span class="font-black text-[#f2c35a] tracking-wider text-lg">OSCAR ENTERTAINMENT</span>
         </router-link>
         <p class="text-xs text-gray-500 leading-relaxed max-w-[20ch]">
@@ -79,13 +81,13 @@ const akinetEcosystem = [
           <li v-for="item in oscarSystem" :key="item.name">
             <template v-if="item.internal">
               <router-link :to="item.href" class="link-item flex items-center gap-2 hover:text-[#f2c35a] transition text-[0.78rem]">
-                <img :src="item.icon" :alt="item.name" class="w-5 h-5 rounded shrink-0 object-cover">
+                <img :src="item.icon" :alt="item.name" class="w-5 h-5 rounded shrink-0 object-cover footer-logo-img">
                 <span>{{ item.name }}</span>
               </router-link>
             </template>
             <template v-else>
               <a :href="item.href" target="_blank" rel="noopener" class="link-item flex items-center gap-2 hover:text-[#f2c35a] transition text-[0.78rem]">
-                <img :src="item.icon" :alt="item.name" class="w-5 h-5 rounded shrink-0 object-cover">
+                <img :src="item.icon" :alt="item.name" class="w-5 h-5 rounded shrink-0 object-cover footer-logo-img">
                 <span>{{ item.name }}</span>
                 <i class="fa-solid fa-arrow-up-right-from-square text-[9px] text-gray-600"></i>
               </a>
@@ -94,10 +96,10 @@ const akinetEcosystem = [
         </ul>
       </div>
 
-      <!-- Cột 3 & 4: Hệ Sinh Thái AkiNet (Grid 2 cột trên md) -->
-      <div class="nav-column md:col-span-2">
+      <!-- Cột 3: Hệ Sinh Thái AkiNet -->
+      <div class="nav-column">
         <h3 class="footer-title text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">Hệ Sinh Thái AkiNet</h3>
-        <ul class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <ul class="space-y-3">
           <li v-for="item in akinetEcosystem" :key="item.name">
             <a :href="item.href" target="_blank" rel="noopener noreferrer" class="link-item flex items-center gap-2 hover:text-[#f2c35a] transition text-[0.78rem]">
               <img :src="item.icon" :alt="item.name" class="w-5 h-5 rounded shrink-0 object-cover">
@@ -108,10 +110,43 @@ const akinetEcosystem = [
         </ul>
       </div>
 
+      <!-- Cột 4: Thông Tin Liên Hệ -->
+      <div class="nav-column">
+        <h3 class="footer-title text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">Thông Tin Liên Hệ</h3>
+        <ul class="space-y-3 text-[0.78rem] text-[#a0aec0]">
+          <li class="flex items-start gap-2">
+            <i class="fa-solid fa-location-dot mt-0.5 shrink-0 text-[#f2c35a]"></i>
+            <span>{{ contactInfo?.address }}</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fa-solid fa-phone shrink-0 text-[#f2c35a]"></i>
+            <a :href="`tel:${contactInfo?.phone?.replace(/\s+/g, '')}`" class="hover:text-[#f2c35a] transition">
+              {{ contactInfo?.phone }}
+            </a>
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fa-solid fa-envelope shrink-0 text-[#f2c35a]"></i>
+            <a :href="`mailto:${contactInfo?.email}`" class="hover:text-[#f2c35a] transition text-wrap break-all">
+              {{ contactInfo?.email }}
+            </a>
+          </li>
+          <li class="flex items-center gap-4 pt-1">
+            <a :href="contactInfo?.zalo" target="_blank" rel="noopener" class="link-item flex items-center gap-1.5 hover:text-[#f2c35a] transition">
+              <img src="/img/icon-zalo.png" alt="Zalo" class="w-4 h-4 rounded shrink-0">
+              <span>Zalo</span>
+            </a>
+            <a :href="contactInfo?.Messenger" target="_blank" rel="noopener" class="link-item flex items-center gap-1.5 hover:text-[#f2c35a] transition">
+              <i class="fa-brands fa-facebook-messenger text-[15px] text-[#0084FF] shrink-0"></i>
+              <span>Messenger</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
     </div>
 
     <!-- Bottom Bar -->
-    <div class="footer-bottom border-t border-gray-950 pt-6">
+    <div class="footer-bottom border-t border-[#0c0c0c] pt-6">
       <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
         <div>
           <span>Oscar Entertainment © 2018–{{ currentYear }}. Powered by </span>
@@ -135,6 +170,21 @@ const akinetEcosystem = [
 <style scoped>
 .site-footer {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+.footer-logo-img {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.45));
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.footer-logo:hover .footer-logo-img {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.7));
+  transform: scale(1.03);
+}
+
+.link-item:hover .footer-logo-img {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.7));
+  transform: scale(1.05);
 }
 
 .social-icon {

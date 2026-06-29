@@ -1,5 +1,28 @@
 [
   {
+    "version": "2.2.1",
+    "date": "2026-06-30",
+    "title": "Cải tiến giao diện chân trang và bổ sung thông tin liên hệ",
+    "changes": [
+      {
+        "type": "improved",
+        "text": "Điều chỉnh màu nền chân trang sáng hơn để dễ nhìn và tăng độ tương phản của toàn bộ nội dung."
+      },
+      {
+        "type": "improved",
+        "text": "Thêm hiệu ứng phả bóng sáng trắng nhẹ cho logo chính và các biểu tượng logo trong danh sách."
+      },
+      {
+        "type": "new",
+        "text": "Bổ sung cột thông tin liên hệ chi tiết hiển thị số điện thoại, email, địa chỉ và các đường dẫn hỗ trợ nhanh."
+      },
+      {
+        "type": "improved",
+        "text": "Tối ưu hóa bố cục chân trang hiển thị gọn gàng hơn trong một cột đứng."
+      }
+    ]
+  },
+  {
     "version": "2.2.0",
     "date": "2026-06-27",
     "title": "Dọn dẹp hệ thống & Chuẩn hóa kỹ thuật nền tảng",

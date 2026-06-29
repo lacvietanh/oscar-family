@@ -24,6 +24,11 @@ npm install
 npm run dev
 ```
 
+> [!NOTE]
+> **Lưu ý về Dev & Port:**
+> * Luôn tắt dev server bằng **`Ctrl + C`** để giải phóng cổng hoàn toàn. Tránh dùng ký tự `&` chạy ngầm làm treo cổng.
+> * Dự án này hiện tại chạy tĩnh. Nếu sau này cần kết nối D1/KV khi dev, khuyến khích sử dụng module `nitro-cloudflare-dev` để giả lập tích hợp trực tiếp, tránh cấu hình proxy Wrangler cồng kềnh.
+
 ## Build & deploy
 
 - `npm run build`: biên dịch dự án và prerender vào `dist/` sẵn sàng deploy, đồng thời tự động chạy kiểm tra SEO (`validate-seo.js`).
