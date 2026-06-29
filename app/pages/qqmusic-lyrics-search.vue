@@ -330,6 +330,7 @@
 </template>
 
 <script setup>
+import { contactInfo } from '~/data/contact'
 import RelatedPosts from '../components/RelatedPosts.vue'
 
 const title = 'QQMusic Lyrics Search: Có Lyrics Phụ Đề Chuẩn TRONG 5S Cho Video Âm Nhạc'
@@ -354,6 +355,14 @@ const jsonLd = {
     logo: {
       '@type': 'ImageObject',
       url: 'https://oscarfamily.vn/img/oscar-studio-logo.png'
+    },
+    address: {
+      '@type': 'PostalAddress',
+      ...contactInfo.structuredAddress
+    },
+    founder: {
+      '@type': 'Person',
+      name: 'Lạc Quốc Huy'
     }
   },
   datePublished: '2025-01-29',

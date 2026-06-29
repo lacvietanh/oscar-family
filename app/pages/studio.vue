@@ -168,7 +168,7 @@
             <h3 class="text-xl font-bold text-text mb-2">Oscar Studio</h3>
             <p class="text-text-muted mb-2">Chuyên sản xuất Audio, video, hình ảnh chuyên nghiệp</p>
             <div class="flex flex-col items-center space-y-2">
-              <div class="flex items-center"><span class="text-highlight mr-2"></span> <span class="text-text">Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ, Hoàng Mai, Hà Nội, Việt Nam</span></div>
+              <div class="flex items-center"><span class="text-highlight mr-2"></span> <span class="text-text">{{ studioContact.address }}</span></div>
               <div class="flex items-center"><span class="text-highlight mr-2"></span> <a href="tel:0849297957" class="text-text hover:text-link">0849 297 957</a></div>
               <div class="flex items-center"><span class="text-highlight mr-2"></span> <a href="mailto:contact@oscarfamily.vn" class="text-text hover:text-link">contact@oscarfamily.vn</a></div>
             </div>
@@ -195,6 +195,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import { studioContact } from '~/data/contact-studio'
 import RelatedPosts from '../components/RelatedPosts.vue';
 
 const services = [
@@ -257,13 +258,9 @@ const jsonLd = computed(() => ({
   description: pageDescription,
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ',
-    addressLocality: 'Hoàng Mai',
-    addressRegion: 'Hà Nội',
-    postalCode: '11700',
-    country: 'VN'
+    ...studioContact.structuredAddress
   },
-  telephone: '+84849297957',
+  telephone: studioContact.telephone,
   priceRange: 'VND',
   openingHours: 'Mo-Su 08:00-22:00',
   sameAs: [

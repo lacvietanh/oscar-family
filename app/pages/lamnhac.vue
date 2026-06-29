@@ -205,6 +205,7 @@
 </template>
 
 <script setup>
+import { contactInfo } from '~/data/contact'
 import RelatedPosts from "../components/RelatedPosts.vue";
 
 const title = "LamNhac.net - Nền tảng làm nhạc, học làm nhạc, cài đặt VST và tìm job âm nhạc";
@@ -220,6 +221,14 @@ const structuredData = {
       "@id": "https://oscarfamily.vn/#organization",
       "name": "Oscar Family",
       "url": "https://oscarfamily.vn",
+      "address": {
+        "@type": "PostalAddress",
+        ...contactInfo.structuredAddress
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Lạc Quốc Huy"
+      },
       "sameAs": [
         "https://facebook.com/oscarstudiohanoi",
         "https://www.youtube.com/@oscarstudiohanoi",

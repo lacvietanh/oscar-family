@@ -7,6 +7,20 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · [Semantic Ve
 
 ---
 
+## [2.3.0] - 2026-06-30
+
+### Changed
+- **Contact Single Source of Truth**: Extracted all contact data into `app/data/contact.ts` (Oscar Entertainment) and `app/data/contact-studio.ts` (Oscar Studio), ending hardcoded address/phone/email duplication across 7+ pages.
+- **Oscar Entertainment headquarters**: Updated to new address: Tầng 21 toà VINACONEX DIAMOND 459C, Bạch Mai, Hà Nội (zipcode 11415).
+- **JSON-LD organizations**: Added `address`, `founder` (Lạc Quốc Huy), and `telephone` fields to all Organization/MusicRecordingStudio schemas for SEO consistency.
+- **Footer contact info**: Now sourced from `app/data/contact.ts` instead of inline in `app.vue`.
+
+### Fixed
+- `studio.vue`, `oscarstudio.vue`: Template and JSON-LD address now sourced from `studioContact` (Oscar Studio — Hoàng Mai).
+- `releases.vue`, `oscar-music-group.vue`, `lamnhac.vue`, `qqmusic-lyrics-search.vue`: Organization schemas now include address, telephone, and founder.
+
+---
+
 ## [2.2.1] - 2026-06-30
 
 ### Changed

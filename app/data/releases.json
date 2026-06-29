@@ -1,5 +1,28 @@
 [
   {
+    "version": "2.3.0",
+    "date": "2026-06-30",
+    "title": "Nhất quán hệ thống thông tin liên hệ & Cập nhật trụ sở mới",
+    "changes": [
+      {
+        "type": "new",
+        "text": "Thiết lập nguồn dữ liệu liên hệ tập trung (Single Source of Truth) — toàn bộ địa chỉ, số điện thoại, email được quản lý từ một nơi duy nhất, đảm bảo nhất quán trên mọi trang."
+      },
+      {
+        "type": "new",
+        "text": "Cập nhật trụ sở Oscar Entertainment: Tầng 21 toà VINACONEX DIAMOND 459C, Bạch Mai, Hà Nội."
+      },
+      {
+        "type": "improved",
+        "text": "Bổ sung thông tin chủ sở hữu Lạc Quốc Huy và địa chỉ đầy đủ vào tất cả schema JSON-LD, giúp công cụ tìm kiếm và AI hiểu rõ hơn về thương hiệu."
+      },
+      {
+        "type": "improved",
+        "text": "Tách biệt thông tin liên hệ Oscar Entertainment và Oscar Studio (2 trụ sở riêng biệt, chung email và số điện thoại)."
+      }
+    ]
+  },
+  {
     "version": "2.2.1",
     "date": "2026-06-30",
     "title": "Cải tiến giao diện chân trang và bổ sung thông tin liên hệ",

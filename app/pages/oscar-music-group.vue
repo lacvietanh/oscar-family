@@ -387,6 +387,7 @@
 </template>
 
 <script setup>
+import { contactInfo } from '~/data/contact'
 import RelatedPosts from "../components/RelatedPosts.vue";
 
 const title = "Oscar Music Group - Phân Phối Âm Nhạc Số Toàn Cầu TRONG 24H";
@@ -404,12 +405,28 @@ const schemas = [
     "author": {
       "@type": "Organization",
       "name": "Oscar Entertainment",
-      "url": "https://oscarfamily.vn"
+      "url": "https://oscarfamily.vn",
+      "address": {
+        "@type": "PostalAddress",
+        ...contactInfo.structuredAddress
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Lạc Quốc Huy"
+      }
     },
     "publisher": {
       "@type": "Organization",
       "name": "Oscar Family",
-      "logo": { "@type": "ImageObject", "url": "https://oscarfamily.vn/logo.png" }
+      "logo": { "@type": "ImageObject", "url": "https://oscarfamily.vn/logo.png" },
+      "address": {
+        "@type": "PostalAddress",
+        ...contactInfo.structuredAddress
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Lạc Quốc Huy"
+      }
     },
     "datePublished": "2026-04-24T06:45:50+07:00",
     "dateModified": "2026-04-24T06:45:50+07:00",
@@ -429,6 +446,14 @@ const schemas = [
     "url": "https://app.oscarlabel.com",
     "description": description,
     "logo": { "@type": "ImageObject", "url": "https://oscarfamily.vn/logo.png" },
+    "address": {
+      "@type": "PostalAddress",
+      ...contactInfo.structuredAddress
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Lạc Quốc Huy"
+    },
     "parentOrganization": {
       "@type": "Organization",
       "name": "Oscar Entertainment",

@@ -34,7 +34,7 @@
           Oscar Studio được vận hành bởi đội ngũ producer, kỹ sư âm thanh có kinh nghiệm trong sản xuất âm nhạc, quảng cáo và livestream sự kiện. Không gian gồm control room tiêu chuẩn, vocal booth cách âm, khu vực sáng tác và khu quay MV mini. Studio tập trung tối ưu trải nghiệm "làm nhạc trọn gói" từ sáng tác, hòa âm phối khí tới phát hành digital.
         </p>
         <p class="mt-4">
-          Với vị trí tại <strong>Số 9, ngách 78, ngõ 169, Hoàng Mai, Hà Nội</strong>, khách hàng dễ dàng di chuyển từ các quận nội thành. Oscar Studio hỗ trợ cả lịch thu linh hoạt ban đêm, đảm bảo bảo mật dữ liệu dự án và cung cấp hợp đồng rõ ràng cho corporate client.
+          Với vị trí tại <strong>{{ studioContact.address }}</strong>, khách hàng dễ dàng di chuyển từ các quận nội thành. Oscar Studio hỗ trợ cả lịch thu linh hoạt ban đêm, đảm bảo bảo mật dữ liệu dự án và cung cấp hợp đồng rõ ràng cho corporate client.
         </p>
       </section>
 
@@ -151,7 +151,7 @@
       <section>
         <h2 class="text-2xl font-bold">8. Thông tin liên hệ Oscar Studio Hà Nội</h2>
         <p class="mt-4">
-          Địa chỉ: <strong>Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ, Hà Nội</strong>. Hotline: <a href="tel:0849297957" class="underline">0849 297 957</a>. Email: <a href="mailto:contact@oscarfamily.vn" class="underline">contact@oscarfamily.vn</a>.
+          Địa chỉ: <strong>{{ studioContact.address }}</strong>. Hotline: <a href="tel:0849297957" class="underline">0849 297 957</a>. Email: <a href="mailto:contact@oscarfamily.vn" class="underline">contact@oscarfamily.vn</a>.
         </p>
         <p class="mt-2">
           Fanpage: <a href="https://fb.com/oscarstudiohanoi" target="_blank" class="underline">facebook.com/oscarstudiohanoi</a> · YouTube: <a href="https://youtube.com/@oscarstudiohanoi" target="_blank" class="underline">@oscarstudiohanoi</a> · TikTok: <a href="https://tiktok.com/@oscarstudio.vn" target="_blank" class="underline">@oscarstudio.vn</a>.
@@ -191,6 +191,8 @@
 </template>
 
 <script setup>
+import { contactInfo } from '~/data/contact'
+import { studioContact } from '~/data/contact-studio'
 import RelatedPosts from "../components/RelatedPosts.vue";
 
 const title = "Oscar Studio Hà Nội - Phòng thu âm, làm nhạc trọn gói, mix master, quay MV chuyên nghiệp";
@@ -206,6 +208,14 @@ const structuredData = {
       "@id": "https://oscarfamily.vn/#organization",
       "name": "Oscar Family",
       "url": "https://oscarfamily.vn",
+      "address": {
+        "@type": "PostalAddress",
+        ...contactInfo.structuredAddress
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Lạc Quốc Huy"
+      },
       "sameAs": [
         "https://fb.com/oscarstudiohanoi",
         "https://www.youtube.com/@oscarstudiohanoi",
@@ -222,11 +232,9 @@ const structuredData = {
       "priceRange": "₫₫",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Số 9, ngách 78, ngõ 169, Hoàng Mai, Hoàng Văn Thụ",
-        "addressLocality": "Hà Nội",
-        "addressCountry": "VN"
+        ...studioContact.structuredAddress
       },
-      "telephone": "+84849297957",
+      "telephone": studioContact.telephone,
       "areaServed": "Hà Nội, Việt Nam",
       "sameAs": [
         "https://fb.com/oscarstudiohanoi",

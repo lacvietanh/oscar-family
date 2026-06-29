@@ -45,6 +45,7 @@
 
 <script setup>
 import releasesData from '../data/releases.json'
+import { contactInfo } from '~/data/contact'
 
 const title = 'Release Notes - Nhật Ký Cập Nhật Hệ Thống | Oscar Family'
 const description = 'Nhật ký cập nhật hệ thống Oscar Family: cập nhật tính năng mới, cải tiến hiệu năng và các sửa lỗi.'
@@ -73,6 +74,14 @@ const techArticleSchema = {
     'logo': {
       '@type': 'ImageObject',
       'url': 'https://oscarfamily.vn/logo.png'
+    },
+    'address': {
+      '@type': 'PostalAddress',
+      ...contactInfo.structuredAddress
+    },
+    'founder': {
+      '@type': 'Person',
+      'name': 'Lạc Quốc Huy'
     }
   },
   'mainEntityOfPage': {
