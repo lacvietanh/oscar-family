@@ -66,6 +66,14 @@ const props = defineProps({
 
 const allPosts = [
   {
+    slug: '/akiapp-chuyen-nha-akinet/',
+    title: 'AkiApp Chuyển Nhà: app.akivn.net sang app.akinet.me (Đính Chính Hệ Sinh Thái Aki)',
+    image: '/img/akivn-akitao-restructured-2026.jpg',
+    excerpt: 'AkiApp đã dời từ app.akivn.net sang app.akinet.me trên hạ tầng Cloudflare (bản 1.0, 10/07/2026, redirect toàn bộ 11/07). Đính chính: AkiVN tái cấu trúc thành AkiTao.',
+    tags: ['AkiApp', 'app.akinet.me', 'Chuyển nhà'],
+    time: 1783758987
+  },
+  {
     slug: '/oscarstudio/',
     title: 'Oscar Studio Hà Nội - Phòng Thu Âm & Làm Nhạc Chuyên Nghiệp',
     image: '/img/oscar-studio-phong-thu-am-Ha-Noi-main-view-to-desk-and-cabin.jpg',

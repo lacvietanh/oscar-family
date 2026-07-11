@@ -1,5 +1,15 @@
 [
   {
+    "version": "2.3.1",
+    "date": "2026-07-11",
+    "title": "AkiApp chuyển nhà sang app.akinet.me & đính chính hệ sinh thái Aki",
+    "changes": [
+      { "type": "new", "text": "Bài viết mới 'AkiApp chuyển nhà sang app.akinet.me': thông báo AkiApp dời từ app.akivn.net sang app.akinet.me (bản 1.0 ngày 10/07/2026, redirect toàn bộ 11/07) và đính chính việc thương hiệu AkiVN được tái cấu trúc thành AkiTao từ 5/2026." },
+      { "type": "new", "text": "Bổ sung ảnh minh họa: ảnh chụp trang chủ AkiApp cũ (app.akivn.net) và mới (app.akinet.me), kèm logo AkiVN và AkiTao." },
+      { "type": "improved", "text": "Cập nhật bài AkiApp cũ: thêm thông báo chuyển nhà và liên kết tới bài mới; chuẩn hóa dữ liệu schema trỏ về app.akinet.me." }
+    ]
+  },
+  {
     "version": "2.3.0",
     "date": "2026-06-30",
     "title": "Nhất quán hệ thống thông tin liên hệ & Cập nhật trụ sở mới",

@@ -1,5 +1,12 @@
 <template>
   <article class="seo-article font-montserrat px-6 py-12 max-w-5xl mx-auto">
+    <div class="notice-moved" role="note">
+      <strong>Cập nhật 11/07/2026:</strong> AkiApp đã chuyển nhà sang
+      <a href="https://app.akinet.me" target="_blank" rel="noopener">app.akinet.me</a> (bản 1.0) trên hạ tầng Cloudflare full.
+      Địa chỉ cũ <strong>app.akivn.net</strong> đã được redirect toàn bộ sang địa chỉ mới.
+      Xem chi tiết: <NuxtLink to="/akiapp-chuyen-nha-akinet/">AkiApp chuyển nhà sang app.akinet.me</NuxtLink>.
+      <em>(Bài viết dưới đây được giữ làm sử liệu, mô tả AkiApp ở thời điểm còn tại app.akivn.net.)</em>
+    </div>
     <header class="mb-10">
       <figure class="mb-8">
         <img src="/img/AkiApp-cover.jpg" alt="AkiApp - Mini-OS Platform for Creators" class="w-full h-auto rounded-lg shadow-lg object-cover">
@@ -113,7 +120,8 @@ const jsonLd = {
       description,
       applicationCategory: 'DeveloperApplication',
       operatingSystem: 'Web',
-      url: 'https://app.akivn.net',
+      url: 'https://app.akinet.me',
+      sameAs: ['https://app.akivn.net'],
       screenshot: image,
       author: { '@type': 'Person', name: 'Lạc Việt Anh' },
       featureList: [ 'Aki QQ Search', 'AkiNet QR Bank', 'Aki Chord Viewer', 'Stereo Check', 'Mini-OS Platform', 'Edge-Native Architecture' ],
@@ -148,4 +156,6 @@ useHead({
 .seo-article { color:#fff; }
 .text-muted { color:#c3afc8; }
 body { background:#000; }
+.notice-moved { background:rgba(245,179,1,0.08); border:1px solid rgba(245,179,1,0.4); border-radius:0.6rem; padding:1rem 1.2rem; margin-bottom:2rem; font-size:0.95rem; line-height:1.6; }
+.notice-moved a { color:#f5b301; text-decoration:underline; }
 </style>

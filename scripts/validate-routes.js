@@ -17,6 +17,7 @@ const requiredPages = [
   'akinet',
   'akitao',
   'akiapp',
+  'akiapp-chuyen-nha-akinet',
   'akiworkflow',
   'akiinfodetect-js',
   'tachnhac',

@@ -39,8 +39,8 @@ const buildDate = isDev
 const oscarSystem = [
   { name: 'Oscar Entertainment', href: '/', internal: true, icon: '/favicon/icon-192.png' },
   { name: 'Oscar Studio', href: '/studio/', internal: true, icon: '/favicon/icon-192.png' },
-  { name: 'Oscar Label', href: 'https://oscarlabel.com', internal: false, icon: '/img/oscarlabel-logo.png' },
-  { name: 'Oscar Music Group', href: 'https://app.oscarlabel.com', internal: false, icon: '/img/oscarlabel-logo.png' }
+  { name: 'Oscar Music Group', href: 'https://oscarlabel.com', internal: false, icon: '/img/oscarlabel-logo.png' },
+  { name: 'Oscar Music Dashboard', href: 'https://app.oscarlabel.com', internal: false, icon: '/img/oscarlabel-logo.png' }
 ]
 
 const akinetEcosystem = [

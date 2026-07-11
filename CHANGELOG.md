@@ -7,6 +7,16 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · [Semantic Ve
 
 ---
 
+## [2.3.1] - 2026-07-11
+
+### Added
+- **AkiApp migration article**: new page `app/pages/akiapp-chuyen-nha-akinet.vue` (`/akiapp-chuyen-nha-akinet/`) announcing the AkiApp move from `app.akivn.net` to `app.akinet.me` (v1.0 launched 2026-07-10, full redirect completed 2026-07-11) and clarifying the AkiVN → AkiTao brand restructure (May 2026). Includes old/new homepage screenshots, AkiVN/AkiTao 96px logos, and `TechArticle` + `Person` + `Organization` + `SoftwareApplication` + `FAQPage` JSON-LD with cross-entity `@id` linking.
+- **Images** in `public/img/`: `akivn-akitao-restructured-2026.jpg` (og/feature, from akivn.net homepage hero), `akiapp-cu-app-akivn-net.jpg`, `akiapp-moi-app-akinet-me.jpg`, `logo-akivn-96.png`, `logo-akitao-96.png`.
+- Route registered in `app/components/RelatedPosts.vue` (`allPosts`), `nuxt.config.ts` (`nitro.prerender.routes`), and `scripts/validate-routes.js` (`requiredPages`).
+
+### Changed
+- **`app/pages/akiapp.vue`**: added a "moved to app.akinet.me" correction banner linking to the new article; `SoftwareApplication.url` updated to `https://app.akinet.me` (retaining `sameAs: app.akivn.net`). The historical body is preserved as a record.
+
 ## [2.3.0] - 2026-06-30
 
 ### Changed

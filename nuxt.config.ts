@@ -37,6 +37,7 @@ export default defineNuxtConfig({
         '/kinhdich/',
         '/akiworkflow/',
         '/akiapp/',
+        '/akiapp-chuyen-nha-akinet/',
         '/lamnhac/',
         '/tachnhac/',
         '/qqmusic-lyrics-search/',
