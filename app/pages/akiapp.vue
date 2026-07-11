@@ -1,11 +1,11 @@
 <template>
   <article class="seo-article font-montserrat px-6 py-12 max-w-5xl mx-auto">
     <div class="notice-moved" role="note">
-      <strong>Cập nhật 11/07/2026:</strong> AkiApp đã chuyển nhà sang
+      <strong>Cập nhật 11/07/2026:</strong> Ứng dụng mô tả trong bài này (tên gọi lúc đó: AkiApp), nay gọi là <strong>AppAkiVN</strong>, đã ngừng phát triển và chuyển nhà thành <strong>AppAkiNet</strong> tại
       <a href="https://app.akinet.me" target="_blank" rel="noopener">app.akinet.me</a> (bản 1.0) trên hạ tầng Cloudflare full.
-      Địa chỉ cũ <strong>app.akivn.net</strong> đã được redirect toàn bộ sang địa chỉ mới.
-      Xem chi tiết: <NuxtLink to="/akiapp-chuyen-nha-akinet/">AkiApp chuyển nhà sang app.akinet.me</NuxtLink>.
-      <em>(Bài viết dưới đây được giữ làm sử liệu, mô tả AkiApp ở thời điểm còn tại app.akivn.net.)</em>
+      Địa chỉ cũ <strong>app.akivn.net</strong> tự động chuyển hướng (redirect 301) sang địa chỉ mới; redirect được duy trì lâu dài, không có mốc ngừng hoạt động vào tháng 7/2026.
+      Xem chi tiết: <NuxtLink to="/akiapp-chuyen-nha-akinet/">AppAkiVN chuyển nhà thành AppAkiNet tại app.akinet.me</NuxtLink>.
+      <em>(Bài viết dưới đây được giữ làm sử liệu, mô tả sản phẩm bằng tên gọi lúc đó — "AkiApp" — khi còn tại app.akivn.net.)</em>
     </div>
     <header class="mb-10">
       <figure class="mb-8">
