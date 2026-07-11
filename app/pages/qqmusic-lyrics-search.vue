@@ -43,7 +43,7 @@
         </div>
 
         <div class="text-center mt-8">
-          <a href="https://app.akivn.net/qqmusicsearch" target="_blank" rel="noopener noreferrer"
+          <a href="https://app.akinet.me/qqmusicsearch" target="_blank" rel="noopener noreferrer"
              class="inline-block bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-black font-bold py-4 px-8 rounded-full text-xl transition-all duration-300 transform hover:scale-105 shadow-lg">
             🚀 DÙNG NGAY TRONG 5S
           </a>
@@ -259,7 +259,7 @@
             <span class="text-3xl mr-3">🚀</span> Hướng Dẫn Sử Dung Trong 30 Giây
           </h3>
           <ol class="list-decimal pl-8 space-y-4 text-lg">
-            <li class="pb-2 border-b border-gray-700"><strong class="text-blue-400">Truy cập:</strong> <code class="bg-gray-800 px-3 py-2 rounded-lg text-green-400 font-mono">https://app.akivn.net/qqmusicsearch</code></li>
+            <li class="pb-2 border-b border-gray-700"><strong class="text-blue-400">Truy cập:</strong> <code class="bg-gray-800 px-3 py-2 rounded-lg text-green-400 font-mono">https://app.akinet.me/qqmusicsearch</code></li>
             <li class="pb-2 border-b border-gray-700"><strong class="text-blue-400">Tìm kiếm:</strong> Nhập tên bài hát hoặc nghệ sĩ</li>
             <li class="pb-2 border-b border-gray-700"><strong class="text-blue-400">Chọn lyrics:</strong> Click vào kết quả để xem lyrics</li>
             <li class="pb-2 border-b border-gray-700"><strong class="text-blue-400">Tùy chỉnh:</strong> Edit nếu cần, sau đó tải SRT/LRC</li>
@@ -318,7 +318,7 @@
 
     <!-- END PAGE LINK -->
     <div class="text-center mt-16 mb-8">
-      <a href="https://app.akivn.net/qqmusicsearch" target="_blank" rel="noopener noreferrer"
+      <a href="https://app.akinet.me/qqmusicsearch" target="_blank" rel="noopener noreferrer"
          class="inline-block bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
         🚀 DÙNG NGAY QQMusic Lyrics Search - TRONG 5S
       </a>

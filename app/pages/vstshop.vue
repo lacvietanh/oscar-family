@@ -116,7 +116,7 @@
             <li><strong>AkiWorkflow:</strong> Quản lý quy trình sản xuất âm nhạc tại studio.</li>
             <li><strong>LamNhac.net:</strong> Cộng đồng chia sẻ tutorial, preset chain và feedback.</li>
             <li><strong>AkiTao:</strong> Cổng giải pháp và hệ thống hóa brand số cho nghệ sĩ/label.</li>
-            <li><strong>AkiApp:</strong> Ứng dụng Mini-OS luyện thanh và ghi âm ý tưởng giai điệu.</li>
+            <li><strong>AppAkiNet:</strong> Ứng dụng Mini-OS luyện thanh và ghi âm ý tưởng giai điệu.</li>
           </ul>
         </div>
       </section>

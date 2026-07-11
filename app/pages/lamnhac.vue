@@ -87,7 +87,7 @@
         <ul class="mt-6 list-disc space-y-2 pl-6">
           <li><strong>Workflow hiện đại:</strong> từ học làm nhạc, thử plugin, triển khai project tới nhận job.</li>
           <li><strong>Chuỗi nội dung đa dạng:</strong> livestream, bài viết chuyên sâu, video hướng dẫn trên YouTube & TikTok.</li>
-          <li><strong>Hệ sinh thái mở:</strong> liên kết với AkiWorkflow, AkiApp, Oscar Studio tạo thành pipeline end-to-end.</li>
+          <li><strong>Hệ sinh thái mở:</strong> liên kết với AkiWorkflow, AppAkiNet, Oscar Studio tạo thành pipeline end-to-end.</li>
           <li><strong>Cộng đồng minh bạch:</strong> profile người dùng, hệ thống badge, feedback theo track.</li>
         </ul>
       </section>
@@ -105,12 +105,12 @@
       <section>
         <h2 class="text-2xl font-bold">5. Kiến trúc hệ sinh thái AkiNet & LamNhac.net</h2>
         <p class="mt-4">
-          LamNhac.net được kết nối chặt với các sản phẩm trong AkiNet nhằm cung cấp trải nghiệm full-stack cho người làm nhạc Việt. Người dùng có thể học tập tại LamNhac.net, chuyển qua AkiWorkflow để cài đặt plugin và quản lý preset, rồi triển khai sản phẩm tại Oscar Studio hoặc phân phối qua AkiApp.
+          LamNhac.net được kết nối chặt với các sản phẩm trong AkiNet nhằm cung cấp trải nghiệm full-stack cho người làm nhạc Việt. Người dùng có thể học tập tại LamNhac.net, chuyển qua AkiWorkflow để cài đặt plugin và quản lý preset, rồi triển khai sản phẩm tại Oscar Studio hoặc phân phối qua AppAkiNet.
         </p>
         <ul class="mt-4 list-disc space-y-2 pl-6">
           <li><strong>Cộng đồng AkiNet:</strong> mạng xã hội chuyên nghiệp hiển thị portfolio, dự án, playlist, cộng đồng tác giả.</li>
           <li><strong>AkiWorkflow:</strong> marketplace preset, template, service cung cấp workflow "install → produce → deliver".</li>
-          <li><strong>AkiApp:</strong> công cụ AI gợi ý hợp âm, giai điệu, vocal tuning dành cho producer Việt.</li>
+          <li><strong>AppAkiNet:</strong> công cụ AI gợi ý hợp âm, giai điệu, vocal tuning dành cho producer Việt.</li>
           <li><strong>Oscar Studio:</strong> đối tác phòng thu cung cấp dịch vụ thu âm, mix, master, mentor trực tiếp.</li>
         </ul>
       </section>

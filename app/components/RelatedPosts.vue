@@ -67,10 +67,10 @@ const props = defineProps({
 const allPosts = [
   {
     slug: '/akiapp-chuyen-nha-akinet/',
-    title: 'AkiApp Chuyển Nhà: app.akivn.net sang app.akinet.me (Đính Chính Hệ Sinh Thái Aki)',
+    title: 'AppAkiVN Chuyển Nhà: app.akivn.net sang app.akinet.me (Đính Chính Hệ Sinh Thái Aki)',
     image: '/img/akivn-akitao-restructured-2026.jpg',
-    excerpt: 'AkiApp đã dời từ app.akivn.net sang app.akinet.me trên hạ tầng Cloudflare (bản 1.0, 10/07/2026, redirect toàn bộ 11/07). Đính chính: AkiVN tái cấu trúc thành AkiTao.',
-    tags: ['AkiApp', 'app.akinet.me', 'Chuyển nhà'],
+    excerpt: 'AppAkiVN đã dời từ app.akivn.net sang app.akinet.me trên hạ tầng Cloudflare (bản 1.0, 10/07/2026, redirect toàn bộ 11/07). Đính chính: AkiVN tái cấu trúc thành AkiTao.',
+    tags: ['AppAkiVN', 'app.akinet.me', 'Chuyển nhà'],
     time: 1783758987
   },
   {

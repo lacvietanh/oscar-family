@@ -17,6 +17,11 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) · [Semantic Ve
 ### Changed
 - **`app/pages/akiapp.vue`**: added a "moved to app.akinet.me" correction banner linking to the new article; `SoftwareApplication.url` updated to `https://app.akinet.me` (retaining `sameAs: app.akivn.net`). The historical body is preserved as a record.
 
+### Fixed
+- **`app/pages/qqmusic-lyrics-search.vue`**: 3 live CTA/instructional links still pointed to `app.akivn.net/qqmusicsearch` — updated to `app.akinet.me/qqmusicsearch` directly, since the old domain only redirects and that redirect stops working when `akivn.net` expires (~2027-04).
+- **`app/pages/vstshop.vue`**, **`app/pages/lamnhac.vue`**: bare "AkiApp" mentions in ecosystem/pipeline lists renamed to "AppAkiNet" (current live app name after the rename).
+- **`app/components/RelatedPosts.vue`**: related-post card for `/akiapp-chuyen-nha-akinet/` still had bare "AkiApp" in title/excerpt/tag — updated to "AppAkiVN" to match the actual live article's naming for the retired app.
+
 ## [2.3.0] - 2026-06-30
 
 ### Changed
