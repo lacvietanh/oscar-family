@@ -26,3 +26,7 @@ dist-ssr
 # Nuxt build and output cache
 .nuxt
 .output
+
+# Claude Code — chỉ ignore local-only files, không ignore toàn bộ .claude/
+.claude/settings.local.json
+.claude/todos.json
