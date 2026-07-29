@@ -5,12 +5,12 @@
     <header class="text-center mb-12">
       <figure class="mb-8">
         <img
-          src="/img/oscar-music-le-tan.jpg"
-          alt="Oscar Music Group - Trụ sở phân phối âm nhạc số tại Hà Nội với slogan Lan toả âm nhạc của bạn đến mọi nơi"
-          class="w-1/2 h-auto rounded-lg shadow-2xl object-cover mx-auto"
+          src="/img/oscar-music-group-dashboard.png"
+          alt="Giao diện nền tảng phân phối âm nhạc số toàn cầu Oscar Music Group"
+          class="w-full max-w-4xl h-auto rounded-xl shadow-2xl object-cover mx-auto"
         >
         <figcaption class="text-center text-sm mt-4 text-gray-400 italic">
-          Trụ sở Oscar Entertainment tại Hà Nội — nơi khởi nguồn hành trình "Lan toả âm nhạc của bạn đến mọi nơi".
+          Giao diện nền tảng phân phối âm nhạc số toàn cầu Oscar Music Group.
         </figcaption>
       </figure>
 
@@ -22,7 +22,7 @@
       <div class="text-sm text-gray-400 mb-6 flex justify-center items-center gap-4">
         <span class="flex items-center gap-2"><i class="fas fa-building"></i> Oscar Entertainment</span>
         <span class="w-1 h-1 bg-gray-600 rounded-full"></span>
-        <span class="flex items-center gap-2"><i class="fas fa-calendar-alt"></i> 24/04/2026</span>
+        <span class="flex items-center gap-2"><i class="fas fa-calendar-alt"></i> 29/07/2026</span>
       </div>
 
       <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -119,6 +119,10 @@
           <span class="text-5xl font-black text-gray-600 select-none">02</span>
           <h2 class="text-3xl font-bold text-white">Hệ Sinh Thái Công Nghệ: <span class="highlight-keyword">Oscar Music Group Dashboard</span></h2>
         </div>
+
+        <figure class="mb-8 text-center">
+          <img src="https://oscarlabel.com/Logo_dashboard.png" alt="Oscar Music Group Dashboard Logo" class="mx-auto max-w-[200px] h-auto object-contain drop-shadow-[0_0_15px_rgba(251,191,36,0.3)]">
+        </figure>
 
         <p class="text-gray-300 leading-relaxed mb-8">
           Trái tim của hệ sinh thái chúng tôi là <strong>Oscar Music Group Dashboard</strong> — nền tảng quản trị âm nhạc toàn diện
@@ -378,6 +382,7 @@
             Không gian café sáng tạo tại Oscar Entertainment.
           </figcaption>
         </figure>
+
       </div>
     </section>
   </article>
@@ -393,7 +398,7 @@ import RelatedPosts from "../components/RelatedPosts.vue";
 const title = "Oscar Music Group - Phân Phối Âm Nhạc Số Toàn Cầu TRONG 24H";
 const description = "Oscar Music Group cung cấp giải pháp phân phối âm nhạc số All-in-one: lên Zing MP3 trong 24h, Spotify/Apple Music trong 48h, Content ID tự động và Dashboard quản lý toàn diện cho nghệ sĩ & Label Việt Nam.";
 const url = "https://oscarfamily.vn/oscar-music-group/";
-const image = "https://oscarfamily.vn/img/oscar-music-le-tan.jpg";
+const image = "https://oscarfamily.vn/img/oscar-music-group-dashboard.png";
 
 const schemas = [
   {
@@ -428,8 +433,8 @@ const schemas = [
         "name": "Lạc Quốc Huy"
       }
     },
-    "datePublished": "2026-04-24T06:45:50+07:00",
-    "dateModified": "2026-04-24T06:45:50+07:00",
+    "datePublished": "2026-07-29T19:30:00+07:00",
+    "dateModified": "2026-07-29T19:30:00+07:00",
     "mainEntityOfPage": { "@type": "WebPage", "@id": url },
     "about": [
       { "@type": "Thing", "name": "Phân phối âm nhạc số" },
