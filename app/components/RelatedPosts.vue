@@ -188,7 +188,7 @@ const allPosts = [
   {
     slug: '/blog/hanh-trinh-am-nhac-cua-fuquan/',
     title: 'Hành Trình Âm Nhạc Của FuQuan - Đam Mê Và Những Bản Hit',
-    image: 'https://cdn.phototourl.com/free/2026-07-29-23a1b697-9503-4a3e-b095-202dc663f874.jpg',
+    image: '/img/fuquan-vet-xuoc-mv.jpg',
     excerpt: 'Khám phá hành trình âm nhạc của nghệ sĩ FuQuan qua các bản hit R&B, EP Bao Giờ Cho Đến Bây Giờ và sự hợp tác chiến lược cùng Oscar Music Group.',
     tags: ['FuQuan', 'Oscar Music Group', 'Nghệ sĩ'],
     time: 1785328000

@@ -15,7 +15,7 @@
     </header>
 
     <div class="w-full aspect-[2/1] rounded-[2rem] overflow-hidden border border-white/5 bg-slate-900/40 relative shadow-2xl mb-12">
-      <img src="https://cdn.phototourl.com/free/2026-07-29-23a1b697-9503-4a3e-b095-202dc663f874.jpg" alt="Poster MV Vết Xước của nghệ sĩ FuQuan do Oscar Entertainment sản xuất" class="w-full h-full object-cover">
+      <img src="/img/fuquan-vet-xuoc-mv.jpg" alt="Poster MV Vết Xước của nghệ sĩ FuQuan do Oscar Entertainment sản xuất" class="w-full h-full object-cover">
     </div>
 
     <div class="space-y-10 prose prose-invert max-w-none prose-slate prose-headings:text-white prose-p:leading-relaxed prose-p:text-slate-300 prose-strong:text-white prose-a:text-[#509aff] hover:prose-a:underline text-sm md:text-base leading-relaxed">
@@ -118,7 +118,7 @@ const url = "https://oscarfamily.vn/blog/hanh-trinh-am-nhac-cua-fuquan";
 usePageSeo({
   title,
   description,
-  ogImage: 'https://cdn.phototourl.com/free/2026-07-29-23a1b697-9503-4a3e-b095-202dc663f874.jpg',
+  ogImage: 'https://oscarfamily.vn/img/fuquan-vet-xuoc-mv.jpg',
   ogType: 'article',
   keywords: 'vetxuoc, fuquan, FuQuanlaai, taseonthoi, Oscar Music Group, Oscar Entertainment',
   author: 'Oscar Music Group'
