@@ -118,6 +118,7 @@ const url = "https://oscarfamily.vn/blog/hanh-trinh-am-nhac-cua-fuquan";
 usePageSeo({
   title,
   description,
+  ogImage: 'https://cdn.phototourl.com/free/2026-07-29-23a1b697-9503-4a3e-b095-202dc663f874.jpg',
   ogType: 'article',
   keywords: 'vetxuoc, fuquan, FuQuanlaai, taseonthoi, Oscar Music Group, Oscar Entertainment',
   author: 'Oscar Music Group'
